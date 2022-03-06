@@ -1,0 +1,35 @@
+
+#BarraNavegacion {
+    // background-color: #6C1572;
+    background-color: #66186c
+    
+}
+
+p.h5{
+    @include FuenteSecundaria-Regular;
+    color: white;
+    display: inline-block;
+    font-weight: 600;
+    position: relative;
+    margin: 0 20px;
+}
+
+p.h5::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -2.5px;
+    left: 0;
+    background-color: #b64a87;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+p.h5:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+
+}    
+

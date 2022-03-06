@@ -1,0 +1,29 @@
+.ConveniosTitulo h2 {
+    @include TitulosPaddingMargin;
+}
+
+ div.btnForm {
+    @include FlexRowCenter;
+    margin: 100px 0;
+}
+
+button.btn {
+    background-color: #d795b6;
+    border: solid #b64a87
+}
+
+button.btn:hover {
+    transition: 0.5s;
+    background-color: #b64a87;
+    border: solid #d795b6;
+}
+
+.MarginImgConvenio {
+    margin: 0 300px;
+}
+
+a, 
+a:hover {
+    color: white;
+}
+

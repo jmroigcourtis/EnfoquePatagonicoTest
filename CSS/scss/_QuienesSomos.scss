@@ -1,0 +1,22 @@
+.Titulo h2 {
+    @include TitulosPaddingMargin;
+}
+
+h2 {
+    @include FuentePrincipal-Bold;
+    font-weight: bolder;
+    font-size: 28px;
+    color: #6C1572;
+}
+
+p.textoQuienesSomos {
+    @include FuentePrincipal-Bold;
+    display: flex;
+    font-size: 20px;
+    margin: 160px 140px;
+}
+
+
+
+  
+

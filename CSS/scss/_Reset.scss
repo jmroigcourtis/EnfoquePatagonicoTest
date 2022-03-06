@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+@mixin FuentePrincipal-Bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #6C1572;
+
+}
+
+@mixin FuenteSecundaria-Regular { 
+    font-family: 'Open Sans', sans-serif;
+    color: #6C1572;
+}
+
+@mixin FlexRowCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@mixin TitulosPaddingMargin {
+    padding: 50px;
+    margin: 160px;
+}
+
+a { /* Eliminar decoración de links */
+    text-decoration: none;
+}

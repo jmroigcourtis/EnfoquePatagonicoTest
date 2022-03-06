@@ -1,0 +1,38 @@
+.StaffTitulo h2 {
+    @include TitulosPaddingMargin;
+}
+
+.container {  display: grid;
+    grid-template-columns: 0.6fr 1.8fr 0.6fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 15px 50px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Imagen-1 Texto-1 Texto-1"
+      "Texto-2 Texto-2 Imagen-2"
+      "Imagen-3 Texto-3 Texto-3"
+      "Texto-4 Texto-4 Imagen-4"
+      "Imagen-5 Texto-5 Texto-5";
+  }
+  
+  .Imagen-1 { grid-area: Imagen-1; }
+  
+  .Texto-1 { grid-area: Texto-1; }
+  
+  .Texto-2 { grid-area: Texto-2; }
+  
+  .Imagen-2 { grid-area: Imagen-2; }
+  
+  .Imagen-3 { grid-area: Imagen-3; }
+  
+  .Texto-3 { grid-area: Texto-3; }
+  
+  .Texto-4 { grid-area: Texto-4; }
+  
+  .Imagen-4 { grid-area: Imagen-4; }
+  
+  .Imagen-5 { grid-area: Imagen-5; }
+  
+  .Texto-5 { grid-area: Texto-5; }
+  
