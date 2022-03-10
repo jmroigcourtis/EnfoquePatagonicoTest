@@ -1,14 +1,15 @@
 
 #BarraNavegacion {
-    // background-color: #6C1572;
-    background-color: #66186c
-    
+    // background-color: #59225d;
+    background-color: #e6e6e4;
+    padding: 10px 0;
 }
 
 p.h5{
     @include FuenteSecundaria-Regular;
-    color: white;
+    color: #B64A87;
     display: inline-block;
+    font-size: 19px;
     font-weight: 600;
     position: relative;
     margin: 0 20px;
@@ -22,7 +23,7 @@ p.h5::after{
     height: 2px;
     bottom: -2.5px;
     left: 0;
-    background-color: #b64a87;
+    background-color: #A12078;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }

@@ -1,3 +1,5 @@
+const { func } = require("assert-plus");
+
 const Scroll = (id1, id2) => {
     $(id1).on('click', function(){
         $('html, body').animate({
@@ -7,19 +9,25 @@ const Scroll = (id1, id2) => {
 }
 
 const ScrollInicio = document.getElementById("InicioBtn")
-ScrollInicio.addEventListener('click', Scroll('#InicioBtn', '#Inicio'))
+ScrollInicio.addEventListener('click', Scroll('#InicioBtn', '#1'))
+
+const ScrollMis = document.getElementById("MisiónBtn")
+ScrollMis.addEventListener('click', Scroll('#MisiónBtn', '#2'))
 
 const ScrollQuienesSomos = document.getElementById("QuienesSomosBtn")
-ScrollQuienesSomos.addEventListener('click', Scroll('#QuienesSomosBtn', '#QuienesSomos'))
+ScrollQuienesSomos.addEventListener('click', Scroll('#QuienesSomosBtn', '#3'))
 
-const ScrollStaff = document.getElementById("StaffBtn")
-ScrollStaff.addEventListener('click', Scroll('#StaffBtn', '#Staff'))
 
 const ScrollConvenios = document.getElementById("ConveniosBtn")
-ScrollConvenios.addEventListener('click', Scroll('#ConveniosBtn', '#Convenios'))
+ScrollConvenios.addEventListener('click', Scroll('#ConveniosBtn', '#4'))
 
-const ScrollNovedades = document.getElementById("NovedadesBtn")
-ScrollNovedades.addEventListener('click', Scroll('#NovedadesBtn', '#Novedades'))
+const ScrollOferta = document.getElementById("OfertaBtn")
+ScrollOferta.addEventListener('click', Scroll('#OfertaBtn', '#5'))
 
+const ScrollInscribite = document.getElementById("InscribiteBtn")
+ScrollInscribite.addEventListener('click', Scroll('#InscribiteBtn', '#6'))
+
+const ScrollContacto = document.getElementById("ContactoBtn")
+ScrollContacto.addEventListener('click', Scroll('#ContactoBtn', '#7'))
 
 

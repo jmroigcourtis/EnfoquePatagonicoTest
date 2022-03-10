@@ -7,22 +7,46 @@ a {
   /* Eliminar decoración de links */
   text-decoration: none; }
 
-body {
-  height: 100%;
-  background: #f1edf5; }
+.bi-whatsapp {
+  background-color: #128C7E;
+  width: 55px;
+  height: 55px;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: #128C7E;
+  margin: 15px; }
 
-#Inicio {
-  margin: 100px;
-  padding: 140px; }
+body {
+  background-color: #DDDDD7; }
+
+.logo2 {
+  margin: 20px 100px; }
+
+.formStyle {
+  background-color: #66186c;
+  border-radius: 20px;
+  width: 500px; }
+
+.form-control {
+  margin: 60px 0; }
+
+.textbox {
+  height: 200px; }
+
+#home {
+  margin-top: 250px; }
 
 #BarraNavegacion {
-  background-color: #66186c; }
+  background-color: #e6e6e4;
+  padding: 10px 0; }
 
 p.h5 {
   font-family: 'Open Sans', sans-serif;
   color: #6C1572;
-  color: white;
+  color: #B64A87;
   display: inline-block;
+  font-size: 19px;
   font-weight: 600;
   position: relative;
   margin: 0 20px; }
@@ -35,7 +59,7 @@ p.h5::after {
   height: 2px;
   bottom: -2.5px;
   left: 0;
-  background-color: #b64a87;
+  background-color: #A12078;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out; }
 
