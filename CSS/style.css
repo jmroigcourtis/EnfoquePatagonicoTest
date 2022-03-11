@@ -43,6 +43,9 @@ body {
 #home {
   margin-top: 250px; }
 
+#Home {
+  padding: 200px 0; }
+
 .imgNora {
   border-style: solid purple; }
 
@@ -53,7 +56,7 @@ body {
   margin: 0 55px; }
 
 .homeImg {
-  margin: 0 120px; }
+  margin: 20px 120px; }
 
 .aacop {
   margin: 10px 100px; }
@@ -95,6 +98,28 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   color: #6C1572; }
+
+#Mision {
+  background-color: white;
+  margin-top: 80px;
+  padding: 120px 100px;
+  width: auto;
+  height: 850px; }
+
+.display-1 {
+  background: #003D4E;
+  width: 50%;
+  color: white;
+  border-radius: 15px; }
+
+.textoEjemplo {
+  background: #ddddd7;
+  color: #565555;
+  width: 50%;
+  margin: 20px 300px;
+  height: 550px;
+  border-radius: 20px;
+  word-wrap: break-word; }
 
 .Titulo h2 {
   padding: 50px;
@@ -190,10 +215,24 @@ a,
 a:hover {
   color: white; }
 
+#Contacto {
+  background-color: #d795b6;
+  width: 400px;
+  padding: 20px;
+  margin: 150px;
+  border-radius: 20px; }
+
+.btn-send {
+  border-radius: 10px; }
+
+label {
+  color: white;
+  font-weight: ligh; }
+
 p.FooterText {
   font-family: 'Open Sans', sans-serif;
   color: #6C1572;
-  padding: 15px 0px;
+  padding: 5px 0;
   color: #6C1572;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold; }

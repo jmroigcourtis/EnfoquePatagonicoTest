@@ -9,25 +9,25 @@ const Scroll = (id1, id2) => {
 }
 
 const ScrollInicio = document.getElementById("InicioBtn")
-ScrollInicio.addEventListener('click', Scroll('#InicioBtn', '#1'))
+ScrollInicio.addEventListener('click', Scroll('#InicioBtn', '#Home'))
 
 const ScrollMis = document.getElementById("MisiónBtn")
-ScrollMis.addEventListener('click', Scroll('#MisiónBtn', '#2'))
+ScrollMis.addEventListener('click', Scroll('#MisiónBtn', '#Mision'))
 
 const ScrollQuienesSomos = document.getElementById("QuienesSomosBtn")
-ScrollQuienesSomos.addEventListener('click', Scroll('#QuienesSomosBtn', '#3'))
+ScrollQuienesSomos.addEventListener('click', Scroll('#QuienesSomosBtn', '#Quienes'))
 
 
 const ScrollConvenios = document.getElementById("ConveniosBtn")
-ScrollConvenios.addEventListener('click', Scroll('#ConveniosBtn', '#4'))
+ScrollConvenios.addEventListener('click', Scroll('#ConveniosBtn', '#Convenio'))
 
 const ScrollOferta = document.getElementById("OfertaBtn")
-ScrollOferta.addEventListener('click', Scroll('#OfertaBtn', '#5'))
+ScrollOferta.addEventListener('click', Scroll('#OfertaBtn', '#Oferta'))
 
 const ScrollInscribite = document.getElementById("InscribiteBtn")
-ScrollInscribite.addEventListener('click', Scroll('#InscribiteBtn', '#6'))
+ScrollInscribite.addEventListener('click', Scroll('#InscribiteBtn', '#Inscribite'))
 
 const ScrollContacto = document.getElementById("ContactoBtn")
-ScrollContacto.addEventListener('click', Scroll('#ContactoBtn', '#7'))
+ScrollContacto.addEventListener('click', Scroll('#ContactoBtn', '#Contacto'))
 
 
