@@ -1,7 +1,8 @@
 
 #BarraNavegacion {
-    background-color: #e6e6e4;
-    padding: 10px 0;
+    // background-color: #e6e6e4;
+    background-color: white;
+    padding: 5px 0;
 }
 
 p.h5{
@@ -12,24 +13,56 @@ p.h5{
     font-weight: 600;
     position: relative;
     margin: 0 20px;
+    animation: EndNavAnimation 0.5s;
 }
 
-p.h5::after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: -2.5px;
-    left: 0;
-    background-color: #A12078;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+p.h5:hover {
+    animation: StartNavAnimation 0.5s forwards;
+}   
+
+@keyframes StartNavAnimation {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(5px);
+    }
 }
 
-p.h5:hover:after{
-    transform: scaleX(1);
-    transform-origin: bottom left;
+@keyframes EndNavAnimation {
+    from {
+        transform: translateX(5px);
+    }
+    to {
+        transform: translateX(0px);
+    }
 
-}    
+}
 
+.bi{
+    fill: #B64A87 ;
+    animation: StartOpacity 1s forwards;
+}
+
+.bi:hover {
+    animation: RestartOpacity 1s forwards ;
+    
+}
+
+@keyframes RestartOpacity {
+    from {
+        opacity: 80%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes StartOpacity {
+    from {
+        opacity: 100%;
+    }
+    to {
+        opacity: 80%;
+    }
+}

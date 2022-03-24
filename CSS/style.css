@@ -1,23 +1,115 @@
-@charset "UTF-8";
 * {
   padding: 0;
   margin: 0; }
 
 a {
-  /* Eliminar decoración de links */
   text-decoration: none; }
 
+body {
+  background: #f2d3e2;
+  background: linear-gradient(90deg, #f2d3e2 0%, white 100%); }
+
+.logo2 {
+  margin: 20px 100px; }
+
+.imgLogo {
+  margin: 0 100px; }
+
+#home {
+  margin-top: 250px; }
+
+.carousel-item {
+  width: 100%;
+  height: 800px;
+  animation: StartOpacity 1s forwards; }
+
+.carousel-item:hover {
+  animation: RestartOpacity 1s forwards; }
+
+.carousel-control-prev-icon, .carousel-control-prev {
+  color: black; }
+
+#Home {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  margin: 100px 0; }
+
+.text {
+  font-weight: 600;
+  font-size: 25px;
+  opacity: 50%;
+  margin: 0 70px; }
+
+#BarraNavegacion {
+  background-color: white;
+  padding: 5px 0; }
+
+p.h5 {
+  font-family: 'Raleway', sans-serif;
+  color: #6C1572;
+  color: #B64A87;
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 600;
+  position: relative;
+  margin: 0 20px;
+  animation: EndNavAnimation 0.5s; }
+
+p.h5:hover {
+  animation: StartNavAnimation 0.5s forwards; }
+
+@keyframes StartNavAnimation {
+  from {
+    transform: translateX(0); }
+  to {
+    transform: translateX(5px); } }
+
+@keyframes EndNavAnimation {
+  from {
+    transform: translateX(5px); }
+  to {
+    transform: translateX(0px); } }
+
+.bi {
+  fill: #B64A87;
+  animation: StartOpacity 1s forwards; }
+
+.bi:hover {
+  animation: RestartOpacity 1s forwards; }
+
+@keyframes RestartOpacity {
+  from {
+    opacity: 80%; }
+  to {
+    opacity: 100%; } }
+
+@keyframes StartOpacity {
+  from {
+    opacity: 100%; }
+  to {
+    opacity: 80%; } }
+
+#whatsapp {
+  display: none; }
+
+.colorWhatsapp {
+  fill: white; }
+
+.fixed-bottom {
+  margin: 50px 25px; }
+
 .bi-whatsapp {
-  background-color: #25D366;
-  position: sticky;
   width: 55px;
   height: 55px;
+  float: right;
+  cursor: pointer;
+  animation: in 0.5s;
   border-width: 10px;
   border-style: solid;
   border-radius: 30px;
   border-color: #25D366;
-  margin: 15px;
-  animation: in 0.5s; }
+  background-color: #25D366; }
 
 .bi-whatsapp:hover {
   animation: out 0.5s forwards; }
@@ -34,161 +126,125 @@ a {
   to {
     transform: scale(1.3); } }
 
-body {
-  background-color: #fdfdfd; }
-
-.logo2 {
-  margin: 20px 100px; }
-
-#home {
-  margin-top: 250px; }
-
-#Home {
-  padding: 200px 0; }
-
-.imgNora {
-  border-style: solid purple; }
-
-.NoraText {
-  margin: 20px 80px; }
-
-.text {
-  margin: 0 55px; }
-
-.homeImg {
-  margin: 20px 120px; }
-
-.aacop {
-  margin: 10px 100px; }
-
-#BarraNavegacion {
-  background-color: #e6e6e4;
-  padding: 10px 0; }
-
-p.h5 {
-  font-family: 'Open Sans', sans-serif;
-  color: #6C1572;
-  color: #B64A87;
-  display: inline-block;
-  font-size: 19px;
-  font-weight: 600;
-  position: relative;
-  margin: 0 20px; }
-
-p.h5::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: -2.5px;
-  left: 0;
-  background-color: #A12078;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out; }
-
-p.h5:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left; }
-
 header {
   margin-top: 80px; }
 
 h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   color: #6C1572; }
 
 #Mision {
-  background-color: white;
+  background-color: #fcfcfc;
   margin-top: 80px;
-  padding: 120px 100px;
+  padding: 150px 100px;
   width: auto;
-  height: 850px;
-  box-shadow: 3px 3px 15px -3px #DDDDD7; }
+  height: 850px; }
 
-.display-1 {
+.TituloMision h2 {
   background: #003D4E;
   width: 50%;
+  height: 50%;
   color: white;
-  border-radius: 15px; }
+  border-radius: 15px;
+  font-size: 60px;
+  margin: 0 20px; }
 
 .textoEjemplo {
   background: #ddddd7;
   color: #565555;
   width: 50%;
   margin: 20px 300px;
-  height: 550px;
+  height: 500px;
   border-radius: 20px;
   word-wrap: break-word; }
 
-.Titulo h2 {
-  padding: 50px;
-  margin: 160px; }
+.TituloMision {
+  justify-content: space-around; }
 
-h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  color: #6C1572;
-  font-weight: bolder;
-  font-size: 28px;
-  color: #6C1572; }
+#QuienesSomos {
+  background-color: #fcfcfc;
+  margin-top: 80px;
+  padding: 150px 100px;
+  width: auto;
+  height: 850px;
+  height: 50%; }
 
-p.textoQuienesSomos {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  color: #6C1572;
+.TituloStaff {
+  background: #003D4E;
+  width: 50%;
+  height: 50%;
+  color: white;
+  border-radius: 15px;
+  height: auto; }
+
+.Fotos {
   display: flex;
-  font-size: 20px;
-  margin: 160px 140px; }
+  justify-content: center; }
+
+.TituloStaff {
+  justify-content: space-around; }
+
+.TituloStaff h2 {
+  font-size: 60px;
+  margin: 0 10px; }
+
+.Staff {
+  width: 225px;
+  height: 225px;
+  border-radius: 500px;
+  background-color: white;
+  margin: 20px;
+  animation: StartOpacityPicture 1s forwards; }
+
+.Staff:hover {
+  animation: RestartOpacityPicture 1s; }
+
+@keyframes StartOpacityPicture {
+  from {
+    opacity: 100%; }
+  to {
+    opacity: 80%; } }
+
+@keyframes RestartOpacityPicture {
+  from {
+    opacity: 80%; }
+  to {
+    opacity: 100%; } }
+
+.info {
+  display: none;
+  animation: FadeOutInfo 1s ease forwards; }
+
+#Staff2:hover .info {
+  display: flex;
+  animation: FadeInInfo 1s ease forwards; }
+
+@keyframes FadeInInfo {
+  from {
+    opacity: 0%;
+    border-radius: 15px; }
+  to {
+    opacity: 100%;
+    background-color: #dbdbdb;
+    border-radius: 15px; } }
+
+@keyframes FadeOutInfo {
+  from {
+    opacity: 100%; }
+  to {
+    opacity: 0%; } }
 
 #carousel {
   width: 500px;
   height: 500px;
   margin: auto; }
 
-.StaffTitulo h2 {
-  padding: 50px;
-  margin: 160px; }
-
-.container {
-  display: grid;
-  grid-template-columns: 0.6fr 1.8fr 0.6fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-auto-columns: 1fr;
-  gap: 15px 50px;
-  grid-auto-flow: row;
-  grid-template-areas: "Imagen-1 Texto-1 Texto-1" "Texto-2 Texto-2 Imagen-2" "Imagen-3 Texto-3 Texto-3" "Texto-4 Texto-4 Imagen-4" "Imagen-5 Texto-5 Texto-5"; }
-
-.Imagen-1 {
-  grid-area: Imagen-1; }
-
-.Texto-1 {
-  grid-area: Texto-1; }
-
-.Texto-2 {
-  grid-area: Texto-2; }
-
-.Imagen-2 {
-  grid-area: Imagen-2; }
-
-.Imagen-3 {
-  grid-area: Imagen-3; }
-
-.Texto-3 {
-  grid-area: Texto-3; }
-
-.Texto-4 {
-  grid-area: Texto-4; }
-
-.Imagen-4 {
-  grid-area: Imagen-4; }
-
-.Imagen-5 {
-  grid-area: Imagen-5; }
-
-.Texto-5 {
-  grid-area: Texto-5; }
+.staffText {
+  display: flex;
+  justify-content: center;
+  color: #d795b6;
+  font-weight: 600; }
 
 .ConveniosTitulo h2 {
   padding: 50px;
@@ -230,8 +286,21 @@ label {
   color: white;
   font-weight: ligh; }
 
+#Formulario {
+  width: 500px; }
+
+.contactForm {
+  width: 500px;
+  height: 500px;
+  overflow: hidden; }
+
+.contactTitle h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: #6C1572; }
+
 p.FooterText {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #6C1572;
   padding: 5px 0;
   color: #6C1572;

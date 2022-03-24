@@ -1,17 +1,11 @@
 #Mision {
-    background-color: white;
-    margin-top: 80px;
-    padding: 120px 100px;
-    width: auto;
-    height: 850px;
-    box-shadow: 3px 3px 15px -3px #DDDDD7;
+    @include SectionBlock;
 }
 
-.display-1 {
-    background: #003D4E;
-    width: 50%;
-    color: white;
-    border-radius: 15px;
+.TituloMision h2 {
+    @include SectionTitle;
+    font-size: 60px;
+    margin: 0 20px;
 }
 
 .textoEjemplo {
@@ -19,7 +13,12 @@
     color: rgb(86, 85, 85);
     width: 50%;
     margin: 20px 300px;
-    height: 550px;
+    height: 500px;
     border-radius: 20px;
     word-wrap: break-word;
 }
+
+.TituloMision {
+    justify-content: space-around;
+}
+

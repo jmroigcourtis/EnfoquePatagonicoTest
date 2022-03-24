@@ -1,9 +1,14 @@
 body {
-    background-color: #fdfdfd;
-}
+    background: rgb(242,211,226);
+    background: linear-gradient(90deg, rgba(242,211,226,1) 0%, rgba(255,255,255,1) 100%); 
 
+}
 .logo2{
     margin: 20px 100px;
+}
+
+.imgLogo {
+    margin: 0 100px;
 }
 
 

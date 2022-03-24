@@ -1,22 +1,93 @@
-.Titulo h2 {
-    @include TitulosPaddingMargin;
+#QuienesSomos {
+    @include SectionBlock;
+    height: 50%;
 }
 
-h2 {
-    @include FuentePrincipal-Bold;
-    font-weight: bolder;
-    font-size: 28px;
-    color: #6C1572;
+.TituloStaff {
+    @include SectionTitle;
+    height: auto;
 }
 
-p.textoQuienesSomos {
-    @include FuentePrincipal-Bold;
+.Fotos {
     display: flex;
-    font-size: 20px;
-    margin: 160px 140px;
+    justify-content: center;
+}
+
+.TituloStaff {
+    justify-content: space-around;
+}
+
+.TituloStaff h2 {
+    font-size: 60px;
+    margin: 0 10px;
+}
+
+
+.Staff {
+    width: 225px;
+    height: 225px;
+    border-radius: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    animation: StartOpacityPicture 1s forwards;
+}
+
+.Staff:hover {
+    animation: RestartOpacityPicture 1s;
+}
+
+@keyframes StartOpacityPicture {
+    from {
+        opacity: 100%;
+    }
+    to {
+        opacity: 80%;
+    }
+}
+
+@keyframes RestartOpacityPicture {
+    from {
+        opacity: 80%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+.info {
+    display: none;
+    animation: FadeOutInfo 1s ease forwards;
 }
 
 
 
-  
+#Staff2:hover .info {
+    display: flex;
+    animation: FadeInInfo 1s ease forwards;
 
+}
+
+@keyframes FadeInInfo {
+    from {
+        opacity: 0%;
+        border-radius: 15px;
+
+    }
+
+    to {
+        opacity: 100%;
+        background-color: rgb(219, 219, 219);
+        border-radius: 15px;
+    }
+}
+
+@keyframes FadeOutInfo {
+    from {
+        opacity: 100%;        
+    }
+    
+    to {
+        opacity: 0%;
+    }
+
+}

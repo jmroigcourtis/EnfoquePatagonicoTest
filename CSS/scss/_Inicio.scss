@@ -1,23 +1,15 @@
 #Home {
-    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    margin: 100px 0;
 }
 
-.imgNora {
-    border-style: solid purple;
-}
-
-.NoraText {
-    margin: 20px 80px;
-}
 
 .text {
-    margin: 0 55px;
+    font-weight: 600;
+    font-size: 25px;
+    opacity: 50%;
+    margin: 0 70px;
 }
 
-.homeImg {
-    margin: 20px 120px;
-}
-
-.aacop {
-    margin: 10px 100px;
-}

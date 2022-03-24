@@ -5,14 +5,14 @@
 
 
 @mixin FuentePrincipal-Bold {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     color: #6C1572;
 
 }
 
 @mixin FuenteSecundaria-Regular { 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #6C1572;
 }
 
@@ -27,6 +27,24 @@
     margin: 160px;
 }
 
-a { /* Eliminar decoración de links */
+@mixin SectionTitle {
+    background: #003D4E;
+    width: 50%;
+    height: 50%;
+    color: white;
+    border-radius: 15px;
+
+}
+
+@mixin SectionBlock {
+    background-color: rgb(252, 252, 252);
+    margin-top: 80px;
+    padding: 150px 100px;
+    width: auto;
+    height: 850px;
+}
+
+a { 
     text-decoration: none;
 }
+

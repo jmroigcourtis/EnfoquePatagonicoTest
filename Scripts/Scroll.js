@@ -1,4 +1,3 @@
-const { func } = require("assert-plus");
 
 const Scroll = (id1, id2) => {
     $(id1).on('click', function(){
@@ -15,7 +14,7 @@ const ScrollMis = document.getElementById("MisiónBtn")
 ScrollMis.addEventListener('click', Scroll('#MisiónBtn', '#Mision'))
 
 const ScrollQuienesSomos = document.getElementById("QuienesSomosBtn")
-ScrollQuienesSomos.addEventListener('click', Scroll('#QuienesSomosBtn', '#Quienes'))
+ScrollQuienesSomos.addEventListener('click', Scroll('#QuienesSomosBtn', '#QuienesSomos'))
 
 
 const ScrollConvenios = document.getElementById("ConveniosBtn")
@@ -31,3 +30,12 @@ const ScrollContacto = document.getElementById("ContactoBtn")
 ScrollContacto.addEventListener('click', Scroll('#ContactoBtn', '#Contacto'))
 
 
+
+const showWpp  = () => {
+    $(window.document).on('scroll',function(){
+        $(window.document).scrollTop() > 100 ? $("#whatsapp").fadeIn(1000) : $("#whatsapp").fadeOut(1000)
+        console.log($(window.document).scrollTop())
+    })
+}
+
+showWpp()

@@ -1,14 +1,27 @@
+#whatsapp {
+    display: none;
+}
+
+
+.colorWhatsapp {
+    fill: white;
+}
+
+.fixed-bottom {
+    margin: 50px 25px;
+}
+
 .bi-whatsapp {
-    background-color: #25D366;
-    position: sticky;
     width: 55px;
     height: 55px;
+    float: right;
+    cursor: pointer;
+    animation: in 0.5s;
     border-width: 10px;
     border-style: solid;
     border-radius: 30px;
     border-color: #25D366;
-    margin: 15px;
-    animation: in 0.5s;
+    background-color: #25D366;
     
 }
 
