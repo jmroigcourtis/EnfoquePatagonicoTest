@@ -204,11 +204,11 @@ h1 {
   from {
     opacity: 100%; }
   to {
-    opacity: 80%; } }
+    opacity: 85%; } }
 
 @keyframes RestartOpacityPicture {
   from {
-    opacity: 80%; }
+    opacity: 85%; }
   to {
     opacity: 100%; } }
 
@@ -243,8 +243,8 @@ h1 {
 .staffText {
   display: flex;
   justify-content: center;
-  color: #d795b6;
-  font-weight: 600; }
+  color: #db74a7;
+  font-weight: 700; }
 
 .ConveniosTitulo h2 {
   padding: 50px;
