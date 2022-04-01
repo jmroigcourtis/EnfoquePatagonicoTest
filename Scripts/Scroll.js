@@ -33,7 +33,7 @@ ScrollContacto.addEventListener('click', Scroll('#ContactoBtn', '#Contacto'))
 
 const showWpp  = () => {
     $(window.document).on('scroll',function(){
-        $(window.document).scrollTop() > 100 ? $("#whatsapp").fadeIn(1000) : $("#whatsapp").fadeOut(1000)
+        $(window.document).scrollTop() > 100 ? $("#whatsapp").fadeIn(700) : $("#whatsapp").fadeOut(700)
         console.log($(window.document).scrollTop())
     })
 }

@@ -13,3 +13,19 @@
 .carousel-control-prev-icon, .carousel-control-prev {
     color: black;
 }
+
+#LogoInsideCarrousel .enfoque {
+    background-color: white;
+    margin-top: 629px;
+    z-index: 3;
+}
+
+.Logo button {
+    color: white;
+    font-weight: bold;
+    width: 50%;
+    height: 15%;
+    border-radius: 10px;
+    margin-left: 220px;
+    margin-top: 100px;
+}
