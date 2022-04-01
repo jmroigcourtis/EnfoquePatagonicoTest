@@ -107,11 +107,12 @@ p.h5:hover {
 #whatsapp {
   display: none; }
 
-a #whatsapp {
-  padding-left: 2px; }
-
 #logoWhatsapp {
   width: 10%; }
+
+#logoWhatsapp a {
+  display: inline-block;
+  width: 0px; }
 
 .colorWhatsapp {
   fill: white; }
@@ -122,7 +123,7 @@ a #whatsapp {
 .bi-whatsapp {
   width: 55px;
   height: 55px;
-  float: right;
+  margin-left: 1800px;
   cursor: pointer;
   animation: in 0.5s;
   border-width: 10px;
