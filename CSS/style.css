@@ -107,6 +107,9 @@ p.h5:hover {
 #whatsapp {
   display: none; }
 
+a #whatsapp {
+  padding-left: 2px; }
+
 #logoWhatsapp {
   width: 10%; }
 
@@ -164,7 +167,7 @@ h1 {
   margin-top: 80px;
   padding: 150px 100px;
   width: auto;
-  height: 850px; }
+  height: 950px; }
 
 .TituloMision h2 {
   background: #003D4E;
@@ -175,14 +178,24 @@ h1 {
   font-size: 60px;
   margin: 0 20px; }
 
-.textoEjemplo {
-  background: #ddddd7;
+.textBox {
+  background: #f7f7f7;
   color: #565555;
   width: 50%;
   margin: 20px 300px;
-  height: 500px;
+  height: 600px;
   border-radius: 20px;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+  z-index: 3; }
+
+.textQS {
+  font-size: 28px; }
+
+.textQS strong {
+  color: #333c83; }
+
+.textQS strong:nth-child(4) {
+  color: #b64a87; }
 
 .TituloMision {
   justify-content: space-around; }
@@ -192,7 +205,7 @@ h1 {
   margin-top: 80px;
   padding: 150px 100px;
   width: auto;
-  height: 850px;
+  height: 950px;
   height: 50%; }
 
 .TituloStaff {
@@ -274,7 +287,8 @@ h1 {
 #Staff1 p:last-of-type,
 #Staff5 p:last-of-type,
 #Staff4 p:last-of-type {
-  color: #dd4290; }
+  color: gray;
+  opacity: 50%; }
 
 .ConveniosTitulo h2 {
   padding: 50px;

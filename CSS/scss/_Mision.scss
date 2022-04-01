@@ -8,14 +8,27 @@
     margin: 0 20px;
 }
 
-.textoEjemplo {
-    background: rgb(221,221,215);
+.textBox {
+    background: rgb(247, 247, 247);
     color: rgb(86, 85, 85);
     width: 50%;
     margin: 20px 300px;
-    height: 500px;
+    height: 600px;
     border-radius: 20px;
     word-wrap: break-word;
+    z-index: 3;
+}
+
+.textQS {
+    font-size: 28px;
+}
+
+.textQS strong {
+    color: rgb(51, 60, 131);
+}
+
+.textQS strong:nth-child(4) {
+    color: #b64a87;
 }
 
 .TituloMision {
