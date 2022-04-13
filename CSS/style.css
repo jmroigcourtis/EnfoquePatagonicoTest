@@ -5,6 +5,15 @@
 a {
   text-decoration: none; }
 
+.pre-loading {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(https://embed.lottiefiles.com/animation/99833) center no-repeat; }
+
 body {
   background: white;
   background: linear-gradient(180deg, white 0%, #d795b6 100%); }
@@ -32,6 +41,11 @@ body {
 #LogoInsideCarrousel .enfoque {
   background-color: white;
   margin-top: 629px;
+  margin-right: 20px;
+  border-top-right-radius: 200px;
+  padding-right: 150px;
+  padding-left: 40px;
+  box-shadow: inset -1px 0px 27px -3px rgba(0, 0, 0, 0.25);
   z-index: 3; }
 
 .Logo button {
@@ -170,6 +184,9 @@ h1 {
   width: auto;
   height: 950px; }
 
+.TituloMision {
+  width: 100%; }
+
 .TituloMision h2 {
   background: #003D4E;
   width: 50%;
@@ -182,15 +199,17 @@ h1 {
 .textBox {
   background: #f7f7f7;
   color: #565555;
-  width: 50%;
+  width: 70%;
   margin: 20px 300px;
-  height: 600px;
+  height: 80%;
   border-radius: 20px;
+  backdrop-filter: blur 50px;
   word-wrap: break-word;
   z-index: 3; }
 
 .textQS {
-  font-size: 28px; }
+  font-size: 30px;
+  opacity: 75%; }
 
 .textQS strong {
   color: #333c83; }
@@ -219,7 +238,7 @@ h1 {
 
 .Fotos {
   display: flex;
-  justify-content: center; }
+  flex-wrap: wrap; }
 
 .TituloStaff {
   justify-content: space-around; }
@@ -237,19 +256,23 @@ h1 {
   animation: StartOpacityPicture 1s forwards; }
 
 .Staff:hover {
-  animation: RestartOpacityPicture 1s; }
+  animation: RestartOpacityPicture 1s forwards; }
 
 @keyframes StartOpacityPicture {
   from {
-    opacity: 100%; }
+    opacity: 100%;
+    transform: scale(1.1); }
   to {
-    opacity: 85%; } }
+    opacity: 85%;
+    transform: scale(1); } }
 
 @keyframes RestartOpacityPicture {
   from {
-    opacity: 85%; }
+    opacity: 85%;
+    transform: scale(1); }
   to {
-    opacity: 100%; } }
+    opacity: 100%;
+    transform: scale(1.1); } }
 
 .info {
   display: none;
@@ -274,6 +297,71 @@ h1 {
   to {
     opacity: 0%; } }
 
+#CompromisoEnfoque {
+  background-color: #fcfcfc;
+  margin-top: 80px;
+  padding: 150px 100px;
+  width: auto;
+  height: 950px;
+  padding: 100px 20px;
+  height: 75%; }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.3fr 1.7fr 1fr;
+  gap: 0px 30px;
+  grid-auto-flow: row;
+  grid-template-areas: "Expertos Cofidencialidad Feedback" "ExpertosText ConfidencialidadText FeedbackText" "ExpertosText ConfidencialidadText FeedbackText"; }
+
+.ExpertosText {
+  grid-area: ExpertosText;
+  opacity: 75%;
+  padding: 10px;
+  font-size: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; }
+
+.ConfidencialidadText {
+  grid-area: ConfidencialidadText;
+  opacity: 75%;
+  padding: 10px;
+  font-size: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; }
+
+.FeedbackText {
+  grid-area: FeedbackText;
+  opacity: 75%;
+  padding: 10px;
+  font-size: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; }
+
+.Expertos {
+  grid-area: Expertos;
+  background-color: #d795b6;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px; }
+
+.Cofidencialidad {
+  grid-area: Cofidencialidad;
+  background-color: #b64a87;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px; }
+
+.Feedback {
+  grid-area: Feedback;
+  background-color: #a12078;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px; }
+
+.Expertos h2,
+.Cofidencialidad h2,
+.Feedback h2 {
+  margin-left: 20px;
+  color: white; }
+
 #carousel {
   width: 500px;
   height: 500px;
@@ -286,8 +374,10 @@ h1 {
   font-weight: 700; }
 
 #Staff1 p:last-of-type,
-#Staff5 p:last-of-type,
-#Staff4 p:last-of-type {
+#Staff2 p:last-of-type,
+#Staff3 p:last-of-type,
+#Staff4 p:last-of-type,
+#Staff5 p:last-of-type {
   color: gray;
   opacity: 50%; }
 

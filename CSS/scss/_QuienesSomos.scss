@@ -10,7 +10,7 @@
 
 .Fotos {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .TituloStaff {
@@ -33,24 +33,30 @@
 }
 
 .Staff:hover {
-    animation: RestartOpacityPicture 1s;
+    animation: RestartOpacityPicture 1s forwards;
 }
 
 @keyframes StartOpacityPicture {
     from {
         opacity: 100%;
+        transform: scale(1.1);
     }
     to {
         opacity: 85%;
+        transform: scale(1);
+
     }
 }
 
 @keyframes RestartOpacityPicture {
     from {
         opacity: 85%;
+        transform: scale(1);
     }
     to {
         opacity: 100%;
+        transform: scale(1.1);
+
     }
 }
 

@@ -1,0 +1,79 @@
+#CompromisoEnfoque {
+    @include SectionBlock ;
+    padding: 100px 20px;
+    height: 75%;
+
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1.7fr 1fr;
+    gap: 0px 30px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Expertos Cofidencialidad Feedback"
+      "ExpertosText ConfidencialidadText FeedbackText"
+      "ExpertosText ConfidencialidadText FeedbackText";
+  }
+  
+  .ExpertosText { 
+      grid-area: ExpertosText;
+      opacity: 75%;
+      padding: 10px;
+      font-size: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+  
+  .ConfidencialidadText { 
+      grid-area: ConfidencialidadText; 
+      opacity: 75%;
+      padding: 10px;
+      font-size: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+
+
+    }
+  
+  .FeedbackText { 
+      grid-area: FeedbackText; 
+      opacity: 75%;
+      padding: 10px;
+      font-size: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+
+}
+  
+  .Expertos { 
+      grid-area: Expertos;
+      background-color: #d795b6; 
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+  
+  .Cofidencialidad { 
+      grid-area: Cofidencialidad; 
+      background-color: #b64a87; 
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+
+
+    }
+  
+  .Feedback { 
+      grid-area: Feedback; 
+      background-color: #a12078; 
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+
+
+}
+  
+.Expertos h2, 
+.Cofidencialidad h2,
+.Feedback h2 {
+    margin-left: 20px;
+    color: white;
+}

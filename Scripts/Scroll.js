@@ -10,8 +10,6 @@ const Scroll = (id1, id2) => {
 const ScrollInicio = document.getElementById("InicioBtn")
 ScrollInicio.addEventListener('click', Scroll('#InicioBtn', '#Home'))
 
-const ScrollMis = document.getElementById("MisiónBtn")
-ScrollMis.addEventListener('click', Scroll('#MisiónBtn', '#Mision'))
 
 const ScrollQuienesSomos = document.getElementById("QuienesSomosBtn")
 ScrollQuienesSomos.addEventListener('click', Scroll('#QuienesSomosBtn', '#QuienesSomos'))
@@ -23,19 +21,34 @@ ScrollConvenios.addEventListener('click', Scroll('#ConveniosBtn', '#Convenio'))
 const ScrollOferta = document.getElementById("OfertaBtn")
 ScrollOferta.addEventListener('click', Scroll('#OfertaBtn', '#Oferta'))
 
-const ScrollInscribite = document.getElementById("InscribiteBtn")
-ScrollInscribite.addEventListener('click', Scroll('#InscribiteBtn', '#Inscribite'))
 
 const ScrollContacto = document.getElementById("ContactoBtn")
 ScrollContacto.addEventListener('click', Scroll('#ContactoBtn', '#Contacto'))
 
 
 
-const showWpp  = () => {
+const fadeInOut  = (element, distanceFromTop, fadeInTimer, fadeOutTimer) => {
     $(window.document).on('scroll',function(){
-        $(window.document).scrollTop() > 100 ? $("#whatsapp").fadeIn(700) : $("#whatsapp").fadeOut(700)
-        console.log($(window.document).scrollTop())
+        $(window.document).scrollTop() > distanceFromTop ? $(element).fadeIn(fadeInTimer) : $(element).fadeOut(fadeOutTimer)
     })
 }
 
-showWpp()
+
+function fadeInOutWhatsapp () {
+    fadeInOut("#whatsapp", 100, 700, 700)
+}
+
+// function fadeInOutSection () {
+//     fadeInOut(".TituloMision", 200, 900, 900)
+//     fadeInOut(".textBox", 200, 1100, 1100)
+//     fadeInOut("#Staff1", 1000, 900, 900)
+//     fadeInOut("#Staff2", 1000, 1000, 1000)
+//     fadeInOut("#Staff3", 1000, 1100, 1100)
+//     fadeInOut("#Staff4", 1000, 1200, 1200)
+//     fadeInOut("#Staff5", 1000, 1300, 1300)
+//     fadeInOut("#Staff6", 1000, 1400, 1400)
+// }
+
+fadeInOutWhatsapp()
+fadeInOutSection()
+
