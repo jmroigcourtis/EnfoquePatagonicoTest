@@ -38,17 +38,6 @@ function fadeInOutWhatsapp () {
     fadeInOut("#whatsapp", 100, 700, 700)
 }
 
-// function fadeInOutSection () {
-//     fadeInOut(".TituloMision", 200, 900, 900)
-//     fadeInOut(".textBox", 200, 1100, 1100)
-//     fadeInOut("#Staff1", 1000, 900, 900)
-//     fadeInOut("#Staff2", 1000, 1000, 1000)
-//     fadeInOut("#Staff3", 1000, 1100, 1100)
-//     fadeInOut("#Staff4", 1000, 1200, 1200)
-//     fadeInOut("#Staff5", 1000, 1300, 1300)
-//     fadeInOut("#Staff6", 1000, 1400, 1400)
-// }
 
 fadeInOutWhatsapp()
-fadeInOutSection()
 

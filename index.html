@@ -119,8 +119,8 @@
       <h2 class="shadow">Quiénes somos</h2>
       <img class="barras" src="/CSS/scss/Imagenes/Vectores/Barras2.png">
     </div>
-    <div class="textBox shadow wow animate__animated animate__fadeInLeft">
-      <p class="textQS p-3 animate__animated animate__fadeIn animate__delay-1s animate__slow"><em>
+    <div class="textBox shadow wow animate__animated animate__fadeInLeft animate_slow">
+      <p class="textQS p-3 animate__animated animate__fadeIn animate__delay-2s animate__slow"><em>
         Somos <strong>Enfoque Patagónico</strong>: la primera escuela neuquina de coaching ontológico profesional con programas avalados por AACOP y FICOP.<br>
 
         <strong>Enfoque Patagónico</strong> nació del esfuerzo y la pasión de su fundadora, <strong>Nora Lucía Barbaresi</strong>. Comenzó con el objetivo de acercar el coaching ontológico profesional a la región en 1993, a través de una organización comprometida con trabajo colaborativo y altos estándares de excelencia, una misión que se mantiene hasta el día de hoy.<br>
@@ -136,13 +136,32 @@
     </div>
     <div class="Fotos">
       <div id="Staff1" class="wow animate__animated animate__fadeIn animate__slow">
-        <a href="#"><img src="./CSS/scss/Imagenes/FotosStaff/NoraTest.jpg" class="Staff img-fluid shadow-sm"></a>
+        <a id="StaffBioButton"><img src="./CSS/scss/Imagenes/FotosStaff/NoraTest.jpg" class="Staff img-fluid shadow-sm"></a>
           <p class="staffText">Nora L Barbaressi</p>
-          <p class="staffText">Fundadora y Directora 
-          </p>
-      </div>
+          <p class="staffText">Fundadora y Directora </p>
+        </div>
+        <div id="Staff1Bio" class="animate__animated animate__fadeIn shadow">
+          <svg id="closeButton" onclick="closeDiv()" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-x-lg m-2" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+            <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+          </svg>
+          <div class="containerStaff1">
+            <div class="Foto1">
+              <img src="./CSS/scss/Imagenes/FotosStaff/NoraTest.jpg" class="bioPic img-fluid shadow-sm">    
+            </div>
+            <div class="StaffBio1">
+              <p class="bioText">
+                <span class="bioTextHighLight">Nora Lucia Barbaresi</span> es Professional Certified Coach certificada por la International Coaching Federation (ICF) y Máster Coach Ontológico Profesional certificada por AACOP y FICOP.<br>
+                Con una trayectoria de más de 30 años como facilitadora del crecimiento profesional y del liderazgo en distintos tipos de organizaciones, creó la primera escuela neuquina de coaching ontológico profesional y programación neurolingüística, <span class="bioTextHighLight"><em>Enfoque Patagónico</em></span>, y dirige hace 35 años la Alianza Francesa de Neuquén..
+                También fundó la delegación norpatagonia de la AACOP, y formó parte de su Comisión Directiva y de su Comisión de Ética. Colabora también como vocal en la International Coaching Federation.
+                Es formadora de coaches y mentora en organizaciones internacionales, y es una apasionada por las posibilidades de mejora que da la vida.
+                  </p>    
 
-      <div id="Staff2" class="wow animate__animated animate__fadeIn animate__slow">
+            </div>
+          </div>
+        </div>
+
+      <div id="Staff2" class="wow animate__animated animate__fadeIn">
         <a href="#"><img src="./CSS/scss/Imagenes/FotosStaff/Alicia2.jpg" class="Staff img-fluid shadow-sm"></a>
           <p class="staffText">Alicia Bilucaglia</p>
           <p class="staffText">Responsable académica y líder de tutores</p>
@@ -238,6 +257,7 @@
     </script>
     <!--SCRIPTS-->
     <script src="Scripts/Scroll.js"></script>
+    <script src="Scripts/ShowBio.js"></script>
     <script src="Scripts/Services/fetchJson.js"></script>
     <script src="Scripts/wow.min.js"></script>
     <script>
