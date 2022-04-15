@@ -1,0 +1,83 @@
+#NuestrosServicios {
+    @include SectionBlock ;
+    padding: 100px 20px;
+    height: 75%;
+
+}
+
+.containerServicios {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 1.6fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 6px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "CoachingEq CoachingOrg CoachingEj Softskills"
+      "CoachingEqText CoachingOrgText CoachingEjText SoftskillsText";
+  }
+  
+  .CoachingEq { 
+      grid-area: CoachingEq; 
+      background-color: #d795b6; 
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+
+    }
+  
+  .CoachingOrg { 
+      grid-area: CoachingOrg; 
+      background-color: #b64a87; 
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+
+    }
+  
+  .CoachingEj { 
+      grid-area: CoachingEj;
+      background-color: #a12078; 
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px; 
+}
+
+  
+  .Softskills { 
+      grid-area: Softskills; 
+      background-color: #791559; 
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+
+    }
+  
+  .CoachingEqText { 
+      grid-area: CoachingEqText;
+      @include textBox
+ 
+    }
+  
+  .CoachingOrgText { 
+      grid-area: CoachingOrgText;
+      @include textBox
+
+    }
+  
+  .CoachingEjText {
+       grid-area: CoachingEjText; 
+       @include textBox
+
+    }
+  
+  .SoftskillsText { 
+      grid-area: SoftskillsText; 
+      @include textBox
+
+    }
+  
+.CoachingEq h2, 
+.CoachingOrg h2,
+.CoachingEj h2,
+.Softskills h2 {
+    margin-top: 5px;
+    margin-left: 20px;
+    color: white;
+}

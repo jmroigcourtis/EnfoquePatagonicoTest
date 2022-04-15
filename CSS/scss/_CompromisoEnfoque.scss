@@ -18,31 +18,18 @@
   
   .ExpertosText { 
       grid-area: ExpertosText;
-      opacity: 75%;
-      padding: 10px;
-      font-size: 20px;
-      border-bottom-left-radius: 20px;
-      border-bottom-right-radius: 20px;
+      @include textBox
     }
   
   .ConfidencialidadText { 
       grid-area: ConfidencialidadText; 
-      opacity: 75%;
-      padding: 10px;
-      font-size: 20px;
-      border-bottom-left-radius: 20px;
-      border-bottom-right-radius: 20px;
-
+      @include textBox
 
     }
   
   .FeedbackText { 
       grid-area: FeedbackText; 
-      opacity: 75%;
-      padding: 10px;
-      font-size: 20px;
-      border-bottom-left-radius: 20px;
-      border-bottom-right-radius: 20px;
+      @include textBox
 
 }
   
