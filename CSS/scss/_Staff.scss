@@ -14,25 +14,26 @@
     opacity: 50%;
 }
 
-#Staff1Bio {
-    display: none;
-    background-color: white;
-    box-shadow: inset 0px -3px 32px -20px #db74a7;
-    position:fixed;
-    top:70px;
-    width: 90%;
-    height: 75%;
-    z-index: 99999;
-    border-radius: 20px;}
-
-#closeButton {
+.closeButton {
     position: absolute;
     left: 1670px;
+    fill: currentColor;
 }
+
+#Staff1Bio, 
+#Staff2Bio, 
+#Staff3Bio, 
+#Staff4Bio,
+#Staff5Bio,
+#Staff6Bio {
+    @include StaffBio
+}
+
+
 
 .containerStaff1 {
     display: grid; 
-  grid-auto-columns: 1fr; 
+    grid-auto-columns: 1fr; 
   grid-auto-rows: 1fr; 
   grid-template-columns: 1fr 1fr; 
   grid-template-rows: 4.5fr; 
@@ -49,11 +50,127 @@
     grid-area: StaffBio;
 };
 
+.containerStaff2{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 4.5fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "Foto2 StaffBio2"; 
+}
+
+.Foto2 {
+    grid-area: Foto2;
+}
+
+.StaffBio2 {
+    grid-area: StaffBio2;
+}
+
+.containerStaff3{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 4.5fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "Foto3 StaffBio3"; 
+}
+
+.Foto3 {
+    grid-area: Foto3;
+}
+
+.StaffBio3 {
+    grid-area: StaffBio3;
+}
+
+.containerStaff4{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 4.5fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "Foto4 StaffBio4"; 
+}
+
+.Foto4 {
+    grid-area: Foto4;
+}
+
+.StaffBio4 {
+    grid-area: StaffBio4;
+}
+
+.containerStaff5{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 4.5fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "Foto5 StaffBio5"; 
+}
+
+.Foto5 {
+    grid-area: Foto5;
+}
+
+.StaffBio5 {
+    grid-area: StaffBio5;
+}
+
+.containerStaff6{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 4.5fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "Foto6 StaffBio6"; 
+}
+
+.Foto6 {
+    grid-area: Foto6;
+}
+
+.StaffBio6 {
+    grid-area: StaffBio6;
+}
+
+
+
 .bioPic {
     height: 100%;
     margin: 20px 90px;
     border-radius: 20px;
 }
+.bioPic2 {
+    height: 70%;
+    margin: 20px 90px;
+    border-radius: 20px;
+}
+
+.bioPic3 {
+    height: 90%;
+    margin: 20px 90px;
+    border-radius: 20px;
+}
+
+.bioPic4 {
+    height: 80%;
+    margin: 20px 90px;
+    border-radius: 20px;
+}
+
+
 .bioText  {
     font-family: 'Raleway', sans-serif;
     margin: 60px 20px;

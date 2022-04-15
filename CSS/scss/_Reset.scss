@@ -44,6 +44,17 @@
     height: 950px;
 }
 
+@mixin StaffBio {
+    display: none;
+    background-color: white;
+    box-shadow: inset 0px -3px 32px -20px #db74a7;
+    position:fixed;
+    top:70px;
+    width: 90%;
+    height: 75%;
+    z-index: 99999;
+    border-radius: 20px;}
+
 a { 
     text-decoration: none;
 }
