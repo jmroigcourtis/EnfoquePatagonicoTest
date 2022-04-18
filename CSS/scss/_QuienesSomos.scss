@@ -10,7 +10,6 @@
 
 .Fotos {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .TituloStaff {
@@ -28,7 +27,7 @@
     height: 225px;
     border-radius: 500px;
     background-color: rgb(255, 255, 255);
-    margin: 20px;
+    margin: 30px;
     animation: StartOpacityPicture 1s forwards;
 }
 
