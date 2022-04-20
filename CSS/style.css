@@ -192,17 +192,66 @@ h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 30px; }
 
+.misionBarra1 {
+  background: #66186c;
+  width: 29%;
+  height: 72px;
+  position: absolute;
+  z-index: 3;
+  left: 100px;
+  border-radius: 15px;
+  margin-top: 4px;
+  animation: showUpTitleSection 1.5s; }
+
+.misionBarra2 {
+  background: #a12078;
+  width: 29%;
+  height: 72px;
+  position: absolute;
+  z-index: 2;
+  left: 90px;
+  border-radius: 15px;
+  margin-top: 8px;
+  animation: showUpTitleSection 1s; }
+
+.misionBarra3 {
+  background: #b64a87;
+  width: 29%;
+  height: 72px;
+  position: absolute;
+  z-index: 0;
+  left: 80px;
+  border-radius: 15px;
+  margin-top: 12px;
+  animation: showUpTitleSection 0.5s; }
+
+@keyframes showUpTitleSection {
+  from {
+    opacity: 0%; }
+  to {
+    opacity: 100%; } }
+
 .TituloMision {
-  width: 100%; }
+  width: 100%;
+  position: relative;
+  margin-bottom: 16px;
+  z-index: 4; }
 
 .TituloMision h2 {
-  background: #003D4E;
+  background-color: #411E6F;
   width: 50%;
   height: 50%;
   color: white;
   border-radius: 15px;
+  animation: showUpTitleSection 2s;
+  width: 32%;
+  height: auto;
+  margin-left: 12px;
+  position: relative;
+  z-index: 4;
+  justify-content: space-around;
   font-size: 60px;
-  margin: 0 20px; }
+  font-family: 'Raleway', sans-serif; }
 
 .textBox {
   background: #f7f7f7;
@@ -210,6 +259,7 @@ h1 {
   width: 70%;
   margin: 20px 300px;
   height: 80%;
+  margin-top: 20px;
   border-radius: 20px;
   backdrop-filter: blur 50px;
   word-wrap: break-word;
@@ -217,12 +267,14 @@ h1 {
 
 .textQS {
   font-size: 30px;
-  opacity: 75%; }
-
-.textQS strong {
+  opacity: 75%;
   color: #333c83; }
 
-.textQS strong:nth-child(4) {
+.textQS span {
+  display: block;
+  margin-top: 14px; }
+
+strong {
   color: #b64a87; }
 
 .TituloMision {
@@ -237,22 +289,57 @@ h1 {
   height: 50%; }
 
 .TituloStaff {
-  background: #003D4E;
+  background-color: #411E6F;
   width: 50%;
   height: 50%;
   color: white;
   border-radius: 15px;
-  height: auto; }
+  width: 32%;
+  margin-left: 12px;
+  height: auto;
+  position: relative;
+  z-index: 4;
+  justify-content: space-around;
+  font-family: 'Raleway', sans-serif; }
+
+.staffBarra1 {
+  background: #66186c;
+  width: 29%;
+  height: 72px;
+  position: absolute;
+  z-index: 3;
+  left: 100px;
+  border-radius: 15px;
+  margin-top: 4px;
+  animation: showUpTitleSection 1.5s; }
+
+.staffBarra2 {
+  background: #a12078;
+  width: 29%;
+  height: 72px;
+  position: absolute;
+  z-index: 2;
+  left: 90px;
+  border-radius: 15px;
+  margin-top: 8px;
+  animation: showUpTitleSection 1s; }
+
+.staffBarra3 {
+  background: #b64a87;
+  width: 29%;
+  height: 72px;
+  position: absolute;
+  z-index: 0;
+  left: 80px;
+  border-radius: 15px;
+  margin-top: 12px;
+  animation: showUpTitleSection 0.5s; }
 
 .Fotos {
   display: flex; }
 
-.TituloStaff {
-  justify-content: space-around; }
-
 .TituloStaff h2 {
-  font-size: 60px;
-  margin: 0 10px; }
+  font-size: 60px; }
 
 .Staff {
   width: 225px;
@@ -304,6 +391,63 @@ h1 {
   to {
     opacity: 0%; } }
 
+#Avales {
+  background-color: #fcfcfc;
+  margin-top: 80px;
+  padding: 150px 100px;
+  width: auto;
+  height: 950px;
+  height: 400px; }
+
+.TituloAvales h2 {
+  background-color: #411E6F;
+  width: 50%;
+  height: 50%;
+  color: white;
+  border-radius: 15px;
+  animation: showUpTitleSection 2s;
+  width: 32%;
+  height: auto;
+  margin-top: 9px;
+  position: relative;
+  z-index: 4;
+  justify-content: space-around;
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif; }
+
+.avalesBarra1 {
+  background: #66186c;
+  width: 29%;
+  height: 70px;
+  position: absolute;
+  z-index: 3;
+  border-radius: 15px;
+  animation: showUpTitleSection 1.5s;
+  margin-top: 14px;
+  left: 90px; }
+
+.avalesBarra2 {
+  background: #a12078;
+  width: 29%;
+  height: 70px;
+  position: absolute;
+  z-index: 0;
+  border-radius: 15px;
+  animation: showUpTitleSection 1.5s;
+  left: 70px;
+  margin-top: 20px; }
+
+.avalesBarra3 {
+  background: #b64a87;
+  width: 29%;
+  height: 70px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 15px;
+  animation: showUpTitleSection 1.5s;
+  left: 80px;
+  margin-top: 17px; }
+
 #OfertaAcadémica {
   background-color: #fcfcfc;
   margin-top: 80px;
@@ -311,18 +455,74 @@ h1 {
   width: auto;
   height: 950px; }
 
+.TituloOferta {
+  height: 80px; }
+
+.TituloOferta h2 {
+  background-color: #411E6F;
+  width: 50%;
+  height: 50%;
+  color: white;
+  border-radius: 15px;
+  background-color: #411E6F;
+  width: 50%;
+  height: 65%;
+  color: white;
+  border-radius: 15px;
+  font-size: 60px;
+  width: 37%;
+  margin-left: -1px;
+  height: 69px;
+  position: relative;
+  z-index: 4;
+  justify-content: space-around;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 11px; }
+
+.ofertaBarra1 {
+  background: #66186c;
+  width: 33%;
+  height: 70px;
+  position: absolute;
+  z-index: 3;
+  border-radius: 15px;
+  animation: showUpTitleSection 1.5s;
+  margin-top: 14px;
+  left: 90px; }
+
+.ofertaBarra2 {
+  background: #a12078;
+  width: 33%;
+  height: 70px;
+  position: absolute;
+  z-index: 0;
+  border-radius: 15px;
+  animation: showUpTitleSection 1.5s;
+  left: 70px;
+  margin-top: 20px; }
+
+.ofertaBarra3 {
+  background: #b64a87;
+  width: 33%;
+  height: 70px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 15px;
+  animation: showUpTitleSection 1.5s;
+  left: 80px;
+  margin-top: 17px; }
+
 .textBoxWidth {
   margin: 120;
   margin-top: 20px;
   height: 30%;
-  font-size: 20px;
   border-radius: 20px; }
 
 .carreras {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 100px; }
+  margin-top: 50px; }
 
 .order {
   width: 254px;
@@ -333,7 +533,7 @@ h1 {
 
 .order p {
   margin-top: 9px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
   color: white; }
 
@@ -343,8 +543,57 @@ h1 {
   padding: 150px 100px;
   width: auto;
   height: 950px;
-  padding: 100px 20px;
   height: 75%; }
+
+.TituloCompromiso {
+  background-color: #411E6F;
+  width: 50%;
+  height: 50%;
+  color: white;
+  border-radius: 15px;
+  width: 37%;
+  height: 70px;
+  position: relative;
+  z-index: 4;
+  margin-top: 10px; }
+
+.TituloCompromiso h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  margin-left: 5px; }
+
+.boxCompromiso1 {
+  background: #66186c;
+  width: 33%;
+  height: 70px;
+  position: absolute;
+  z-index: 3;
+  border-radius: 15px;
+  animation: showUpTitleSection 1.5s;
+  margin-top: 14px;
+  left: 90px; }
+
+.boxCompromiso2 {
+  background: #a12078;
+  width: 33%;
+  height: 70px;
+  position: absolute;
+  z-index: 0;
+  border-radius: 15px;
+  animation: showUpTitleSection 1.5s;
+  left: 70px;
+  margin-top: 20px; }
+
+.boxCompromiso3 {
+  background: #b64a87;
+  width: 33%;
+  height: 70px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 15px;
+  animation: showUpTitleSection 1.5s;
+  left: 80px;
+  margin-top: 17px; }
 
 .container {
   display: grid;
@@ -410,6 +659,57 @@ h1 {
   height: 950px;
   padding: 100px 20px;
   height: 75%; }
+
+.TituloServicios h2 {
+  background-color: #411E6F;
+  width: 50%;
+  height: 50%;
+  color: white;
+  border-radius: 15px;
+  background-color: #411E6F;
+  width: 34%;
+  color: white;
+  border-radius: 15px;
+  font-size: 60px;
+  margin-top: 11px;
+  margin-left: 78px;
+  height: 69px;
+  position: relative;
+  z-index: 4;
+  font-family: 'Raleway', sans-serif; }
+
+.serviciosBarra1 {
+  background: #66186c;
+  width: 33%;
+  height: 70px;
+  position: absolute;
+  z-index: 3;
+  border-radius: 15px;
+  animation: showUpTitleSection 1.5s;
+  margin-top: 14px;
+  left: 90px; }
+
+.serviciosBarra2 {
+  background: #a12078;
+  width: 33%;
+  height: 70px;
+  position: absolute;
+  z-index: 0;
+  border-radius: 15px;
+  animation: showUpTitleSection 1.5s;
+  left: 70px;
+  margin-top: 20px; }
+
+.serviciosBarra3 {
+  background: #b64a87;
+  width: 33%;
+  height: 70px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 15px;
+  animation: showUpTitleSection 1.5s;
+  left: 80px;
+  margin-top: 17px; }
 
 .containerServicios {
   display: grid;

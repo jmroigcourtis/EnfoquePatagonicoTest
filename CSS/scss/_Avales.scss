@@ -1,0 +1,35 @@
+#Avales {
+    @include SectionBlock;
+    height: 400px;
+}
+
+.TituloAvales h2 {
+    @include SectionTitle;
+    animation: showUpTitleSection 2s;
+    width: 32%;
+    height: auto;
+    margin-top: 9px;
+    position: relative;
+    z-index: 4;
+    justify-content: space-around;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.avalesBarra1 {
+    @include createBoxZIndex(#66186c, 29%, 70px, absolute, 3, 15px);
+    margin-top: 14px;
+    left: 90px;}
+  .avalesBarra2 {
+    @include createBoxZIndex(#a12078, 29%, 70px, absolute, 0, 15px); 
+    left: 70px;
+    margin-top: 20px;
+  }
+  
+  .avalesBarra3 {
+    @include createBoxZIndex(#b64a87, 29%, 70px, absolute, 1, 15px); 
+    left: 80px;
+    
+    margin-top: 17px;
+  }

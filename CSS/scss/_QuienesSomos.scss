@@ -5,20 +5,66 @@
 
 .TituloStaff {
     @include SectionTitle;
+    width: 32%;
+    margin-left: 12px;
     height: auto;
+    position: relative;
+    z-index: 4;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+
+
 }
+
+.staffBarra1 {
+    background: #66186c;
+    width: 29%;
+    height: 72px;
+    position: absolute;
+    z-index: 3;
+    left: 100px;
+    border-radius: 15px;
+    margin-top: 4px;
+    animation: showUpTitleSection 1.5s;
+
+}
+.staffBarra2 {
+    background: #a12078;
+    width: 29%;
+    height: 72px;
+    position: absolute;
+    z-index: 2;
+    left: 90px;
+    border-radius: 15px;
+    margin-top: 8px;
+    animation: showUpTitleSection 1s;
+
+
+
+}
+.staffBarra3 {
+    background: #b64a87;
+    width: 29%;
+    height: 72px;
+    position: absolute;
+    z-index: 0;
+    left: 80px;
+    border-radius: 15px;
+    margin-top: 12px;
+    animation: showUpTitleSection 0.5s;
+
+
+
+}
+
 
 .Fotos {
     display: flex;
 }
 
-.TituloStaff {
-    justify-content: space-around;
-}
 
 .TituloStaff h2 {
     font-size: 60px;
-    margin: 0 10px;
 }
 
 

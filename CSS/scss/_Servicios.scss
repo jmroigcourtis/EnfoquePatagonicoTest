@@ -5,6 +5,39 @@
 
 }
 
+.TituloServicios h2 {
+  @include SectionTitle;
+  background-color: #411E6F;
+  width: 34%;
+  color: white;
+  border-radius: 15px;
+  font-size: 60px;
+  margin-top: 11px;    
+  margin-left: 78px;
+  height: 69px;
+  position: relative;
+  z-index: 4;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.serviciosBarra1 {
+  @include createBoxZIndex(#66186c, 33%, 70px, absolute, 3, 15px);
+  margin-top: 14px;
+  left: 90px;}
+.serviciosBarra2 {
+  @include createBoxZIndex(#a12078, 33%, 70px, absolute, 0, 15px); 
+  left: 70px;
+  margin-top: 20px;
+}
+
+.serviciosBarra3 {
+  @include createBoxZIndex(#b64a87, 33%, 70px, absolute, 1, 15px); 
+  left: 80px;
+  
+  margin-top: 17px;
+}
+
 .containerServicios {  display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 1.6fr;

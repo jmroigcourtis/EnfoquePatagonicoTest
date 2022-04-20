@@ -1,8 +1,39 @@
 #CompromisoEnfoque {
     @include SectionBlock ;
-    padding: 100px 20px;
     height: 75%;
 
+}
+
+.TituloCompromiso {
+  @include SectionTitle;
+  width: 37%;
+  height: 70px;
+  position: relative;
+  z-index: 4;
+  margin-top: 10px;
+}
+
+.TituloCompromiso h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  margin-left: 5px;
+}
+
+.boxCompromiso1 {
+  @include createBoxZIndex(#66186c, 33%, 70px, absolute, 3, 15px);
+  margin-top: 14px;
+  left: 90px;}
+.boxCompromiso2 {
+  @include createBoxZIndex(#a12078, 33%, 70px, absolute, 0, 15px); 
+  left: 70px;
+  margin-top: 20px;
+}
+
+.boxCompromiso3 {
+  @include createBoxZIndex(#b64a87, 33%, 70px, absolute, 1, 15px); 
+  left: 80px;
+  
+  margin-top: 17px;
 }
 
 .container {  display: grid;
