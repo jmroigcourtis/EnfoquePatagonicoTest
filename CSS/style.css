@@ -1171,7 +1171,7 @@ p.FooterText {
   font-size: 30px;
   font-weight: bold; }
 
-@media (max-width: 1367px) {
+@media (max-width: 1368px) {
   #BarraNavegacion {
     background-color: white;
     padding: 5px 0;
@@ -1238,14 +1238,13 @@ p.FooterText {
   /*Avales QUERY*/
   .TituloAvales h2 {
     background-color: #411E6F;
-    width: 50%;
-    height: 50%;
     color: white;
     border-radius: 15px;
     animation: showUpTitleSection 2s;
     width: 34%;
     height: auto;
     margin-top: 9px;
+    padding: 0 10px;
     position: relative;
     z-index: 4;
     justify-content: space-around;
@@ -1269,6 +1268,9 @@ p.FooterText {
     position: relative;
     z-index: 4;
     justify-content: space-around; }
+  .TituloStaff h2 {
+    font-size: 60px;
+    padding: 0 10px; }
   #Staff1,
   #Staff2,
   #Staff3,
@@ -1287,7 +1289,7 @@ p.FooterText {
     font-size: 12px; }
   .Fotos {
     display: flex;
-    margin-top: 30px; }
+    margin-top: 80px; }
   .Staff {
     width: 275px;
     height: 170px;
@@ -1314,11 +1316,13 @@ p.FooterText {
   .boxCompromiso2,
   .boxCompromiso3 {
     width: 38%; }
+  .Expertos h2, .Cofidencialidad h2, .Feedback h2 {
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold; }
   /*Oferta académica Query*/
   .TituloOferta h2 {
     background-color: #411E6F;
-    width: 50%;
-    height: 50%;
     color: white;
     border-radius: 15px;
     background-color: #411E6F;
@@ -1329,21 +1333,21 @@ p.FooterText {
     height: 69px;
     margin-left: -2px;
     margin-top: 11px;
+    padding: 0 11px;
     position: relative;
     z-index: 4;
     justify-content: space-around; }
   .order {
     width: 183px;
-    height: 90px;
+    height: 73px;
     border-radius: 100px;
     background: #bf3393;
     margin: 0 6px; }
   .order p {
-    margin-top: 18px;
-    font-size: 16px;
+    margin-top: 15px;
+    font-size: 15px;
     font-weight: 500;
-    color: white;
-    padding: -19px; }
+    color: white; }
   /*Servicios QUERY*/
   .TituloServicios h2 {
     background-color: #411E6F;
