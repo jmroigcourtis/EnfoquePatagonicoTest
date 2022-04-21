@@ -1206,6 +1206,8 @@ p.FooterText {
     z-index: 3;
     height: 100px; }
   /*Misión QUERY*/
+  #Mision {
+    margin-top: -120px; }
   #Mision p {
     font-size: 24px; }
   .TituloMision h2 {
