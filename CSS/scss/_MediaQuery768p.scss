@@ -249,7 +249,7 @@
         padding: 0 10px;
       }
 
-      /*Coaching QUERY*/
+      /*Services QUERY*/
 
       #CoachingEq {
         background-color: #d795b6;
@@ -266,12 +266,20 @@
         height: 72px;
       }
 
+      #CoachingOrgBox {
+          height: 61%;
+      }
+
       #CoachingEj {
         background-color: #a12078;
         border-radius: 5px;
         width: 15%;
         height: 72px;
         margin: 0 20px;
+      }
+
+      #CoachingEjBox {
+          height: 62%;
       }
 
       #Softskills {
@@ -282,6 +290,10 @@
         margin: 0 20px;      
     }
 
+    #CoachingSoftBox {
+        width: 70%;
+    }
+
       #CoachingEq h2, #CoachingOrg h2, #CoachingEj h2, #Softskills h2 {
         margin-left: 10px;
         font-size: 26px;
@@ -289,4 +301,114 @@
         width: 103%;
       }
 
+      /*Services-zIndex QUERY*/ 
+
+      .serviceTitle {
+        color: white;
+        background-color: #d795b6;
+        font-weight: 600;
+        font-size: 32px;
+        width: 78%;
+        margin-top: 40px;
+        padding: 2px 5px;
+      }
+
+      .servicePic img {
+        height: 500px;
+        margin: 40px;
+      }
+
+      .serviceText p {
+        font-family: 'Raleway', sans-serif;
+        margin: 60px 20px;
+        font-weight: lighter;
+        font-size: 25px;
+        opacity: 60%;
+        font-size: 23px;
+        margin: 35px auto;
+        width: 130%;
+        line-height: 1.8;
+      }
+
+      .servicePicOrg img {
+        height: 370px;
+        margin-top: 60px;
+        margin-left: 40px;
+      }
+
+      .serviceTitleOrg {
+        color: white;
+        background-color: #d795b6;
+        font-weight: 600;
+        font-size: 29px;
+        width: 72%;
+        margin-top: 60px;
+        margin-left: 20px;
+        padding: 2px 4px;
+      }
+
+      .serviceTextOrg p {
+        font-family: 'Raleway', sans-serif;
+        margin: 60px 20px;
+          margin-top: 60px;
+        font-weight: lighter;
+        font-size: 18px;
+        opacity: 60%;
+        grid-area: serviceTextOrg;
+        margin-top: 42px;
+        line-height: 1.8;
+      }
+
+      .servicePicEj img {
+        height: 378px;
+        margin-top: 60px;
+        margin-left: 40px;
+      }
+
+      .serviceTitleEj {
+        color: white;
+        background-color: #d795b6;
+        font-weight: 600;
+        font-size: 27px;
+        width: 56%;
+        margin-top: 60px;
+        margin-left: 10px;
+        padding: 2px 4px;
+      }
+
+      .serviceTextEj p {
+        font-family: 'Raleway', sans-serif;
+        margin: 10px;
+        font-weight: lighter;
+        font-size: 19px;
+        opacity: 60%;
+        line-height: 1.8;
+      }
+
+      .servicePicSoft img {
+        height: 485px;
+        margin-top: 60px;
+        margin-left: 40px;
+      }
+
+      .serviceTitleSoft {
+        color: white;
+        background-color: #d795b6;
+        font-weight: 600;
+        font-size: 23px;
+        width: 78%;
+        margin-top: 60px;
+        margin-left: 21px;        
+        padding: 2px;
+        
+      }
+
+      .serviceTextSoft p {
+        font-family: 'Raleway', sans-serif;
+        margin: 60px 20px;
+        margin-right: 20px;
+        font-weight: lighter;
+        font-size: 19px;
+        opacity: 60%;
+      }
 }
