@@ -655,8 +655,9 @@ strong {
 .Expertos h2,
 .Cofidencialidad h2,
 .Feedback h2 {
-  margin-left: 20px;
-  color: white; }
+  padding: 5px;
+  color: white;
+  font-weight: bold; }
 
 #NuestrosServicios {
   background-color: #fcfcfc;
@@ -912,8 +913,7 @@ strong {
   margin: 60px 20px;
   font-weight: lighter;
   font-size: 25px;
-  opacity: 60%;
-  line-height: 1.8; }
+  opacity: 60%; }
 
 .serviceTitleSoft {
   color: white;

@@ -8,18 +8,21 @@ const Scroll = (id1, id2) => {
 }
 
 const ScrollInicio = document.getElementById("InicioBtn")
-ScrollInicio.addEventListener('click', Scroll('#InicioBtn', '#Home'))
+ScrollInicio.addEventListener('click', Scroll('#InicioBtn', '#'))
 
 
 const ScrollQuienesSomos = document.getElementById("QuienesSomosBtn")
 ScrollQuienesSomos.addEventListener('click', Scroll('#QuienesSomosBtn', '#QuienesSomos'))
 
 
-const ScrollConvenios = document.getElementById("ConveniosBtn")
-ScrollConvenios.addEventListener('click', Scroll('#ConveniosBtn', '#Convenio'))
+const ScrollCompromiso = document.getElementById("CompromisoBtn")
+ScrollCompromiso.addEventListener('click', Scroll('#CompromisoBtn', '#CompromisoEnfoque'))
+
+const ScrollServicios = document.getElementById("ServiciosBtn")
+ScrollServicios.addEventListener('click', Scroll('#ServiciosBtn', '#NuestrosServicios'))
 
 const ScrollOferta = document.getElementById("OfertaBtn")
-ScrollOferta.addEventListener('click', Scroll('#OfertaBtn', '#Oferta'))
+ScrollOferta.addEventListener('click', Scroll('#OfertaBtn', '#OfertaAcadémica'))
 
 
 const ScrollContacto = document.getElementById("ContactoBtn")
@@ -35,9 +38,10 @@ const fadeInOut  = (element, distanceFromTop, fadeInTimer, fadeOutTimer) => {
 
 
 function fadeInOutWhatsapp () {
-    fadeInOut("#whatsapp", 200, 700, 700)
+    fadeInOut("#whatsapp", 100, 700, 700)
 }
 
 
 fadeInOutWhatsapp()
+
 

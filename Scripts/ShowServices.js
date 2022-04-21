@@ -31,5 +31,5 @@ hideCoachingEj.addEventListener('click', HideService('.closeButton', '#CoachingE
 const showCoachingSoft = document.getElementById("softButton")
 showCoachingSoft.addEventListener('click', ShowService('#softButton', '#CoachingSoftBox'))
 
-const hideCoachingSoft = document.getElementById("CoachingEjBox")
-hideCoachingSoft.addEventListener('click', HideService('.closeButton', '#CoachingEjBox'))
+const hideCoachingSoft = document.getElementById("CoachingSoftBox")
+hideCoachingSoft.addEventListener('click', HideService('.closeButton', '#CoachingSoftBox'))
