@@ -1171,13 +1171,13 @@ p.FooterText {
   font-size: 30px;
   font-weight: bold; }
 
-@media (max-width: 1366px) {
+@media (max-width: 1367px) {
   #BarraNavegacion {
     background-color: white;
     padding: 5px 0;
     max-width: 100%; }
   svg {
-    height: 25px; }
+    height: 20px; }
   p.h5 {
     font-family: 'Raleway', sans-serif;
     color: #6C1572;
