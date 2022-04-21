@@ -135,9 +135,9 @@ width: 80%;
   background-color: #d795b6; 
   font-weight: 600;
   font-size: 40px;
-  width: 75%;
+  width: 68%;
   margin-top: 40px;
-  padding: 2px;
+  padding: 2px 5px;
 }
 
 .containerCoachingOrg{
@@ -170,10 +170,10 @@ width: 80%;
   background-color: #d795b6; 
   font-weight: 600;
   font-size: 40px;
-  width: 75%;
+  width: 72%;
   margin-top: 60px;
   margin-left: 20px;
-  padding: 2px;
+  padding: 2px 4px;
 
 }
 
@@ -204,6 +204,18 @@ width: 80%;
 .serviceTextEj p {
   @include textInsideBox;
   line-height: 1.8;
+}
+
+.serviceTitleEj {
+  color: white;
+  background-color: #d795b6; 
+  font-weight: 600;
+  font-size: 40px;
+  width: 56%;
+  margin-top: 60px;
+  margin-left: 20px;
+  padding: 2px 4px;
+
 }
 
 .containerCoachingSoft{
@@ -237,7 +249,7 @@ width: 80%;
   background-color: #d795b6; 
   font-weight: 600;
   font-size: 40px;
-  width: 90%;
+  width: 83%;
   margin-top: 60px;
   margin-left: 20px;
   padding: 2px;
