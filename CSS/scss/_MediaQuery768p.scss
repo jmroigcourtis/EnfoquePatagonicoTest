@@ -237,20 +237,16 @@
 
       .TituloServicios h2 {
         background-color: #411E6F;
-        width: 50%;
-        height: 50%;
-        color: white;
         border-radius: 15px;
-        background-color: #411E6F;
+        color: white;
         width: 34%;
-        color: white;
-        border-radius: 15px;
+        height: 69px;
         font-size: 47px;
         margin-top: 11px;
         margin-left: 78px;
-        height: 69px;
         position: relative;
         z-index: 4;
+        padding: 0 10px;
       }
 
       /*Coaching QUERY*/
@@ -281,10 +277,10 @@
       #Softskills {
         background-color: #791559;
         border-radius: 5px;
-        height: 71px;
-        width: 24%;
-        margin: 0 20px;
-      }
+        height: 70px;
+        width: 22%;
+        margin: 0 20px;      
+    }
 
       #CoachingEq h2, #CoachingOrg h2, #CoachingEj h2, #Softskills h2 {
         margin-left: 10px;
