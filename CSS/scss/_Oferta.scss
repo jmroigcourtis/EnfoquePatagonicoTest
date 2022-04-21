@@ -9,19 +9,16 @@
 .TituloOferta h2 {
     @include SectionTitle;
     background-color: #411E6F;
-    width: 50%;
-    height: 65%;
-    color: white;
     border-radius: 15px;
+    color: white;
     font-size: 60px;
     width: 37%;
-    margin-left: -1px;
     height: 69px;
+    margin-left: -1px;
+    margin-top: 11px;    
     position: relative;
     z-index: 4;
     justify-content: space-around;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 11px;    
 }
 
 .ofertaBarra1 {
@@ -30,15 +27,15 @@
     left: 90px;}
   .ofertaBarra2 {
     @include createBoxZIndex(#a12078, 33%, 70px, absolute, 0, 15px); 
-    left: 70px;
     margin-top: 20px;
+    left: 70px;
   }
   
   .ofertaBarra3 {
     @include createBoxZIndex(#b64a87, 33%, 70px, absolute, 1, 15px); 
+    margin-top: 17px;
     left: 80px;
     
-    margin-top: 17px;
   }
   
 
@@ -59,17 +56,22 @@
 }
 
 .order{
-    width: 254px;
-    height: 85px;
+    width: 240px;
+    height: 85px;    
     border-radius: 100px;
     background: #bf3393;
     margin: 42px;
 }
 
 .order p {
-    margin-top: 9px;
-    font-size: 15px;
+    margin-top: 15px;
+    font-size: 20px;
     font-weight: 500;
     color: white;
+    padding: 0 10px;
 }
 
+.textQS {
+    line-height: 1.5;
+    font-size: 30px;
+}

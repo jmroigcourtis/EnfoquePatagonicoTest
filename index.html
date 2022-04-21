@@ -115,7 +115,7 @@
     <div class="misionBarra1"></div>
     <div class="misionBarra2"></div>
     <div class="misionBarra3"></div>
-    <div class="d-flex TituloMision">
+    <div class="TituloMision">
       <h2 class="shadow">Quiénes somos</h2>
     </div>
     <div class="textBox shadow wow animate__animated animate__fadeInLeft animate_slow">
@@ -138,6 +138,11 @@
 
     <div class="TituloAvales">
       <h2>Avales</h2>
+    </div>
+
+    <div class="boxLogo">
+      <img class="aacopLogo" src="./CSS/scss/Imagenes/Logo/Logo AACOP-03.png">
+      <img class="ficopLogo" src="./CSS/scss/Imagenes/Logo/FICOP.png">
     </div>
 
   </section>
@@ -359,33 +364,32 @@
     <div class="textBoxWidth wow animate__animated animate__fadeIn animate_slow">
       <p class="textQS wow p-3 animate__animated animate__fadeIn animate__delay"><em>
         Nuestra formación tiene una duración de dos años y está dirigida a aquellas personas que quieran convertirse en coaches ontológicos profesionales.
-        La escuela ofrece un programa basado en la integración de diversas prácticas y conocimientos. Así, contamos con diferentes servicios para estimular y acompañar el desarrollo profesional. Ellos son: 
+        La escuela ofrece un programa basado en la integración de diversas prácticas y conocimientos.<br> Así, contamos con diferentes servicios para estimular y acompañar el desarrollo profesional. Ellos son: 
       </em>
     </p>
 
       <div class="carreras">
-        <div class="order wow animate__animated animate__fadeIn shadow text-center"><p>Procesos de PNL e inteligencia emocional</p>
+        <div class="order shadow wow animate__animated animate__fadeIn shadow text-center"><p>Procesos de PNL e inteligencia emocional</p>
         </div>
-        <div class="order wow animate__animated animate__fadeIn shadow text-center"><p>Procesos de gestión del Stress
+        <div class="order shadow wow animate__animated animate__fadeIn shadow text-center"><p>Procesos de gestión del Stress
         </p>
         </div>
-        <div class="order wow animate__animated animate__fadeIn shadow text-center"><p>Consultoría sistémica organizacional
+        <div class="order shadow wow animate__animated animate__fadeIn shadow text-center"><p class="mt-4">Procesos de innovación</p>
+        </div>
+        <div class="order shadow wow animate__animated animate__fadeIn shadow text-center"><p>Consultoría sistémica organizacional
 
         </p>
         </div>
-        <div class="order wow animate__animated animate__fadeIn shadow text-center"><p>Procesos de innovación</p>
-        </div>
-        <div class="order wow animate__animated animate__fadeIn shadow text-center"><p>Desarrollo del trabajo colaborativo</p>
+        <div class="order shadow wow animate__animated animate__fadeIn shadow text-center"><p>Desarrollo del trabajo colaborativo</p>
         </div>
       </div>
       <div class="textBoxWidth wow animate__animated animate__fadeIn animate_slow">
-        <p class="p-3 textDesarrollo animate__animated animate__fadeIn animate__delay-2s animate__slow"><em>
+        <p class="p-3 textQS animate__animated animate__fadeIn animate__delay-2s animate__slow"><em>
           Se desarrolla un estilo especial de conversación que prioriza la pregunta y procura, en un contexto de responsabilidad y reflexión, evocar las respuestas en el coachee.
           Además, se hace hincapié en la elección, el poder como capacidad de acción y la superación del coachee.
           </em>
-      </p>
-        
-    </div>
+        </p>
+      </div>
 
 
   </section>
@@ -400,42 +404,98 @@
       <h2 class="shadow-sm">Nuestros servicios</h2>
 
     </div>
-      <div class="containerServicios mt-5">
-        <div class="CoachingEq wow animate__animated animate__fadeIn animate__delay-1s shadow"><h2>Coaching de equipos</h2></div>
-        <div class="CoachingOrg wow animate__animated animate__fadeIn animate__delay-1s shadow"><h2>Coaching organizaciónal</h2></div>
-        <div class="CoachingEj wow animate__animated animate__fadeIn animate__delay-1s shadow"><h2>Coaching ejecutivo</h2></div>
-        <div class="Softskills wow animate__animated animate__fadeIn animate__delay-1s shadow"><h2>Habilidades blandas / Soft skills</h2></div>
+      <div class="serviciosBox mt-5">
+        <div id="CoachingEq" class="wow animate__animated animate__fadeIn animate__delay-1s shadow">
+          <a id="eqButton"><h2>Coaching de equipos</h2></a>
+        </div>
+        <div id="CoachingOrg" class="wow animate__animated animate__fadeIn animate__delay-1s shadow">
+          <a id="orgButton"><h2>Coaching organizaciónal</h2></a>
+        </div>
+        <div id="CoachingEj" class="wow animate__animated animate__fadeIn animate__delay-1s shadow">
+          <a id="ejButton"><h2>Coaching ejecutivo</h2></a>
+        </div>
+        <div id="Softskills" class="wow animate__animated animate__fadeIn animate__delay-1s shadow">
+          <a id="softButton"><h2>Habilidades blandas / Soft skills</h2></a>
+        </div>
 
-        <div class="CoachingEqText shadow wow animate__animated animate__fadeIn animate__delay-2s  ">
-          <p class="wow animate__animated animate__fadeIn animate__delay-2s">
-            El coaching de equipo tiene como objetivo trabajar las aptitudes del grupo de trabajo como conjunto.
-            Los equipos laborales son una pieza imprescindible, tan necesarios como los individuos que los conforman.
-            La figura del coach tiene como función apoyar y guiar al equipo: enseña las herramientas correctas para que los grupos de trabajo alcancen resultados extraordinarios y cumplan los objetivos asignados de manera más eficiente, sustentable y armoniosa.
+        <div id="CoachingEqBox" class="animate__animated animate__fadeIn">
+          <div class="containerCoachingEq">
+              <svg class="closeButton" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-x-lg m-2" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+              </svg>
+              <div class="servicePic">
+                <img src="./CSS/scss/Imagenes/FotosServicios/close-up-on-people-working-in-the-office.jpg">
+              </div>
+              <div class="serviceText">
+                <h2 class="serviceTitle">Coaching de Equipos</h2>
+                <p>El coaching de equipo tiene como objetivo trabajar las aptitudes del grupo de trabajo como conjunto.<br>
+                  Los equipos laborales son una pieza imprescindible, tan necesarios como los individuos que los conforman.<br>
+                  La figura del coach tiene como función apoyar y guiar al equipo: enseña las herramientas correctas para que los grupos de trabajo alcancen resultados extraordinarios y cumplan los objetivos asignados de manera más eficiente, sustentable y armoniosa.
+                  
+                </p>
+              </div>
+          </div>
+        </div>
+        <div id="CoachingOrgBox" class="animate__animated animate__fadeIn">
+          <div class="containerCoachingOrg">
+              <svg class="closeButton" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-x-lg m-2" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+              </svg>
+              <div class="servicePicOrg">
+                <img src="./CSS/scss/Imagenes/FotosServicios/DiaCoach.jpg">
+              </div>
+              <div class="serviceTextOrg">
+                <h2 class="serviceTitleOrg">Coaching organizacional</h2>
+                <p>El coaching de equipo tiene como objetivo trabajar las aptitudes del grupo de trabajo como conjunto.<br>
+                  Los equipos laborales son una pieza imprescindible, tan necesarios como los individuos que los conforman.<br>
+                  La figura del coach tiene como función apoyar y guiar al equipo: enseña las herramientas correctas para que los grupos de trabajo alcancen resultados extraordinarios y cumplan los objetivos asignados de manera más eficiente, sustentable y armoniosa.
+                </p>
+              </div>
+          </div>
+        </div>
+        <div id="CoachingEjBox" class="animate__animated animate__fadeIn">
+          <div class="containerCoachingEj">
+              <svg class="closeButton" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-x-lg m-2" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+              </svg>
+              <div class="servicePicEj">
+                <img src="./CSS/scss/Imagenes/FotosServicios/FotoPos.jpg">
+              </div>
+              <div class="serviceTextEj">
+                <h2 class="serviceTitleOrg">Coaching ejecutivo</h2>
+                <p>El coaching ejecutivo está orientado a la formación de líderes. Mediante sesiones de coaching individuales, el coachee recibe formación personalizada acorde a sus necesidades.<br>
+                  El foco se encuentra en  alinear los resultados del coachee con los de la organización a través de un cambio de observador. Así, el impacto del coaching ejecutivo se produce a nivel individual y se traduce en acciones y resultados que afectarán a colaboradores, pares y superiores.                   
+                </p>
+              </div>
+          </div>
+        </div>
 
-          </p>
+        <div id="CoachingSoftBox" class="animate__animated animate__fadeIn">
+          <div class="containerCoachingSoft">
+              <svg class="closeButton" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-x-lg m-2" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+              </svg>
+              <div class="servicePicSoft">
+                <img src="./CSS/scss/Imagenes/FotosServicios/pexels-fauxels-3184431.jpg">
+              </div>
+              <div class="serviceTextSoft">
+                <h2 class="serviceTitleSoft">Habilidades blandas / Soft Skills</h2>
+                <p>Proponemos una capacitación intensiva en habilidades blandas (“Soft”) con una metodología de Aprendizaje Experiencial. <br>
+                  Invitamos a vivir una experiencia de aprendizaje y reflexión, adoptando un rol activo que facilite integrar razón y emoción. <br>
+                  La misión de nuestro equipo facilitador es aportar las competencias en gestión y liderazgo para mejorar las relaciones interpersonales, comunicación efectiva, negociación y el manejo de conflictos que permitan a los participantes implementar buenas prácticas para lograr resultados satisfactorios y con un alto grado de bienestar.
+                              
+                </p>
+              </div>
+          </div>
         </div>
-        <div class="CoachingOrgText shadow  wow animate__animated animate__fadeIn animate__delay-2s ">
-          <p class="wow animate__animated animate__fadeIn animate__delay-3s  ">
-            La tarea fundamental del coaching organizacional es mantener siempre presente la misión de la organización. 
-            Todas las empresas tienen como último propósito al ser humano, ya sean lucrativas o no. 
-            Por eso, el coaching organizacional permite poner el foco en los objetivos que impactan en el bienestar social: son la guía, orientación y fundamento de los fines más inmediatos de una organización.
-          </p>
 
-        </div>
-        <div class="CoachingEjText shadow wow animate__animated animate__fadeIn animate__delay-2s ">
-          <p class="wow animate__animated animate__fadeIn animate__delay-4s  ">
-            El coaching ejecutivo está orientado a la formación de líderes. Mediante sesiones de coaching individuales, el coachee recibe formación personalizada acorde a sus necesidades.
-            El foco se encuentra en  alinear los resultados del coachee con los de la organización a través de un cambio de observador. Así, el impacto del coaching ejecutivo se produce a nivel individual y se traduce en acciones y resultados que afectarán a colaboradores, pares y superiores. 
-          </p>
-        </div>
-        <div class="SoftskillsText shadow wow animate__animated animate__fadeIn animate__delay-2s ">
-          <p class="wow animate__animated animate__fadeIn animate__delay-5s  ">
-            Proponemos una capacitación intensiva en habilidades blandas (“Soft”) con una metodología de Aprendizaje Experiencial. 
-            Invitamos a vivir una experiencia de aprendizaje y reflexión, adoptando un rol activo que facilite integrar razón y emoción. 
-            La misión de nuestro equipo facilitador es aportar las competencias en gestión y liderazgo para mejorar las relaciones interpersonales, comunicación efectiva, negociación y el manejo de conflictos que permitan a los participantes implementar buenas prácticas para lograr resultados satisfactorios y con un alto grado de bienestar.
-          </p>
-        </div>
       </div>
+
+
   </section>
   <section id="Contacto">
   </section>
@@ -458,6 +518,7 @@
     <!--SCRIPTS-->
     <script src="Scripts/Scroll.js"></script>
     <script src="Scripts/ShowBio.js"></script>
+    <script src="Scripts/ShowServices.js"></script>
     <script src="Scripts/wow.min.js"></script>
     <script>
       new WOW().init();

@@ -35,7 +35,7 @@ const fadeInOut  = (element, distanceFromTop, fadeInTimer, fadeOutTimer) => {
 
 
 function fadeInOutWhatsapp () {
-    fadeInOut("#whatsapp", 100, 700, 700)
+    fadeInOut("#whatsapp", 200, 700, 700)
 }
 
 

@@ -1,6 +1,6 @@
 #Avales {
     @include SectionBlock;
-    height: 400px;
+    height: 450px;
 }
 
 .TituloAvales h2 {
@@ -13,8 +13,6 @@
     z-index: 4;
     justify-content: space-around;
     font-size: 60px;
-    font-family: 'Raleway', sans-serif;
-
 }
 
 .avalesBarra1 {
@@ -32,4 +30,20 @@
     left: 80px;
     
     margin-top: 17px;
+  }
+
+
+.boxLogo {
+  display: flex;
+  justify-content: center;
+}
+
+  .aacopLogo {
+    height: 140px;
+    margin: auto;
+  }
+
+  .ficopLogo {
+    height: 140px;
+    margin: auto;
   }

@@ -17,8 +17,6 @@
   height: 69px;
   position: relative;
   z-index: 4;
-  font-family: 'Raleway', sans-serif;
-
 }
 
 .serviciosBarra1 {
@@ -38,89 +36,211 @@
   margin-top: 17px;
 }
 
-.containerServicios {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1.6fr;
-    grid-auto-columns: 1fr;
-    grid-auto-rows: 1fr;
-    gap: 6px 20px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "CoachingEq CoachingOrg CoachingEj Softskills"
-      "CoachingEqText CoachingOrgText CoachingEjText SoftskillsText";
+.serviciosBox {  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
   }
   
-  .CoachingEq { 
-      grid-area: CoachingEq; 
+  #CoachingEq { 
       background-color: #d795b6; 
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px;
-      height: 70px;
+      height: 90px;
+      border-radius: 5px;
+      width: 15%;
+      margin: 0 20px;
     }
   
-  .CoachingOrg { 
-      grid-area: CoachingOrg; 
+    #CoachingOrg { 
       background-color: #b64a87; 
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px;
-      height: 70px;
+      border-radius: 5px;
+      width: 15%;
+
+      height: 90px;
+      margin: 0 20px;
+
 
     }
   
-  .CoachingEj { 
-      grid-area: CoachingEj;
+    #CoachingEj { 
       background-color: #a12078; 
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px; 
-      height: 70px;
+      border-radius: 5px;
+      width: 15%;
+      height: 90px;
+      margin: 0 20px;
 
 }
 
   
-  .Softskills { 
-      grid-area: Softskills; 
+#Softskills { 
       background-color: #791559; 
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px;
-      height: 70px;
-
-
-    }
-  
-
-    
-    
-    .CoachingEqText { 
-      grid-area: CoachingEqText;
-      @include textBox
-      
-    }
-  
-  .CoachingOrgText { 
-      grid-area: CoachingOrgText;
-      @include textBox
+      border-radius: 5px;
+      height: 90px;
+      width: 21%;
+      margin: 0 20px;
 
     }
-  
-  .CoachingEjText {
-       grid-area: CoachingEjText; 
 
-       @include textBox
-
-    }
   
-  .SoftskillsText { 
-      grid-area: SoftskillsText; 
-      @include textBox
-
-    }
-  
-.CoachingEq h2, 
-.CoachingOrg h2,
-.CoachingEj h2,
-.Softskills h2 {
-    text-align: center;
-    font-size: 30px;
-    margin-top: 5px;
+#CoachingEq h2, 
+#CoachingOrg h2,
+#CoachingEj h2,
+#Softskills h2 {
+  margin-left: 10px;
+    font-size: 35px;
     color: white;
+    width: 92%;
+}
+
+#CoachingEqBox,
+#CoachingOrgBox,
+#CoachingEjBox,
+#CoachingSoftBox {
+@include StaffBio;
+width: 80%;
+}
+
+.containerCoachingEq{
+  @include gridBox;
+  grid-template-areas: 
+    "servicePic serviceText"; 
+    width: 80%;
+    border-radius: 15px;
+}
+
+.servicePic {
+  grid-area: servicePic;
+}
+
+.serviceText {
+  grid-area: serviceText;
+}
+
+
+
+.servicePic img{
+  height: 600px;
+  margin: 40px;
+}
+.serviceText p {
+  @include textInsideBox;
+  font-size: 30px;
+  margin: 35px auto;
+  width: 130%;
+  line-height: 1.8;
+}
+
+.serviceTitle {
+  color: white;
+  background-color: #d795b6; 
+  font-weight: 600;
+  font-size: 40px;
+  width: 75%;
+  margin-top: 40px;
+  padding: 2px;
+}
+
+.containerCoachingOrg{
+  @include gridBox;
+  grid-template-areas: 
+    "servicePicOrg serviceTextOrg"; 
+    width: 100%;
+    border-radius: 15px;
+}
+
+.servicePicOrg {
+  grid-area: servicePicOrg;
+}
+
+.servicePicOrg img {
+  height: 550px;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.serviceTextOrg p {
+  @include textInsideBox;
+  grid-area: serviceTextOrg;
+  margin-top: 42px;
+  line-height: 1.8;
+}
+
+.serviceTitleOrg {
+  color: white;
+  background-color: #d795b6; 
+  font-weight: 600;
+  font-size: 40px;
+  width: 75%;
+  margin-top: 60px;
+  margin-left: 20px;
+  padding: 2px;
+
+}
+
+
+
+.containerCoachingEj{
+  @include gridBox;
+  grid-template-areas: 
+    "servicePicEj serviceTextEj"; 
+    width: 100%;
+    border-radius: 15px;
+}
+
+.servicePicEj {
+  grid-area: servicePicEj;
+}
+
+.servicePicEj img {
+  height: 550px;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.serviceTextEj {
+  grid-area: serviceTextEj;
+}
+
+.serviceTextEj p {
+  @include textInsideBox;
+  line-height: 1.8;
+}
+
+.containerCoachingSoft{
+  @include gridBox;
+  grid-template-areas: 
+    "servicePicSoft serviceTextSoft"; 
+    width: 100%;
+    border-radius: 15px;
+}
+
+.servicePicSoft {
+  grid-area: servicePicSoft;
+}
+
+.servicePicSoft img {
+  height: 600px;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.serviceTextSoft {
+  grid-area: serviceTextSoft;
+}
+
+.serviceTextSoft p {
+  @include textInsideBox;
+  line-height: 1.8;
+}
+
+.serviceTitleSoft {
+  color: white;
+  background-color: #d795b6; 
+  font-weight: 600;
+  font-size: 40px;
+  width: 90%;
+  margin-top: 60px;
+  margin-left: 20px;
+  padding: 2px;
+
 }

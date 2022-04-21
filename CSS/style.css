@@ -17,7 +17,8 @@ a {
 
 body {
   background: white;
-  background: linear-gradient(180deg, white 0%, #d795b6 100%); }
+  background: linear-gradient(180deg, white 0%, #d795b6 100%);
+  font-family: 'Raleway', sans-serif; }
 
 .Logo {
   padding: 110px 0; }
@@ -185,11 +186,7 @@ h1 {
   width: auto;
   height: 950px; }
 
-#Mision h2 {
-  font-family: 'Raleway', sans-serif; }
-
 #Mision p {
-  font-family: 'Raleway', sans-serif;
   font-size: 30px; }
 
 .misionBarra1 {
@@ -250,8 +247,7 @@ h1 {
   position: relative;
   z-index: 4;
   justify-content: space-around;
-  font-size: 60px;
-  font-family: 'Raleway', sans-serif; }
+  font-size: 60px; }
 
 .textBox {
   background: #f7f7f7;
@@ -299,8 +295,7 @@ strong {
   height: auto;
   position: relative;
   z-index: 4;
-  justify-content: space-around;
-  font-family: 'Raleway', sans-serif; }
+  justify-content: space-around; }
 
 .staffBarra1 {
   background: #66186c;
@@ -397,7 +392,7 @@ strong {
   padding: 150px 100px;
   width: auto;
   height: 950px;
-  height: 400px; }
+  height: 450px; }
 
 .TituloAvales h2 {
   background-color: #411E6F;
@@ -412,8 +407,7 @@ strong {
   position: relative;
   z-index: 4;
   justify-content: space-around;
-  font-size: 60px;
-  font-family: 'Raleway', sans-serif; }
+  font-size: 60px; }
 
 .avalesBarra1 {
   background: #66186c;
@@ -448,6 +442,18 @@ strong {
   left: 80px;
   margin-top: 17px; }
 
+.boxLogo {
+  display: flex;
+  justify-content: center; }
+
+.aacopLogo {
+  height: 140px;
+  margin: auto; }
+
+.ficopLogo {
+  height: 140px;
+  margin: auto; }
+
 #OfertaAcadémica {
   background-color: #fcfcfc;
   margin-top: 80px;
@@ -465,19 +471,16 @@ strong {
   color: white;
   border-radius: 15px;
   background-color: #411E6F;
-  width: 50%;
-  height: 65%;
-  color: white;
   border-radius: 15px;
+  color: white;
   font-size: 60px;
   width: 37%;
-  margin-left: -1px;
   height: 69px;
+  margin-left: -1px;
+  margin-top: 11px;
   position: relative;
   z-index: 4;
-  justify-content: space-around;
-  font-family: 'Raleway', sans-serif;
-  margin-top: 11px; }
+  justify-content: space-around; }
 
 .ofertaBarra1 {
   background: #66186c;
@@ -498,8 +501,8 @@ strong {
   z-index: 0;
   border-radius: 15px;
   animation: showUpTitleSection 1.5s;
-  left: 70px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  left: 70px; }
 
 .ofertaBarra3 {
   background: #b64a87;
@@ -509,8 +512,8 @@ strong {
   z-index: 1;
   border-radius: 15px;
   animation: showUpTitleSection 1.5s;
-  left: 80px;
-  margin-top: 17px; }
+  margin-top: 17px;
+  left: 80px; }
 
 .textBoxWidth {
   margin: 120;
@@ -525,17 +528,22 @@ strong {
   margin-top: 50px; }
 
 .order {
-  width: 254px;
+  width: 240px;
   height: 85px;
   border-radius: 100px;
   background: #bf3393;
   margin: 42px; }
 
 .order p {
-  margin-top: 9px;
-  font-size: 15px;
+  margin-top: 15px;
+  font-size: 20px;
   font-weight: 500;
-  color: white; }
+  color: white;
+  padding: 0 10px; }
+
+.textQS {
+  line-height: 1.5;
+  font-size: 30px; }
 
 #CompromisoEnfoque {
   background-color: #fcfcfc;
@@ -558,7 +566,6 @@ strong {
   margin-top: 10px; }
 
 .TituloCompromiso h2 {
-  font-family: 'Raleway', sans-serif;
   font-size: 60px;
   margin-left: 5px; }
 
@@ -675,8 +682,7 @@ strong {
   margin-left: 78px;
   height: 69px;
   position: relative;
-  z-index: 4;
-  font-family: 'Raleway', sans-serif; }
+  z-index: 4; }
 
 .serviciosBarra1 {
   background: #66186c;
@@ -711,84 +717,213 @@ strong {
   left: 80px;
   margin-top: 17px; }
 
-.containerServicios {
+.serviciosBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%; }
+
+#CoachingEq {
+  background-color: #d795b6;
+  height: 90px;
+  border-radius: 5px;
+  width: 15%;
+  margin: 0 20px; }
+
+#CoachingOrg {
+  background-color: #b64a87;
+  border-radius: 5px;
+  width: 15%;
+  height: 90px;
+  margin: 0 20px; }
+
+#CoachingEj {
+  background-color: #a12078;
+  border-radius: 5px;
+  width: 15%;
+  height: 90px;
+  margin: 0 20px; }
+
+#Softskills {
+  background-color: #791559;
+  border-radius: 5px;
+  height: 90px;
+  width: 21%;
+  margin: 0 20px; }
+
+#CoachingEq h2,
+#CoachingOrg h2,
+#CoachingEj h2,
+#Softskills h2 {
+  margin-left: 10px;
+  font-size: 35px;
+  color: white;
+  width: 92%; }
+
+#CoachingEqBox,
+#CoachingOrgBox,
+#CoachingEjBox,
+#CoachingSoftBox {
+  display: none;
+  background-color: white;
+  box-shadow: inset 0px -3px 32px -20px #db74a7;
+  position: fixed;
+  top: 70px;
+  width: 90%;
+  height: 75%;
+  z-index: 99999;
+  border-radius: 20px;
+  width: 80%; }
+
+.containerCoachingEq {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 1.6fr;
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;
-  gap: 6px 20px;
-  grid-auto-flow: row;
-  grid-template-areas: "CoachingEq CoachingOrg CoachingEj Softskills" "CoachingEqText CoachingOrgText CoachingEjText SoftskillsText"; }
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4.5fr;
+  gap: 0px 0px;
+  grid-template-areas: "servicePic serviceText";
+  width: 80%;
+  border-radius: 15px; }
 
-.CoachingEq {
-  grid-area: CoachingEq;
-  background-color: #d795b6;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  height: 70px; }
+.servicePic {
+  grid-area: servicePic; }
 
-.CoachingOrg {
-  grid-area: CoachingOrg;
-  background-color: #b64a87;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  height: 70px; }
+.serviceText {
+  grid-area: serviceText; }
 
-.CoachingEj {
-  grid-area: CoachingEj;
-  background-color: #a12078;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  height: 70px; }
+.servicePic img {
+  height: 600px;
+  margin: 40px; }
 
-.Softskills {
-  grid-area: Softskills;
-  background-color: #791559;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  height: 70px; }
-
-.CoachingEqText {
-  grid-area: CoachingEqText;
-  opacity: 75%;
-  padding: 10px;
-  font-size: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px; }
-
-.CoachingOrgText {
-  grid-area: CoachingOrgText;
-  opacity: 75%;
-  padding: 10px;
-  font-size: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px; }
-
-.CoachingEjText {
-  grid-area: CoachingEjText;
-  opacity: 75%;
-  padding: 10px;
-  font-size: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px; }
-
-.SoftskillsText {
-  grid-area: SoftskillsText;
-  opacity: 75%;
-  padding: 10px;
-  font-size: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px; }
-
-.CoachingEq h2,
-.CoachingOrg h2,
-.CoachingEj h2,
-.Softskills h2 {
-  text-align: center;
+.serviceText p {
+  font-family: 'Raleway', sans-serif;
+  margin: 60px 20px;
+  font-weight: lighter;
+  font-size: 25px;
+  opacity: 60%;
   font-size: 30px;
-  margin-top: 5px;
-  color: white; }
+  margin: 35px auto;
+  width: 130%;
+  line-height: 1.8; }
+
+.serviceTitle {
+  color: white;
+  background-color: #d795b6;
+  font-weight: 600;
+  font-size: 40px;
+  width: 75%;
+  margin-top: 40px;
+  padding: 2px; }
+
+.containerCoachingOrg {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4.5fr;
+  gap: 0px 0px;
+  grid-template-areas: "servicePicOrg serviceTextOrg";
+  width: 100%;
+  border-radius: 15px; }
+
+.servicePicOrg {
+  grid-area: servicePicOrg; }
+
+.servicePicOrg img {
+  height: 550px;
+  margin-top: 60px;
+  margin-left: 40px; }
+
+.serviceTextOrg p {
+  font-family: 'Raleway', sans-serif;
+  margin: 60px 20px;
+  font-weight: lighter;
+  font-size: 25px;
+  opacity: 60%;
+  grid-area: serviceTextOrg;
+  margin-top: 42px;
+  line-height: 1.8; }
+
+.serviceTitleOrg {
+  color: white;
+  background-color: #d795b6;
+  font-weight: 600;
+  font-size: 40px;
+  width: 75%;
+  margin-top: 60px;
+  margin-left: 20px;
+  padding: 2px; }
+
+.containerCoachingEj {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4.5fr;
+  gap: 0px 0px;
+  grid-template-areas: "servicePicEj serviceTextEj";
+  width: 100%;
+  border-radius: 15px; }
+
+.servicePicEj {
+  grid-area: servicePicEj; }
+
+.servicePicEj img {
+  height: 550px;
+  margin-top: 60px;
+  margin-left: 40px; }
+
+.serviceTextEj {
+  grid-area: serviceTextEj; }
+
+.serviceTextEj p {
+  font-family: 'Raleway', sans-serif;
+  margin: 60px 20px;
+  font-weight: lighter;
+  font-size: 25px;
+  opacity: 60%;
+  line-height: 1.8; }
+
+.containerCoachingSoft {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4.5fr;
+  gap: 0px 0px;
+  grid-template-areas: "servicePicSoft serviceTextSoft";
+  width: 100%;
+  border-radius: 15px; }
+
+.servicePicSoft {
+  grid-area: servicePicSoft; }
+
+.servicePicSoft img {
+  height: 600px;
+  margin-top: 60px;
+  margin-left: 40px; }
+
+.serviceTextSoft {
+  grid-area: serviceTextSoft; }
+
+.serviceTextSoft p {
+  font-family: 'Raleway', sans-serif;
+  margin: 60px 20px;
+  font-weight: lighter;
+  font-size: 25px;
+  opacity: 60%;
+  line-height: 1.8; }
+
+.serviceTitleSoft {
+  color: white;
+  background-color: #d795b6;
+  font-weight: 600;
+  font-size: 40px;
+  width: 90%;
+  margin-top: 60px;
+  margin-left: 20px;
+  padding: 2px; }
 
 #carousel {
   width: 500px;
@@ -813,8 +948,18 @@ strong {
 
 .closeButton {
   position: absolute;
-  left: 1670px;
-  fill: currentColor; }
+  right: 20px;
+  top: 20px;
+  color: #db74a7; }
+
+.closeButton:hover {
+  animation: scaleCloseButton 0.5s forwards; }
+
+@keyframes scaleCloseButton {
+  from {
+    transform: scale(1); }
+  to {
+    transform: scale(1.2); } }
 
 #Staff1Bio,
 #Staff2Bio,
