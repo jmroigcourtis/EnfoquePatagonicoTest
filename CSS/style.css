@@ -1176,6 +1176,12 @@ p.FooterText {
     background-color: white;
     padding: 5px 0;
     max-width: 100%; }
+  .nav-link {
+    display: block;
+    padding: 0 5px;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
   svg {
     height: 20px; }
   p.h5 {
