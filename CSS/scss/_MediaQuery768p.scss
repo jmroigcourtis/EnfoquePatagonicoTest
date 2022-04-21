@@ -1,0 +1,265 @@
+@media (max-width: 1366px) {
+
+    #BarraNavegacion {
+        background-color: white;
+        padding: 5px 0;
+        max-width: 100%;
+      }
+
+      svg {
+          height: 25px;
+      }
+
+    p.h5 {
+        font-family: 'Raleway', sans-serif;
+        color: #6C1572;
+        color: #B64A87;
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 600;
+        position: relative;
+        margin: 0 20px;
+        animation: EndNavAnimation 0.5s;
+      }
+
+          /*Misión QUERY*/
+
+    #Mision p {
+        font-size: 24px;
+    }
+
+    .TituloMision h2 {
+        position: relative;
+        background-color: #411E6F;
+        border-radius: 15px;
+        color: white;
+        font-size: 48px;
+        animation: showUpTitleSection 2s;
+        width: 35%;
+        height: 70px;
+        z-index: 4;
+        padding: 4px;
+        margin-left: 7px;
+      }
+
+      .textBox {
+        background: #f7f7f7;
+        color: #565555;
+        width: 76%;
+        margin: 20px 300px;
+        margin-top: 20px;
+        height: 85%;
+        margin-top: 20px;
+        border-radius: 20px;
+        backdrop-filter: blur 50px;
+        word-wrap: break-word;
+        z-index: 3;
+      }
+
+      .textQS {
+        line-height: 1.5;
+        font-size: 25px;
+      }
+
+
+      /*Avales QUERY*/
+
+      .TituloAvales h2 {
+        background-color: #411E6F;
+        width: 50%;
+        height: 50%;
+        color: white;
+        border-radius: 15px;
+        animation: showUpTitleSection 2s;
+        width: 34%;
+        height: auto;
+        margin-top: 9px;
+        position: relative;
+        z-index: 4;
+        justify-content: space-around;
+        font-size: 60px;
+      }
+
+      .aacopLogo {
+        height: 100px;
+        margin: 20px auto;
+      }
+
+      .ficopLogo {
+        height: 100px;
+        margin: 20px auto;
+      }
+
+      /*Staff Query*/
+
+
+      .TituloStaff {
+        background-color: #411E6F;
+        width: 50%;
+        height: 50%;
+        color: white;
+        border-radius: 15px;
+        width: 34%;
+        margin-left: 12px;
+        height: auto;
+        position: relative;
+        z-index: 4;
+        justify-content: space-around;
+      }
+
+      #Staff1, 
+      #Staff2, 
+      #Staff3, 
+      #Staff4, 
+      #Staff5, 
+      #Staff6 {
+        margin: 0 6px;
+      }
+
+      #Staff1 p:last-of-type, 
+      #Staff2 p:last-of-type, 
+      #Staff3 p:last-of-type,
+      #Staff4 p:last-of-type, 
+      #Staff5 p:last-of-type, 
+      #Staff6 p:last-of-type {
+        color: gray;
+        opacity: 80%;
+        font-size: 12px;
+      }
+
+      .Fotos {
+          display: flex;
+          margin-top: 30px;
+      }
+      .Staff {
+        width: 275px;
+        height: 170px;            
+        border-radius: 500px;
+        background-color: white;
+        margin: 3px;
+        animation: StartOpacityPicture 1s forwards;
+      }
+
+       /*Compromiso Query*/
+
+       .TituloCompromiso {
+        background-color: #411E6F;
+        width: 50%;
+        height: 50%;
+        color: white;
+        border-radius: 15px;
+        width: 45%;
+        height: 66px;
+        position: relative;
+        z-index: 4;
+        margin-top: 12px;
+      }
+
+      .TituloCompromiso h2 {
+        font-size: 47px;
+        margin-left: 5px;
+      }
+
+      .boxCompromiso1,
+      .boxCompromiso2,
+      .boxCompromiso3 {
+          width: 38%;
+      }
+
+      /*Oferta académica Query*/ 
+      .TituloOferta h2 {
+        background-color: #411E6F;
+        width: 50%;
+        height: 50%;
+        color: white;
+        border-radius: 15px;
+        background-color: #411E6F;
+        border-radius: 15px;
+        color: white;
+        font-size: 47px;
+        width: 39%;
+        height: 69px;
+        margin-left: -2px;
+        margin-top: 11px;
+        position: relative;
+        z-index: 4;
+        justify-content: space-around;
+      }
+
+      .order {
+        width: 183px;
+        height: 90px;
+        border-radius: 100px;
+        background: #bf3393;
+        margin: 0 6px;
+      }
+
+      .order p {
+        margin-top: 18px;
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+        padding: -19px;
+      }
+
+      /*Servicios QUERY*/
+
+      .TituloServicios h2 {
+        background-color: #411E6F;
+        width: 50%;
+        height: 50%;
+        color: white;
+        border-radius: 15px;
+        background-color: #411E6F;
+        width: 34%;
+        color: white;
+        border-radius: 15px;
+        font-size: 47px;
+        margin-top: 11px;
+        margin-left: 78px;
+        height: 69px;
+        position: relative;
+        z-index: 4;
+      }
+
+      /*Coaching QUERY*/
+
+      #CoachingEq {
+        background-color: #d795b6;
+        height: 73px;
+        border-radius: 5px;
+        width: 16%;
+        margin: 0 20px;
+      }
+
+      #CoachingOrg {
+        background-color: #b64a87;
+        border-radius: 5px;
+        width: 17%;
+        height: 72px;
+      }
+
+      #CoachingEj {
+        background-color: #a12078;
+        border-radius: 5px;
+        width: 15%;
+        height: 72px;
+        margin: 0 20px;
+      }
+
+      #Softskills {
+        background-color: #791559;
+        border-radius: 5px;
+        height: 71px;
+        width: 24%;
+        margin: 0 20px;
+      }
+
+      #CoachingEq h2, #CoachingOrg h2, #CoachingEj h2, #Softskills h2 {
+        margin-left: 10px;
+        font-size: 26px;
+        color: white;
+        width: 103%;
+      }
+
+}
