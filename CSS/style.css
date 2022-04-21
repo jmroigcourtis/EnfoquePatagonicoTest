@@ -1187,6 +1187,17 @@ p.FooterText {
     position: relative;
     margin: 0 20px;
     animation: EndNavAnimation 0.5s; }
+  /*Logo Carousel*/
+  #LogoInsideCarrousel .enfoque {
+    background-color: white;
+    margin-top: 476px;
+    margin-right: 20px;
+    border-top-right-radius: 194px;
+    padding-right: 153px;
+    padding-left: 10px;
+    box-shadow: inset -1px 0px 27px -3px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+    height: 100px; }
   /*Misión QUERY*/
   #Mision p {
     font-size: 24px; }
