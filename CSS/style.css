@@ -1235,8 +1235,8 @@ p.FooterText {
     word-wrap: break-word;
     z-index: 3; }
   .textQS {
-    line-height: 1.5;
-    font-size: 25px; }
+    line-height: 1.7;
+    font-size: 22px; }
   /*Avales QUERY*/
   .TituloAvales h2 {
     background-color: #411E6F;
@@ -1283,6 +1283,14 @@ p.FooterText {
   #Staff1Bio {
     width: 80%;
     padding: 0 20px; }
+  #Staff2Bio, #Staff5Bio, #Staff6Bio {
+    width: 60%;
+    height: 70%;
+    left: 240px; }
+  #Staff3Bio, #Staff4Bio {
+    width: 70%;
+    height: 65%;
+    left: 200px; }
   #Staff1 p:last-of-type,
   #Staff2 p:last-of-type,
   #Staff3 p:last-of-type,
@@ -1310,6 +1318,19 @@ p.FooterText {
     margin: 40px 50px;
     font-size: 15px;
     line-height: 1.6; }
+  .bioPic2 {
+    height: 70%;
+    margin-top: 40px; }
+  .bioPic3 {
+    height: 65%; }
+  .bioPic4 {
+    height: 70%; }
+  .bioPic5 {
+    height: 60%; }
+  .bioPic6 {
+    height: 70%;
+    margin: 40px 90px;
+    border-radius: 20px; }
   /*Compromiso Query*/
   .TituloCompromiso {
     background-color: #411E6F;
@@ -1390,7 +1411,7 @@ p.FooterText {
     width: 17%;
     height: 72px; }
   #CoachingOrgBox {
-    height: 61%; }
+    height: 65%; }
   #CoachingEj {
     background-color: #a12078;
     border-radius: 5px;
@@ -1406,7 +1427,7 @@ p.FooterText {
     width: 22%;
     margin: 0 20px; }
   #CoachingSoftBox {
-    width: 70%; }
+    width: 65%; }
   #CoachingEq h2, #CoachingOrg h2, #CoachingEj h2, #Softskills h2 {
     margin-left: 10px;
     font-size: 26px;
@@ -1425,11 +1446,7 @@ p.FooterText {
     height: 380px;
     margin: 40px; }
   .serviceText p {
-    font-family: 'Raleway', sans-serif;
     margin: 60px 20px;
-    font-weight: lighter;
-    font-size: 25px;
-    opacity: 60%;
     font-size: 18px;
     margin: 35px auto;
     width: 130%;
@@ -1439,14 +1456,8 @@ p.FooterText {
     margin-top: 60px;
     margin-left: 40px; }
   .serviceTitleOrg {
-    color: white;
-    background-color: #d795b6;
-    font-weight: 600;
     font-size: 29px;
-    width: 72%;
-    margin-top: 60px;
-    margin-left: 9px;
-    padding: 2px 4px; }
+    width: 65%; }
   .serviceTextOrg p {
     margin: 10px;
     margin-top: 42px;
@@ -1481,20 +1492,12 @@ p.FooterText {
     margin-top: 60px;
     margin-left: 40px; }
   .serviceTitleSoft {
-    color: white;
-    background-color: #d795b6;
-    font-weight: 600;
-    font-size: 23px;
-    width: 78%;
-    margin-top: 60px;
-    margin-left: 21px;
-    padding: 2px; }
+    font-size: 20px;
+    width: 73%;
+    padding: 4px; }
   .serviceTextSoft p {
-    font-family: 'Raleway', sans-serif;
     margin: 20px;
-    font-weight: lighter;
-    font-size: 16px;
-    opacity: 60%; } }
+    font-size: 15px; } }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   /*Nav QUERY*/
