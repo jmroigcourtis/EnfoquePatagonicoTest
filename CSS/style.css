@@ -1171,7 +1171,7 @@ p.FooterText {
   font-size: 30px;
   font-weight: bold; }
 
-@media (max-width: 1368px) {
+@media (min-width: 1300px) {
   #BarraNavegacion {
     background-color: white;
     padding: 5px 0;
@@ -1487,7 +1487,7 @@ p.FooterText {
     font-size: 19px;
     opacity: 60%; } }
 
-@media (max-width: 1280px) {
+@media (min-width: 1200px) {
   /*Nav QUERY*/
   p.h5 {
     font-family: 'Raleway', sans-serif;
