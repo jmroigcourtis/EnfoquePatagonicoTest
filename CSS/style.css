@@ -1411,7 +1411,7 @@ p.FooterText {
     margin-top: 40px;
     padding: 2px 5px; }
   .servicePic img {
-    height: 500px;
+    height: 380px;
     margin: 40px; }
   .serviceText p {
     font-family: 'Raleway', sans-serif;
@@ -1424,7 +1424,7 @@ p.FooterText {
     width: 130%;
     line-height: 1.8; }
   .servicePicOrg img {
-    height: 370px;
+    height: 280px;
     margin-top: 60px;
     margin-left: 40px; }
   .serviceTitleOrg {
@@ -1437,17 +1437,16 @@ p.FooterText {
     margin-left: 20px;
     padding: 2px 4px; }
   .serviceTextOrg p {
+    margin: 10px;
+    margin-top: 42px;
     font-family: 'Raleway', sans-serif;
-    margin: 60px 20px;
-    margin-top: 60px;
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 16px;
     opacity: 60%;
     grid-area: serviceTextOrg;
-    margin-top: 42px;
     line-height: 1.8; }
   .servicePicEj img {
-    height: 378px;
+    height: 280px;
     margin-top: 60px;
     margin-left: 40px; }
   .serviceTitleEj {
@@ -1463,11 +1462,11 @@ p.FooterText {
     font-family: 'Raleway', sans-serif;
     margin: 10px;
     font-weight: lighter;
-    font-size: 19px;
+    font-size: 16px;
     opacity: 60%;
     line-height: 1.8; }
   .servicePicSoft img {
-    height: 460px;
+    height: 360px;
     margin-top: 60px;
     margin-left: 40px; }
   .serviceTitleSoft {
@@ -1483,10 +1482,10 @@ p.FooterText {
     font-family: 'Raleway', sans-serif;
     margin: 20px;
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 16px;
     opacity: 60%; } }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   /*Nav QUERY*/
   p.h5 {
     font-family: 'Raleway', sans-serif;

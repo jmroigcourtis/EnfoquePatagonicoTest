@@ -325,7 +325,7 @@
       }
 
       .servicePic img {
-        height: 500px;
+        height: 380px;
         margin: 40px;
       }
 
@@ -342,7 +342,7 @@
       }
 
       .servicePicOrg img {
-        height: 370px;
+        height: 280px;
         margin-top: 60px;
         margin-left: 40px;
       }
@@ -359,19 +359,18 @@
       }
 
       .serviceTextOrg p {
+        margin: 10px;
+        margin-top: 42px;
         font-family: 'Raleway', sans-serif;
-        margin: 60px 20px;
-          margin-top: 60px;
         font-weight: lighter;
-        font-size: 18px;
+        font-size: 16px;
         opacity: 60%;
         grid-area: serviceTextOrg;
-        margin-top: 42px;
         line-height: 1.8;
       }
 
       .servicePicEj img {
-        height: 378px;
+        height: 280px;
         margin-top: 60px;
         margin-left: 40px;
       }
@@ -391,13 +390,13 @@
         font-family: 'Raleway', sans-serif;
         margin: 10px;
         font-weight: lighter;
-        font-size: 19px;
+        font-size: 16px;
         opacity: 60%;
         line-height: 1.8;
       }
 
       .servicePicSoft img {
-        height: 460px;
+        height: 360px;
         margin-top: 60px;
         margin-left: 40px;
       }
@@ -418,7 +417,7 @@
         font-family: 'Raleway', sans-serif;
         margin: 20px;
         font-weight: lighter;
-        font-size: 18px;
+        font-size: 16px;
         opacity: 60%;
       }
 }
