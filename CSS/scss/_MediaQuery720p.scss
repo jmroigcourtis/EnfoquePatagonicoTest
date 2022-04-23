@@ -1,4 +1,4 @@
-@media (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
 
 
     /*Nav QUERY*/
@@ -237,15 +237,10 @@
           /*Servicios QUERY*/
 
           .TituloServicios h2 {
-            background-color: #411E6F;
-            width: 50%;
-            height: 50%;
             color: white;
             border-radius: 15px;
-            background-color: #411E6F;
             width: 34%;
             color: white;
-            border-radius: 15px;
             font-size: 47px;
             margin-top: 11px;
             margin-left: 78px;
@@ -253,6 +248,49 @@
             position: relative;
             z-index: 4;
           }
+
+          .serviceTitle {
+            font-size: 30px;
+          }
+
+          .servicePic img {
+            height: 460px;
+          }
+
+          .serviceTitleEj {
+            font-size: 20px;
+            width: 50%;
+          }
+          .serviceTextEj p {
+            font-size: 16px;
+          }
+
+          .servicePicEj img {
+            height: 350px;
+          }
+
+          .serviceTitleOrg {
+            font-size: 20px;
+            width: 58%;
+          }
+
+          .serviceTextOrg p {
+            font-size: 16px;
+          }
+
+          .servicePicOrg img {
+            height: 350px
+          }
+
+          .serviceTitleSoft {
+            font-size: 20px;
+            width: 72%;
+            padding: 0 3px;
+          }
+          .serviceTitleSoft p {
+            font-size: 16px;
+          }
+
 
           /*Coaching QUERY*/
 
