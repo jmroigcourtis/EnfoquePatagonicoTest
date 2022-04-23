@@ -1505,6 +1505,17 @@ p.FooterText {
     color: #0d6efd;
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
+  /*Banner QUERY*/
+  #LogoInsideCarrousel .enfoque {
+    background-color: white;
+    margin-top: 454px;
+    margin-right: 20px;
+    border-top-right-radius: 141px;
+    padding-right: 87px;
+    padding-left: 5px;
+    box-shadow: inset -1px 0px 27px -3px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+    height: 85px; }
   /*Misión QUERY*/
   #Mision p {
     font-size: 24px; }
@@ -1526,8 +1537,9 @@ p.FooterText {
     width: 76%;
     margin: 20px 300px;
     margin-top: 20px;
-    height: 85%;
     margin-top: 20px;
+    height: 74%;
+    margin-top: 72px;
     border-radius: 20px;
     backdrop-filter: blur 50px;
     word-wrap: break-word;
@@ -1536,6 +1548,13 @@ p.FooterText {
     line-height: 1.5;
     font-size: 25px; }
   /*Avales QUERY*/
+  #Avales {
+    background-color: #fcfcfc;
+    margin-top: 80px;
+    padding: 100px;
+    width: auto;
+    height: 950px;
+    height: 390px; }
   .TituloAvales h2 {
     background-color: #411E6F;
     width: 50%;
@@ -1557,6 +1576,8 @@ p.FooterText {
     height: 100px;
     margin: 20px auto; }
   /*Staff Query*/
+  #Staff {
+    padding: 100px; }
   .TituloStaff {
     background-color: #411E6F;
     width: 50%;
@@ -1596,6 +1617,8 @@ p.FooterText {
     margin: 3px;
     animation: StartOpacityPicture 1s forwards; }
   /*Compromiso Query*/
+  #CompromisoEnfoque {
+    padding: 100px; }
   .TituloCompromiso {
     background-color: #411E6F;
     width: 50%;
@@ -1615,6 +1638,8 @@ p.FooterText {
   .boxCompromiso3 {
     width: 38%; }
   /*Oferta académica Query*/
+  #OfertaAcadémica {
+    padding: 80px 100px; }
   .TituloOferta h2 {
     background-color: #411E6F;
     width: 50%;
