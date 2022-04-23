@@ -1303,11 +1303,11 @@ p.FooterText {
     margin: 3px;
     animation: StartOpacityPicture 1s forwards; }
   /*Fotos Z-INDEX Staff Query*/
-  .biopic {
-    height: 50%;
-    margin: 50px 90px; }
-  .biotext {
-    margin: 40px auto;
+  .bioPic {
+    height: 55%;
+    margin: 40px 50px; }
+  .bioText {
+    margin: 40px 50px;
     font-size: 16px;
     line-height: 1.7; }
   /*Compromiso Query*/
