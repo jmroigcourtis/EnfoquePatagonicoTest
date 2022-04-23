@@ -148,6 +148,11 @@
         margin: 0 6px;
       }
 
+      #Staff1Bio {
+        width: 80%;
+        padding: 0 20px;
+      }
+
       #Staff1 p:last-of-type, 
       #Staff2 p:last-of-type, 
       #Staff3 p:last-of-type,
@@ -170,6 +175,18 @@
         background-color: white;
         margin: 3px;
         animation: StartOpacityPicture 1s forwards;
+      }
+
+      /*Fotos Z-INDEX Staff Query*/
+      .biopic {
+        height: 50%;
+        margin: 50px 90px;
+      }
+
+      .biotext {
+        margin: 40px auto;
+        font-size: 16px;
+        line-height: 1.7;
       }
 
        /*Compromiso Query*/
@@ -354,7 +371,7 @@
         font-size: 29px;
         width: 72%;
         margin-top: 60px;
-        margin-left: 20px;
+        margin-left: 9px;
         padding: 2px 4px;
       }
 
