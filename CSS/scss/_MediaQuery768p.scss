@@ -1,7 +1,6 @@
 @media screen and (max-width: 1366px) {
 
         #BarraNavegacion {
-        background-color: white;
         padding: 5px 0;
         max-width: 100%;
       }
@@ -9,7 +8,6 @@
       .nav-link {
         display: block;
         padding: 0 5px;
-        color: #0d6efd;
         text-decoration: none;
         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
       }
@@ -20,8 +18,6 @@
 
     p.h5 {
         font-family: 'Raleway', sans-serif;
-        color: #6C1572;
-        color: #B64A87;
         display: inline-block;
         font-size: 15px;
         font-weight: 600;
@@ -33,7 +29,6 @@
 
       /*Logo Carousel*/
       #LogoInsideCarrousel .enfoque {
-        background-color: white;
         margin-top: 476px;
         margin-right: 20px;
         border-top-right-radius: 194px;
@@ -57,7 +52,6 @@
 
     .TituloMision h2 {
         position: relative;
-        background-color: #411E6F;
         border-radius: 15px;
         color: white;
         font-size: 48px;
@@ -70,7 +64,6 @@
       }
 
       .textBox {
-        background: #f7f7f7;
         color: #565555;
         width: 76%;
         margin: 20px 300px;
@@ -88,11 +81,17 @@
           font-size: 22px;
         }
 
+        .lineasImg{
+          position: absolute;
+          z-index: 4;
+          height: 400px;
+          left: 10em;
+          bottom: -840px;
+      }
 
       /*Avales QUERY*/
 
       .TituloAvales h2 {
-        background-color: #411E6F;
         color: white;
         border-radius: 15px;
         animation: showUpTitleSection 2s;
@@ -121,7 +120,6 @@
 
 
       .TituloStaff {
-        background-color: #411E6F;
         width: 50%;
         height: 50%;
         color: white;
@@ -139,13 +137,17 @@
         padding: 0 10px;
       }
 
+      .staffText {
+        font-size: 15px;
+      }
+
       #Staff1, 
       #Staff2, 
       #Staff3, 
       #Staff4, 
       #Staff5, 
       #Staff6 {
-        margin: 0 6px;
+        margin: 0 15px;
       }
 
       #Staff1Bio {
@@ -173,7 +175,6 @@
       #Staff4 p:last-of-type, 
       #Staff5 p:last-of-type, 
       #Staff6 p:last-of-type {
-        color: gray;
         opacity: 80%;
         font-size: 12px;
       }
@@ -185,8 +186,6 @@
       .Staff {
         width: 275px;
         height: 170px;            
-        border-radius: 500px;
-        background-color: white;
         margin: 3px;
         animation: StartOpacityPicture 1s forwards;
       }
@@ -227,15 +226,8 @@
       /*Compromiso Query*/
 
        .TituloCompromiso {
-        background-color: #411E6F;
-        width: 50%;
-        height: 50%;
-        color: white;
-        border-radius: 15px;
         width: 45%;
         height: 66px;
-        position: relative;
-        z-index: 4;
         margin-top: 12px;
       }
 
@@ -252,7 +244,6 @@
 
       .Expertos h2, .Cofidencialidad h2, .Feedback h2 {
         padding: 5px 10px;
-        color: white;
         font-weight: bold;
       }
 
@@ -264,28 +255,17 @@
       }
 
       .TituloOferta h2 {
-        background-color: #411E6F;
-        color: white;
-        border-radius: 15px;
-        background-color: #411E6F;
-        border-radius: 15px;
-        color: white;
         font-size: 47px;
         width: 39%;
         height: 69px;
         margin-left: -2px;
         margin-top: 11px;
         padding: 0 11px;
-        position: relative;
-        z-index: 4;
-        justify-content: space-around;
       }
 
       .order {
         width: 183px;
         height: 73px;
-        border-radius: 100px;
-        background: #bf3393;
         margin: 0 6px;      
     }
 
@@ -299,59 +279,46 @@
       /*Servicios QUERY*/
 
       .TituloServicios h2 {
-        background-color: #411E6F;
-        border-radius: 15px;
-        color: white;
+        margin-top: 11px;
+        margin-left: 78px;
         width: 34%;
         height: 69px;
         font-size: 47px;
-        margin-top: 11px;
-        margin-left: 78px;
-        position: relative;
-        z-index: 4;
         padding: 0 10px;
       }
 
       /*Services QUERY*/
 
       #CoachingEq {
-        background-color: #d795b6;
         height: 73px;
-        border-radius: 5px;
         width: 16%;
         margin: 0 20px;
       }
 
       #CoachingOrg {
-        background-color: #b64a87;
-        border-radius: 5px;
         width: 17%;
         height: 72px;
       }
+      #Softskills {
+        height: 70px;
+        width: 22%;
+        margin: 0 20px;      
+    }
 
+    #CoachingEj {
+      width: 15%;
+      height: 72px;
+      margin: 0 20px;
+    }
       #CoachingOrgBox {
           height: 65%;
       }
 
-      #CoachingEj {
-        background-color: #a12078;
-        border-radius: 5px;
-        width: 15%;
-        height: 72px;
-        margin: 0 20px;
-      }
 
       #CoachingEjBox {
           height: 62%;
       }
 
-      #Softskills {
-        background-color: #791559;
-        border-radius: 5px;
-        height: 70px;
-        width: 22%;
-        margin: 0 20px;      
-    }
 
     #CoachingSoftBox {
         width: 65%;
@@ -368,7 +335,6 @@
 
       .serviceTitle {
         color: white;
-        background-color: #d795b6;
         font-weight: 600;
         font-size: 32px;
         width: 78%;
@@ -397,17 +363,14 @@
 
       .serviceTitleOrg {
         font-size: 29px;
+        margin-right: 10px;
         width: 65%;
       }
 
       .serviceTextOrg p {
         margin: 10px;
         margin-top: 42px;
-        font-family: 'Raleway', sans-serif;
-        font-weight: lighter;
         font-size: 16px;
-        opacity: 60%;
-        grid-area: serviceTextOrg;
         line-height: 1.8;
       }
 
@@ -418,11 +381,8 @@
       }
 
       .serviceTitleEj {
-        color: white;
-        background-color: #d795b6;
-        font-weight: 600;
         font-size: 27px;
-        width: 56%;
+        width: 47%;
         margin-top: 60px;
         margin-left: 10px;
         padding: 2px 4px;

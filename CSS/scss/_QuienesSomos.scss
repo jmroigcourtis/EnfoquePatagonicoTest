@@ -3,6 +3,14 @@
     height: 50%;
 }
 
+.lineasImg{
+    position: absolute;
+    z-index: 4;
+    height: 600px;
+    left: 102em;
+    bottom: -791px;
+}
+
 .TituloStaff {
     @include SectionTitle;
     width: 32%;

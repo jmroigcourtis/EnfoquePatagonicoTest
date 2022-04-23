@@ -285,6 +285,13 @@ strong {
   height: 950px;
   height: 50%; }
 
+.lineasImg {
+  position: absolute;
+  z-index: 4;
+  height: 600px;
+  left: 102em;
+  bottom: -791px; }
+
 .TituloStaff {
   background-color: #411E6F;
   width: 50%;
@@ -1136,11 +1143,53 @@ a:hover {
   color: white; }
 
 #Contacto {
-  background-color: #d795b6;
-  width: 400px;
-  padding: 20px;
-  margin: 150px;
-  border-radius: 20px; }
+  background-color: #fcfcfc;
+  margin-top: 80px;
+  padding: 150px 100px;
+  width: auto;
+  height: 950px;
+  height: 30%; }
+
+.TituloContacto h2 {
+  background-color: #411E6F;
+  width: 50%;
+  height: 50%;
+  color: white;
+  border-radius: 15px;
+  z-index: 4;
+  font-size: 60px;
+  width: 37%;
+  margin-top: 10px; }
+
+.contactButton {
+  display: flex;
+  background-color: #a12078;
+  width: 25%;
+  height: 80px;
+  margin: 40px auto;
+  border-radius: 20px;
+  animation: zoomOut 0.7s; }
+
+.contactButton:hover {
+  animation: zoomIn 0.7s forwards; }
+
+.contactButton a {
+  color: white;
+  margin: auto;
+  font-weight: 600;
+  font-size: 40px; }
+
+@keyframes zoomIn {
+  from {
+    transform: scale(1); }
+  to {
+    transform: scale(1.1); } }
+
+@keyframes zoomOut {
+  from {
+    transform: scale(1.1); }
+  to {
+    transform: scale(1); } }
 
 .btn-send {
   border-radius: 10px; }
@@ -1173,21 +1222,17 @@ p.FooterText {
 
 @media screen and (max-width: 1366px) {
   #BarraNavegacion {
-    background-color: white;
     padding: 5px 0;
     max-width: 100%; }
   .nav-link {
     display: block;
     padding: 0 5px;
-    color: #0d6efd;
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
   svg {
     height: 20px; }
   p.h5 {
     font-family: 'Raleway', sans-serif;
-    color: #6C1572;
-    color: #B64A87;
     display: inline-block;
     font-size: 15px;
     font-weight: 600;
@@ -1196,7 +1241,6 @@ p.FooterText {
     animation: EndNavAnimation 0.5s; }
   /*Logo Carousel*/
   #LogoInsideCarrousel .enfoque {
-    background-color: white;
     margin-top: 476px;
     margin-right: 20px;
     border-top-right-radius: 194px;
@@ -1212,7 +1256,6 @@ p.FooterText {
     font-size: 24px; }
   .TituloMision h2 {
     position: relative;
-    background-color: #411E6F;
     border-radius: 15px;
     color: white;
     font-size: 48px;
@@ -1223,7 +1266,6 @@ p.FooterText {
     padding: 4px;
     margin-left: 7px; }
   .textBox {
-    background: #f7f7f7;
     color: #565555;
     width: 76%;
     margin: 20px 300px;
@@ -1237,9 +1279,14 @@ p.FooterText {
   .textQS {
     line-height: 1.7;
     font-size: 22px; }
+  .lineasImg {
+    position: absolute;
+    z-index: 4;
+    height: 400px;
+    left: 10em;
+    bottom: -840px; }
   /*Avales QUERY*/
   .TituloAvales h2 {
-    background-color: #411E6F;
     color: white;
     border-radius: 15px;
     animation: showUpTitleSection 2s;
@@ -1259,7 +1306,6 @@ p.FooterText {
     margin: 20px auto; }
   /*Staff Query*/
   .TituloStaff {
-    background-color: #411E6F;
     width: 50%;
     height: 50%;
     color: white;
@@ -1273,13 +1319,15 @@ p.FooterText {
   .TituloStaff h2 {
     font-size: 60px;
     padding: 0 10px; }
+  .staffText {
+    font-size: 15px; }
   #Staff1,
   #Staff2,
   #Staff3,
   #Staff4,
   #Staff5,
   #Staff6 {
-    margin: 0 6px; }
+    margin: 0 15px; }
   #Staff1Bio {
     width: 80%;
     padding: 0 20px; }
@@ -1297,7 +1345,6 @@ p.FooterText {
   #Staff4 p:last-of-type,
   #Staff5 p:last-of-type,
   #Staff6 p:last-of-type {
-    color: gray;
     opacity: 80%;
     font-size: 12px; }
   .Fotos {
@@ -1306,8 +1353,6 @@ p.FooterText {
   .Staff {
     width: 275px;
     height: 170px;
-    border-radius: 500px;
-    background-color: white;
     margin: 3px;
     animation: StartOpacityPicture 1s forwards; }
   /*Fotos Z-INDEX Staff Query*/
@@ -1333,15 +1378,8 @@ p.FooterText {
     border-radius: 20px; }
   /*Compromiso Query*/
   .TituloCompromiso {
-    background-color: #411E6F;
-    width: 50%;
-    height: 50%;
-    color: white;
-    border-radius: 15px;
     width: 45%;
     height: 66px;
-    position: relative;
-    z-index: 4;
     margin-top: 12px; }
   .TituloCompromiso h2 {
     font-size: 47px;
@@ -1352,33 +1390,21 @@ p.FooterText {
     width: 38%; }
   .Expertos h2, .Cofidencialidad h2, .Feedback h2 {
     padding: 5px 10px;
-    color: white;
     font-weight: bold; }
   /*Oferta académica Query*/
   #OfertaAcadémica {
     height: 760px;
     padding: 100px; }
   .TituloOferta h2 {
-    background-color: #411E6F;
-    color: white;
-    border-radius: 15px;
-    background-color: #411E6F;
-    border-radius: 15px;
-    color: white;
     font-size: 47px;
     width: 39%;
     height: 69px;
     margin-left: -2px;
     margin-top: 11px;
-    padding: 0 11px;
-    position: relative;
-    z-index: 4;
-    justify-content: space-around; }
+    padding: 0 11px; }
   .order {
     width: 183px;
     height: 73px;
-    border-radius: 100px;
-    background: #bf3393;
     margin: 0 6px; }
   .order p {
     margin-top: 15px;
@@ -1387,45 +1413,32 @@ p.FooterText {
     color: white; }
   /*Servicios QUERY*/
   .TituloServicios h2 {
-    background-color: #411E6F;
-    border-radius: 15px;
-    color: white;
+    margin-top: 11px;
+    margin-left: 78px;
     width: 34%;
     height: 69px;
     font-size: 47px;
-    margin-top: 11px;
-    margin-left: 78px;
-    position: relative;
-    z-index: 4;
     padding: 0 10px; }
   /*Services QUERY*/
   #CoachingEq {
-    background-color: #d795b6;
     height: 73px;
-    border-radius: 5px;
     width: 16%;
     margin: 0 20px; }
   #CoachingOrg {
-    background-color: #b64a87;
-    border-radius: 5px;
     width: 17%;
     height: 72px; }
-  #CoachingOrgBox {
-    height: 65%; }
-  #CoachingEj {
-    background-color: #a12078;
-    border-radius: 5px;
-    width: 15%;
-    height: 72px;
-    margin: 0 20px; }
-  #CoachingEjBox {
-    height: 62%; }
   #Softskills {
-    background-color: #791559;
-    border-radius: 5px;
     height: 70px;
     width: 22%;
     margin: 0 20px; }
+  #CoachingEj {
+    width: 15%;
+    height: 72px;
+    margin: 0 20px; }
+  #CoachingOrgBox {
+    height: 65%; }
+  #CoachingEjBox {
+    height: 62%; }
   #CoachingSoftBox {
     width: 65%; }
   #CoachingEq h2, #CoachingOrg h2, #CoachingEj h2, #Softskills h2 {
@@ -1436,7 +1449,6 @@ p.FooterText {
   /*Services-zIndex QUERY*/
   .serviceTitle {
     color: white;
-    background-color: #d795b6;
     font-weight: 600;
     font-size: 32px;
     width: 78%;
@@ -1457,26 +1469,20 @@ p.FooterText {
     margin-left: 40px; }
   .serviceTitleOrg {
     font-size: 29px;
+    margin-right: 10px;
     width: 65%; }
   .serviceTextOrg p {
     margin: 10px;
     margin-top: 42px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: lighter;
     font-size: 16px;
-    opacity: 60%;
-    grid-area: serviceTextOrg;
     line-height: 1.8; }
   .servicePicEj img {
     height: 280px;
     margin-top: 60px;
     margin-left: 40px; }
   .serviceTitleEj {
-    color: white;
-    background-color: #d795b6;
-    font-weight: 600;
     font-size: 27px;
-    width: 56%;
+    width: 47%;
     margin-top: 60px;
     margin-left: 10px;
     padding: 2px 4px; }

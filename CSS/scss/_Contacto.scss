@@ -1,10 +1,56 @@
 #Contacto {
-    background-color: #d795b6;
-    width: 400px;
-    padding: 20px;
-    margin: 150px;
-    border-radius: 20px;
+    @include SectionBlock;
+    height: 30%;
 }
+
+.TituloContacto h2 {
+    @include SectionTitle;
+    z-index: 4;
+    font-size: 60px;
+    width: 37%;
+    margin-top: 10px;
+
+}
+
+.contactButton {
+    display: flex;
+    background-color: #a12078;
+    width: 25%;
+    height: 80px;
+    margin: 40px auto;
+    border-radius: 20px;
+    animation: zoomOut 0.7s;
+}
+
+.contactButton:hover {
+    animation: zoomIn 0.7s forwards;
+}
+
+.contactButton a {
+    color: white;
+    margin: auto;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+@keyframes zoomIn {
+        from {
+            transform: scale(1.0);
+        }
+        to {
+            transform: scale(1.1);
+        }
+    }
+
+@keyframes zoomOut {
+        from {
+            transform: scale(1.1);
+        }
+        to {
+            transform: scale(1.0);
+        }
+    }
 
 .btn-send {
     border-radius: 10px;
