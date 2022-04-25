@@ -750,30 +750,34 @@ strong {
 #CoachingEq {
   background-color: #d795b6;
   height: 90px;
-  border-radius: 5px;
   width: 15%;
-  margin: 0 20px; }
+  border-radius: 5px;
+  margin: 0 20px;
+  cursor: pointer; }
 
 #CoachingOrg {
   background-color: #b64a87;
   border-radius: 5px;
   width: 15%;
   height: 90px;
-  margin: 0 20px; }
+  margin: 0 20px;
+  cursor: pointer; }
 
 #CoachingEj {
   background-color: #a12078;
   border-radius: 5px;
   width: 15%;
   height: 90px;
-  margin: 0 20px; }
+  margin: 0 20px;
+  cursor: pointer; }
 
 #Softskills {
   background-color: #791559;
   border-radius: 5px;
   height: 90px;
   width: 21%;
-  margin: 0 20px; }
+  margin: 0 20px;
+  cursor: pointer; }
 
 #CoachingEq h2,
 #CoachingOrg h2,
@@ -1163,7 +1167,7 @@ a:hover {
   padding: 150px 100px;
   width: auto;
   height: 950px;
-  height: 30%; }
+  height: 25%; }
 
 .TituloContacto h2 {
   background-color: #411E6F;
