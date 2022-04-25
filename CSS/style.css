@@ -1257,6 +1257,9 @@ p.FooterText {
   /*Carousel Query*/
   #carouselExampleInterval img {
     height: 66%; }
+  .carousel-control-prev-icon, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-next {
+    margin-bottom: 100px;
+    width: 40px; }
   #LogoInsideCarrousel .enfoque {
     margin-top: 428px;
     margin-right: 20px;
@@ -1543,6 +1546,9 @@ p.FooterText {
   /*Banner QUERY*/
   #carouselExampleInterval img {
     height: 60%; }
+  .carousel-control-prev-icon, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-next {
+    margin-bottom: 150px;
+    width: 40px; }
   #LogoInsideCarrousel .enfoque {
     background-color: white;
     margin-top: 395px;
