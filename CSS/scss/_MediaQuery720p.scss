@@ -255,7 +255,12 @@
           }
 
           .serviceTitle {
-            font-size: 30px;
+            font-size: 20px;
+            width: 53%;
+          }
+
+          .serviceText p {
+            font-size: 16px;
           }
 
           .servicePic img {
@@ -264,7 +269,7 @@
 
           .serviceTitleEj {
             font-size: 20px;
-            width: 50%;
+            width: 38%;
           }
           .serviceTextEj p {
             font-size: 16px;
@@ -281,6 +286,7 @@
 
           .serviceTextOrg p {
             font-size: 16px;
+            margin: 20px;
           }
 
           .servicePicOrg img {
