@@ -313,8 +313,7 @@ strong {
   z-index: 3;
   left: 100px;
   border-radius: 15px;
-  margin-top: 4px;
-  animation: showUpTitleSection 1.5s; }
+  margin-top: 4px; }
 
 .staffBarra2 {
   background: #a12078;
@@ -324,8 +323,7 @@ strong {
   z-index: 2;
   left: 90px;
   border-radius: 15px;
-  margin-top: 8px;
-  animation: showUpTitleSection 1s; }
+  margin-top: 8px; }
 
 .staffBarra3 {
   background: #b64a87;
@@ -335,8 +333,7 @@ strong {
   z-index: 0;
   left: 80px;
   border-radius: 15px;
-  margin-top: 12px;
-  animation: showUpTitleSection 0.5s; }
+  margin-top: 12px; }
 
 .Fotos {
   display: flex; }
@@ -1239,9 +1236,11 @@ p.FooterText {
     position: relative;
     margin: 0 20px;
     animation: EndNavAnimation 0.5s; }
-  /*Logo Carousel*/
+  /*Carousel Query*/
+  #carouselExampleInterval img {
+    height: 66%; }
   #LogoInsideCarrousel .enfoque {
-    margin-top: 476px;
+    margin-top: 428px;
     margin-right: 20px;
     border-top-right-radius: 194px;
     padding-right: 153px;
@@ -1524,9 +1523,11 @@ p.FooterText {
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
   /*Banner QUERY*/
+  #carouselExampleInterval img {
+    height: 60%; }
   #LogoInsideCarrousel .enfoque {
     background-color: white;
-    margin-top: 454px;
+    margin-top: 395px;
     margin-right: 20px;
     border-top-right-radius: 141px;
     padding-right: 87px;
@@ -1535,8 +1536,15 @@ p.FooterText {
     z-index: 3;
     height: 85px; }
   /*Misión QUERY*/
+  #Mision {
+    height: 700px;
+    margin-top: -200px; }
   #Mision p {
-    font-size: 24px; }
+    font-size: 17px; }
+  .lineasImg {
+    height: 300px;
+    bottom: -690px;
+    left: 190px; }
   .TituloMision h2 {
     position: relative;
     background-color: #411E6F;
@@ -1550,21 +1558,13 @@ p.FooterText {
     padding: 4px;
     margin-left: 7px; }
   .textBox {
-    background: #f7f7f7;
-    color: #565555;
-    width: 76%;
-    margin: 20px 300px;
-    margin-top: 20px;
-    margin-top: 20px;
-    height: 74%;
-    margin-top: 72px;
-    border-radius: 20px;
-    backdrop-filter: blur 50px;
-    word-wrap: break-word;
-    z-index: 3; }
+    width: 64%;
+    height: 81%;
+    margin-top: 5%;
+    margin-left: 32%; }
   .textQS {
     line-height: 1.5;
-    font-size: 25px; }
+    font-size: 18px; }
   /*Avales QUERY*/
   #Avales {
     background-color: #fcfcfc;
@@ -1626,7 +1626,7 @@ p.FooterText {
     font-size: 12px; }
   .Fotos {
     display: flex;
-    margin-top: 30px; }
+    margin-top: 60px; }
   .Staff {
     width: 275px;
     height: 170px;
@@ -1634,6 +1634,8 @@ p.FooterText {
     background-color: white;
     margin: 3px;
     animation: StartOpacityPicture 1s forwards; }
+  .bioText {
+    font-size: 14px; }
   /*Compromiso Query*/
   #CompromisoEnfoque {
     padding: 100px; }
@@ -1676,17 +1678,10 @@ p.FooterText {
     z-index: 4;
     justify-content: space-around; }
   .order {
-    width: 183px;
-    height: 90px;
-    border-radius: 100px;
-    background: #bf3393;
-    margin: 0 6px; }
+    height: 70px; }
   .order p {
-    margin-top: 18px;
-    font-size: 16px;
-    font-weight: 500;
-    color: white;
-    padding: -19px; }
+    margin-top: 15px;
+    font-size: 15px; }
   /*Servicios QUERY*/
   .TituloServicios h2 {
     color: white;
@@ -1702,27 +1697,30 @@ p.FooterText {
   .serviceTitle {
     font-size: 30px; }
   .servicePic img {
-    height: 460px; }
+    height: 360px; }
   .serviceTitleEj {
     font-size: 20px;
     width: 50%; }
   .serviceTextEj p {
     font-size: 16px; }
   .servicePicEj img {
-    height: 350px; }
+    height: 260px; }
   .serviceTitleOrg {
     font-size: 20px;
-    width: 58%; }
+    width: 48%; }
   .serviceTextOrg p {
     font-size: 16px; }
   .servicePicOrg img {
-    height: 350px; }
+    height: 280px; }
   .serviceTitleSoft {
-    font-size: 20px;
-    width: 72%;
+    font-size: 18px;
+    width: 70%;
     padding: 0 3px; }
   .serviceTitleSoft p {
     font-size: 16px; }
+  .servicePicSoft img {
+    height: 320px;
+    margin-left: 110px; }
   /*Coaching QUERY*/
   #CoachingEq {
     background-color: #d795b6;

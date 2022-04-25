@@ -1,7 +1,9 @@
-const getData = async ( ) => {
-    const data = await fetch("Scripts/Services/data.json")
-    const response = await data.json()
-    console.log(response)
+const checkLoad = () => {
+
+    const check= document.addEventListener('DOMContentLoaded', function() {
+        console.log('Cargo')
+    }, false)
+    console.log(check)
 }
 
-getData();
+checkLoad ()

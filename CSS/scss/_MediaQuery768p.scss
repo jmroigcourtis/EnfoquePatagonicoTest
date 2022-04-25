@@ -1,5 +1,7 @@
 @media screen and (max-width: 1366px) {
 
+
+
         #BarraNavegacion {
         padding: 5px 0;
         max-width: 100%;
@@ -27,9 +29,14 @@
       }
 
 
-      /*Logo Carousel*/
+      /*Carousel Query*/
+
+      #carouselExampleInterval img {
+        height: 66%;
+      }
+
       #LogoInsideCarrousel .enfoque {
-        margin-top: 476px;
+        margin-top: 428px;
         margin-right: 20px;
         border-top-right-radius: 194px;
         padding-right: 153px;

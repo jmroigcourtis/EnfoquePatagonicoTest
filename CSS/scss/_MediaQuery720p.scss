@@ -24,9 +24,14 @@
       }
 
       /*Banner QUERY*/
+      #carouselExampleInterval img {
+        height: 60%;
+      }
+
+
       #LogoInsideCarrousel .enfoque {
         background-color: white;
-        margin-top: 454px;
+        margin-top: 395px;
         margin-right: 20px;
         border-top-right-radius: 141px;
         padding-right: 87px;
@@ -37,8 +42,19 @@
 
     /*Misión QUERY*/
 
+    #Mision {
+      height: 700px;
+      margin-top: -200px;
+    }
+
     #Mision p {
-        font-size: 24px;
+        font-size: 17px;
+    }
+
+    .lineasImg {
+      height: 300px;
+      bottom: -690px;
+      left: 190px;
     }
 
     .TituloMision h2 {
@@ -56,22 +72,14 @@
       }
 
       .textBox {
-        background: #f7f7f7;
-        color: #565555;
-        width: 76%;
-        margin: 20px 300px;
-          margin-top: 20px;
-        margin-top: 20px;
-        height: 74%;
-        margin-top: 72px;
-        border-radius: 20px;
-        backdrop-filter: blur 50px;
-        word-wrap: break-word;
-        z-index: 3;
+        width: 64%;
+        height: 81%;
+        margin-top: 5%;
+        margin-left: 32%;
       }
       .textQS {
         line-height: 1.5;
-        font-size: 25px;
+        font-size: 18px;
       }
           /*Avales QUERY*/
 
@@ -152,7 +160,7 @@
 
           .Fotos {
               display: flex;
-              margin-top: 30px;
+              margin-top: 60px;
           }
           .Staff {
             width: 275px;
@@ -161,6 +169,10 @@
             background-color: white;
             margin: 3px;
             animation: StartOpacityPicture 1s forwards;
+          }
+
+          .bioText {
+            font-size: 14px;
           }
 
           /*Compromiso Query*/
@@ -219,19 +231,12 @@
           }
 
           .order {
-            width: 183px;
-            height: 90px;
-            border-radius: 100px;
-            background: #bf3393;
-            margin: 0 6px;
+            height: 70px;          
           }
 
           .order p {
-            margin-top: 18px;
-            font-size: 16px;
-            font-weight: 500;
-            color: white;
-            padding: -19px;
+            margin-top: 15px;
+            font-size: 15px;
           }
 
           /*Servicios QUERY*/
@@ -254,7 +259,7 @@
           }
 
           .servicePic img {
-            height: 460px;
+            height: 360px;
           }
 
           .serviceTitleEj {
@@ -266,12 +271,12 @@
           }
 
           .servicePicEj img {
-            height: 350px;
+            height: 260px;
           }
 
           .serviceTitleOrg {
             font-size: 20px;
-            width: 58%;
+            width: 48%;
           }
 
           .serviceTextOrg p {
@@ -279,16 +284,21 @@
           }
 
           .servicePicOrg img {
-            height: 350px
+            height: 280px
           }
 
           .serviceTitleSoft {
-            font-size: 20px;
-            width: 72%;
+            font-size: 18px;
+            width: 70%;
             padding: 0 3px;
           }
           .serviceTitleSoft p {
             font-size: 16px;
+          }
+
+          .servicePicSoft img {
+             height: 320px;
+             margin-left: 110px;
           }
 
 
