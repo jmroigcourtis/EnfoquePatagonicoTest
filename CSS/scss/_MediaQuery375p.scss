@@ -1,0 +1,60 @@
+@media screen and (max-width: 375px) {
+          /*Carousel Query*/
+
+          #carouselExampleInterval img {
+            height: 25%;
+          }
+        
+          #LogoInsideCarrousel .enfoque {
+            margin-top: 162px;
+            margin-right: 20px;
+            border-top-right-radius: 194px;
+            padding-right: 35px;
+            padding-left: 10px;
+            box-shadow: inset -1px 0px 27px -3px rgba(0, 0, 0, 0.25);
+            z-index: 3;
+            height: 38px;
+          }
+    
+        /*Misión Query*/
+
+        #Mision {
+            margin-top: -566px;
+            padding: 150px 100px;
+            width: auto;
+            height: 440px;
+          }
+
+          .misionBarra1 {
+            width: 29%;
+            left: 22px;
+            bottom: 419px;
+            height: 28px;        
+            border-radius: 5px;
+        }
+          .misionBarra2 {
+            width: 29%;
+            left: 19px;
+            bottom: 419px;
+            height: 26px;
+            border-radius: 5px;
+          }        
+          .misionBarra3 {
+            width: 29%;
+            left: 15px;
+            bottom: 419px;
+            height: 23px;
+            border-radius: 5px;
+          }        
+        .TituloMision h2 {
+            font-size: 15px;
+            height: 29px;
+            width: 68%;
+            right: 82px;
+            bottom: 100px;
+            border-radius: 5px;
+
+            
+        }
+    
+}
