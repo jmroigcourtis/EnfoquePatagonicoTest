@@ -1,5 +1,9 @@
 @media (max-width: 367px){
           
+            * {
+                overflow-x: hidden;
+            }
+
            /*Nav Query*/
           .nav {
             display: none;
