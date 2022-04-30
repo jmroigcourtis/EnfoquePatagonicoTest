@@ -58,6 +58,11 @@
             z-index: 3;
             height: 38px;
           }
+
+          .carousel-control-prev-icon, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-next {
+            margin-bottom: 310px;
+            height: 20px;
+          }
     
         /*Misión Query*/
 
@@ -71,21 +76,21 @@
           .misionBarra1 {
             width: 29%;
             left: 22px;
-            bottom: 419px;
+            bottom: 175px;
             height: 28px;        
             border-radius: 5px;
         }
           .misionBarra2 {
             width: 29%;
             left: 19px;
-            bottom: 419px;
+            bottom: 175px;
             height: 26px;
             border-radius: 5px;
           }        
           .misionBarra3 {
             width: 29%;
             left: 15px;
-            bottom: 419px;
+            bottom: 175px;
             height: 23px;
             border-radius: 5px;
           }        
