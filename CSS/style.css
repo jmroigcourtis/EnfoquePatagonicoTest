@@ -1855,22 +1855,24 @@ p.FooterText {
     padding: 150px 100px;
     width: auto;
     height: 440px; }
+  #Mision p {
+    font-size: 10px; }
   .misionBarra1 {
     width: 29%;
+    top: 363px;
     left: 22px;
-    bottom: 272px;
     height: 28px;
     border-radius: 5px; }
   .misionBarra2 {
     width: 29%;
+    top: 363px;
     left: 19px;
-    bottom: 272px;
     height: 26px;
     border-radius: 5px; }
   .misionBarra3 {
     width: 29%;
+    top: 363px;
     left: 15px;
-    bottom: 272px;
     height: 23px;
     border-radius: 5px; }
   .TituloMision h2 {
@@ -1879,4 +1881,10 @@ p.FooterText {
     width: 68%;
     right: 82px;
     bottom: 100px;
-    border-radius: 5px; } }
+    border-radius: 5px; }
+  .textBox {
+    margin: -38%;
+    width: 170%;
+    height: 200%; }
+  .textQS {
+    line-height: 1.5; } }
