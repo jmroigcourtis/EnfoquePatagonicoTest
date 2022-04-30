@@ -1,11 +1,18 @@
 @media screen and (max-width: 375px) {
-          /*Nav Query*/
+          
+        /*BarraNavegación Query*/
+        
+           /*Nav Query*/
           .nav {
             display: none;
           }
          
           #navbarToggleExternalContent {
             background-color: white;
+            opacity: 80%;
+          }
+          .fixed-Top {
+            top: -10px;
           }
 
           .navbar {
@@ -20,6 +27,18 @@
           .btnNav {
             margin-top: 10px;
             height: 30px;}
+
+
+          ul, li {
+            list-style: none;
+          }
+
+          .textNav {
+            display: flex;
+            color:#a12078;
+            font-size: 14px;
+            font-weight: 500;
+          }
 
 
   
