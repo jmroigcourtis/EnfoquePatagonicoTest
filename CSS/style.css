@@ -449,7 +449,8 @@ strong {
 
 .boxLogo {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 40px; }
 
 .aacopLogo {
   height: 140px;
@@ -1807,6 +1808,21 @@ p.FooterText {
     width: 103%; } }
 
 @media screen and (max-width: 375px) {
+  /*Nav Query*/
+  .nav {
+    display: none; }
+  #navbarToggleExternalContent {
+    background-color: white; }
+  .navbar {
+    background-color: white; }
+  .tituloNav {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #a12078; }
+  .btnNav {
+    margin-top: 10px;
+    height: 30px; }
   /*Carousel Query*/
   #carouselExampleInterval img {
     height: 25%; }
