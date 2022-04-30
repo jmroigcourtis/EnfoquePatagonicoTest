@@ -1807,7 +1807,7 @@ p.FooterText {
     color: white;
     width: 103%; } }
 
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
   /*BarraNavegación Query*/
   /*Nav Query*/
   .nav {
