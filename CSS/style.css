@@ -1806,11 +1806,7 @@ p.FooterText {
     color: white;
     width: 103%; } }
 
-@media (min-width: 367px) and (max-width: 480px) {
-  .body {
-    overflow-x: hidden;
-    width: 367px;
-    height: 667px; }
+@media (max-width: 367px) {
   /*Nav Query*/
   .nav {
     display: none; }
