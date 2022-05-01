@@ -6,9 +6,18 @@
         height: 20px;
     }
 
+    .TituloMision h2,
+    .TituloAvales h2,
+    .TituloStaff h2,
+    .TituloCompromiso h2,
+    .TituloOferta h2,
+    .TituloServicios h2{
+        font-size: 12px; 
+    }
+
+
     .TituloMision h2 {
         height: 20px;
         width: 125px;
-        font-size: 10px;
     }
 }
