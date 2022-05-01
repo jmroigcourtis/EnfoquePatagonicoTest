@@ -1806,10 +1806,8 @@ p.FooterText {
     color: white;
     width: 103%; } }
 
-@media screen and (max-width: 414px) {
+@media only screen and (max-device-width: 450px) {
   /*Nav Query*/
-  body {
-    overflow-x: hidden; }
   .nav {
     display: none; }
   #navbarToggleExternalContent {
@@ -1888,6 +1886,6 @@ p.FooterText {
   .textBox {
     margin: -38%;
     width: 170%;
-    height: 200%; }
+    height: 226%; }
   .textQS {
     line-height: 1.5; } }
