@@ -1888,4 +1888,35 @@ p.FooterText {
     width: 170%;
     height: 226%; }
   .textQS {
-    line-height: 1.5; } }
+    line-height: 1.5; }
+  /*Avales QUERY*/
+  #Avales {
+    height: 340px; }
+  .avalesBarra1,
+  .avalesBarra2,
+  .avalesBarra3 {
+    width: 20%;
+    height: 3%;
+    border-radius: 5px; }
+  .avalesBarra1 {
+    left: 79px;
+    bottom: -187px; }
+  .avalesBarra2 {
+    bottom: -191px;
+    left: 72px; }
+  .avalesBarra3 {
+    left: 75px;
+    bottom: -189px; }
+  .TituloAvales h2 {
+    font-size: 20px;
+    border-radius: 5px;
+    left: -18px;
+    width: 38%;
+    bottom: 95px; }
+  .aacopLogo {
+    height: 30px;
+    margin: 20px auto; }
+  .ficopLogo {
+    height: 30px; }
+  .boxLogo {
+    margin: auto; } }
