@@ -1,6 +1,6 @@
 @media screen and (max-width: 414px) {
                /*Nav Query*/
-            * {
+            body {
                 overflow-x: hidden;
             }
 
@@ -98,15 +98,18 @@
                 height: 23px;
                 border-radius: 5px;
               }        
+
             .TituloMision h2 {
-                font-size: 15px;
-                height: 29px;
-                width: 72%;
-                right: 82px;
-                bottom: 100px;
-                border-radius: 5px;
-    
-                
+              position: absolute;
+              font-size: 15px;
+              height: 29px;
+              width: 56%;
+              right: -5px;
+              bottom: -1px;
+              border-radius: 5px;
+              bottom: 335px;
+              top: -99px;
+              left: -81px;                
             }
     
             .textBox {
