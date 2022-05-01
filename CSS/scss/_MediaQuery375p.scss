@@ -15,9 +15,38 @@
         font-size: 12px; 
     }
 
+    .TituloAvales h2 {
+        font-size: 14px;
+    }
+
 
     .TituloMision h2 {
         height: 20px;
         width: 125px;
+    }
+
+    .avalesBarra1, .avalesBarra2, .avalesBarra3 {
+        top: 885px;
+    }
+
+    .avalesBarra1 {
+        left: 34px;
+        width: 34%;
+    }
+    .avalesBarra2{
+        left: 30px;
+        width: 32%;
+    }
+    .avalesBarra3{
+        left: 32px;
+        width: 33%;
+    }
+
+    .TituloAvales h2 {
+        border-radius: 5px;
+        width: 74%;
+        height: 19px;
+        left: -64px;
+        bottom: 97px;
     }
 }
