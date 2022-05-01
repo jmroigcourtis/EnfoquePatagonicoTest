@@ -1920,3 +1920,13 @@ p.FooterText {
     height: 30px; }
   .boxLogo {
     margin: auto; } }
+
+@media only screen and (max-device-width: 375px) {
+  .misionBarra1,
+  .misionBarra2,
+  .misionBarra3 {
+    height: 20px; }
+  .TituloMision h2 {
+    height: 20px;
+    width: 125px;
+    font-size: 10px; } }
