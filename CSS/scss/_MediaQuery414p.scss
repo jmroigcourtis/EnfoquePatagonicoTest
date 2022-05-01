@@ -1,7 +1,11 @@
 @media screen and (max-width: 414px) {
                /*Nav Query*/
+            // * {
+            //     overflow-x: hidden;
+            // }
+
             body {
-                overflow-x: hidden;
+              overflow-x: hidden;
             }
 
             .nav {
