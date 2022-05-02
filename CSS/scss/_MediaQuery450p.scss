@@ -4,10 +4,6 @@
             //     overflow-x: hidden;
             // }
 
-            html {
-              overflow-x: hidden;
-            }
-
             .nav {
                 display: none;
             }
@@ -182,5 +178,12 @@
 
             .boxLogo {
               margin: auto;
+            }
+
+            #QuienesSomos, 
+            #CompromisoEnfoque,
+            #OfertaAcadémica,
+            #NuestrosServicios {
+              display: none;
             }
 }

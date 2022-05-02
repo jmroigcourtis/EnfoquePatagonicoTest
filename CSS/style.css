@@ -1808,8 +1808,6 @@ p.FooterText {
 
 @media only screen and (max-device-width: 450px) {
   /*Nav Query*/
-  html {
-    overflow-x: hidden; }
   .nav {
     display: none; }
   #navbarToggleExternalContent {
@@ -1925,7 +1923,12 @@ p.FooterText {
   .ficopLogo {
     height: 55px; }
   .boxLogo {
-    margin: auto; } }
+    margin: auto; }
+  #QuienesSomos,
+  #CompromisoEnfoque,
+  #OfertaAcadémica,
+  #NuestrosServicios {
+    display: none; } }
 
 @media only screen and (max-device-width: 375px) {
   .misionBarra1,
