@@ -180,10 +180,38 @@
               margin: auto;
             }
 
-            #QuienesSomos, 
             #CompromisoEnfoque,
             #OfertaAcadémica,
             #NuestrosServicios {
               display: none;
+            }
+
+            /*Staff Query*/
+
+            .Fotos {
+              display: flex;
+              flex-wrap: wrap;
+              margin-top: 80px;
+              width: 77%;
+            }
+
+            .Staff {
+              width: 115px;
+              height: 100px;
+            }
+
+            .staffText {
+              font-size: 10px;
+            }
+
+            #Staff1 p:last-of-type, 
+            #Staff2 p:last-of-type, 
+            #Staff3 p:last-of-type, 
+            #Staff4 p:last-of-type, 
+            #Staff5 p:last-of-type, 
+            #Staff6 p:last-of-type {
+              opacity: 80%;
+              font-size: 8px;
+              margin-left: 5px;
             }
 }
