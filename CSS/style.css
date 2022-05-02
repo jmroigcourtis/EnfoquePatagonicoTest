@@ -1808,6 +1808,8 @@ p.FooterText {
 
 @media only screen and (max-device-width: 450px) {
   /*Nav Query*/
+  html {
+    overflow-x: hidden; }
   .nav {
     display: none; }
   #navbarToggleExternalContent {
