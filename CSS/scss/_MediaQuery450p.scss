@@ -1,8 +1,4 @@
 @media only screen and (max-device-width : 450px){
-               /*Nav Query*/
-            // * {
-            //     overflow-x: hidden;
-            // }
 
             .nav {
                 display: none;
@@ -196,6 +192,7 @@
             }
 
             .Staff {
+              flex: 1 0 50%;
               width: 115px;
               height: 100px;
             }
@@ -214,4 +211,35 @@
               font-size: 8px;
               margin-left: 5px;
             }
-}
+
+            .staffBarra1,
+            .staffBarra2,
+            .staffBarra3,
+            .TituloStaff  {
+              border-radius: 5px;
+            }
+
+            .TituloStaff {
+              width: 63%;
+              left: -8px;            
+            }
+
+            .staffBarra1 {
+              width: 29%;
+              height: 15px;
+            }
+
+            .staffBarra2{
+              width: 29%;
+              height: 14px;
+              left: 97px;
+            }
+
+            .staffBarra3{
+              width: 29%;
+              height: 13px;
+              left: 94px;
+            }
+
+
+          }

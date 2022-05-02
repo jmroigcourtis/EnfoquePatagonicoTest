@@ -1807,7 +1807,6 @@ p.FooterText {
     width: 103%; } }
 
 @media only screen and (max-device-width: 450px) {
-  /*Nav Query*/
   .nav {
     display: none; }
   #navbarToggleExternalContent {
@@ -1935,6 +1934,7 @@ p.FooterText {
     margin-top: 80px;
     width: 77%; }
   .Staff {
+    flex: 1 0 50%;
     width: 115px;
     height: 100px; }
   .staffText {
@@ -1947,7 +1947,26 @@ p.FooterText {
   #Staff6 p:last-of-type {
     opacity: 80%;
     font-size: 8px;
-    margin-left: 5px; } }
+    margin-left: 5px; }
+  .staffBarra1,
+  .staffBarra2,
+  .staffBarra3,
+  .TituloStaff {
+    border-radius: 5px; }
+  .TituloStaff {
+    width: 63%;
+    left: -8px; }
+  .staffBarra1 {
+    width: 29%;
+    height: 15px; }
+  .staffBarra2 {
+    width: 29%;
+    height: 14px;
+    left: 97px; }
+  .staffBarra3 {
+    width: 29%;
+    height: 13px;
+    left: 94px; } }
 
 @media only screen and (max-device-width: 375px) {
   .misionBarra1,
