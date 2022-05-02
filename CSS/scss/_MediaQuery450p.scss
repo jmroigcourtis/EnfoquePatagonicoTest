@@ -129,7 +129,7 @@
             
 
             #Avales {
-              height: 340px;
+              height: 200px;
             }
 
             .avalesBarra1, 
@@ -164,13 +164,20 @@
               bottom: 95px;
             }
 
+            .boxLogo {
+              display: block;
+              position: absolute;
+              bottom: -450px;
+            }
+
             .aacopLogo{
-              height: 30px;
-              margin: 20px auto;
+              height: 55px;
+              margin: 10px -80px;
             }
             
             .ficopLogo {
-              height: 30px;
+              height: 55px;
+
             }
 
             .boxLogo {
