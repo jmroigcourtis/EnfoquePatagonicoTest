@@ -285,14 +285,14 @@ margin: auto;
 
 
 
-  .bioPic{
-    border-radius: 100px;
-    position: absolute;
-    z-index: 1;
-    top: -30px;
-    height: 180px;
-    left: 40px;
-   }
+    .bioPic{
+      border-radius: 100px;
+      position: absolute;
+      z-index: 1;
+      top: -30px;
+      height: 180px;
+      left: 40px;
+    }
   
   
     .bioText {
@@ -304,10 +304,12 @@ margin: auto;
     }
 
     .bioPic2 {
-      height: 40%;
-      margin-top: 40px;
       border-radius: 100px;
-    }
+      position: absolute;
+      z-index: 1;
+      top: -30px;
+      height: 180px;
+      }
 
   .containerStaffResponsive 
   {  display: grid;

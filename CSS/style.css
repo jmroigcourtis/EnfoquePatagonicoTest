@@ -2166,9 +2166,11 @@ p.FooterText {
     width: 86%;
     left: -20px; }
   .bioPic2 {
-    height: 40%;
-    margin-top: 40px;
-    border-radius: 100px; }
+    border-radius: 100px;
+    position: absolute;
+    z-index: 1;
+    top: -30px;
+    height: 180px; }
   .containerStaffResponsive {
     display: grid;
     grid-template-columns: 1fr;
