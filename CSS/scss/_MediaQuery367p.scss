@@ -130,54 +130,69 @@ line-height: 1.5;
 /*Avales Query*/
 
 #Avales {
-height: 310px;
+  position: relative;
+  overflow: hidden;
+}
+
+.TituloAvales {
+  position: absolute;
+  top: 0;
+  left: 27px;
+  width: 28%;
 }
 
 .TituloAvales h2 {
 border-radius: 4px;
 font-size: 20px;
-width: 29%;
-right: 241px;
-top: 900px;
+width: 90%;
+top: 2px;
+left: 0px;
 height: 26px;
-position: absolute;
 }
 
 .avalesBarra1{
 border-radius: 4px;
 height: 27px;
+width: 25%;
 left: 23px;
-top: 896px;
+top: 0;
 }
 
 .avalesBarra2 {
 border-radius: 4px;
+width: 25%;
+
 height: 24px;
 left: 17px;
-top: 896px;
+top: 2px;
 }
 
 .avalesBarra3{
 border-radius: 4px;
+width: 25%;
+
 left: 20px;
 height: 27px;
-top: 895px;
+top: 0;
+}
+
+.boxLogo {
+  position: absolute;
+  top: 30%;
+  left: 23%;
 }
 
 .aacopLogo {
-height: 41px;
-margin: 20px;
-position: absolute;
-right: 40px;
-bottom: -420px;
+height: 40px;
+margin: auto;
 }
 
-.ficopLogo {
-height: 63px;
-margin: 20px auto;
-position: absolute;
-right: 110px;
-bottom: -500px;
-}
+  .ficopLogo {
+  position: absolute;
+  height: 60px;
+  right: 25%;
+  margin: auto;
+
+  }
 
 }
