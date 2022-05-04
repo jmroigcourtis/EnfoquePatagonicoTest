@@ -2146,11 +2146,10 @@ p.FooterText {
     display: none;
     position: fixed;
     top: 180px;
-    width: 90%;
+    width: 98%;
     height: 50%;
     z-index: 99999;
-    left: 25px;
-    overflow: hidden; }
+    left: 5px; }
   /*Compromiso QUERY*/
   #CompromisoEnfoque {
     position: relative;
