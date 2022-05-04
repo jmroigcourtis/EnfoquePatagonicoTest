@@ -276,62 +276,8 @@ margin: auto;
     width: 98%;
     height: 70%;
     left: 5px;
+    overflow: hidden;
   }
-
-  /*Compromiso QUERY*/
-
-  #CompromisoEnfoque {
-    position: relative;
-    padding: 0;
-  }
-
-  .container {
-    grid-template-rows: 25px;
-  }
-
-  .boxCompromiso1, .boxCompromiso2, .boxCompromiso3, .TituloCompromiso {
-    width: 38%;
-    height: 25px;
-    border-radius: 5px;
-    top: 0;
-  }
-
-  .boxCompromiso1{
-    left: 18px;
-  }
-  .boxCompromiso2{
-    left: 9px;
-  }
-  .boxCompromiso3{
-    left: 13px;
-  }
-
-  .TituloCompromiso {
-    left: 22px;
-  }
-
-  .TituloCompromiso h2 {
-    font-size: 13px;
-  }
-
-  .Expertos, .Cofidencialidad, .Feedback {
-    height: 30px;
-  }
-
-  .Cofidencialidad {
-    width: 100px;
-  }
-
-  .Expertos h2, .Cofidencialidad h2, .Feedback h2 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 10px;
-  }
-
-  .ExpertosText, .ConfidencialidadText , .FeedbackText {
-    font-size: 8px;
-  }
-
 
   .closeButton {
     height: 18px;
@@ -339,7 +285,32 @@ margin: auto;
 
 
 
-  .containerStaffResponsive {  display: grid;
+  .bioPic{
+    border-radius: 100px;
+    position: absolute;
+    z-index: 1;
+    top: -30px;
+    height: 180px;
+    left: 40px;
+   }
+  
+  
+    .bioText {
+      position: absolute;
+      font-size: 10px;
+      top: 200px;
+      width: 86%;
+      left: -20px;
+    }
+
+    .bioPic2 {
+      height: 40%;
+      margin-top: 40px;
+      border-radius: 100px;
+    }
+
+  .containerStaffResponsive 
+  {  display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-auto-columns: 1fr;
@@ -354,24 +325,81 @@ margin: auto;
   .responsiveImg { grid-area: responsiveImg; }
   
   .responsiveText { grid-area: responsiveText; }
-  
-.bioPic{
-  border-radius: 100px;
-  position: absolute;
-  z-index: 1;
-  top: -30px;
-  height: 180px;
-  left: 40px;
- }
 
-
-  .bioText {
-    position: absolute;
-    font-size: 10px;
-    top: 200px;
-    width: 86%;
-    left: -20px;
+  .containerStaffResponsive2 
+  {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "responsiveImg2"
+      "responsiveText2";
   }
+  
+  .responsiveImg2 { grid-area: responsiveImg2; }
+  
+  .responsiveText2 { grid-area: responsiveText2; }
+  
+  .responsiveText2 p {
+    top: 240px;
+  }
+
+  /*Compromiso QUERY*/
+
+  #CompromisoEnfoque {
+    position: relative;
+    padding: 0;
+  }  
+
+  .container {
+    grid-template-rows: 25px;
+  }  
+
+  .boxCompromiso1, .boxCompromiso2, .boxCompromiso3, .TituloCompromiso {
+    width: 38%;
+    height: 25px;
+    border-radius: 5px;
+    top: 0;
+  }  
+
+  .boxCompromiso1{
+    left: 18px;
+  }  
+  .boxCompromiso2{
+    left: 9px;
+  }  
+  .boxCompromiso3{
+    left: 13px;
+  }  
+
+  .TituloCompromiso {
+    left: 22px;
+  }  
+
+  .TituloCompromiso h2 {
+    font-size: 13px;
+  }  
+
+  .Expertos, .Cofidencialidad, .Feedback {
+    height: 30px;
+  }  
+
+  .Cofidencialidad {
+    width: 100px;
+  }  
+
+  .Expertos h2, .Cofidencialidad h2, .Feedback h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+  }  
+
+  .ExpertosText, .ConfidencialidadText , .FeedbackText {
+    font-size: 8px;
+  }  
 
 
 }
