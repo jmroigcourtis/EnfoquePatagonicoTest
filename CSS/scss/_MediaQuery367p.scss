@@ -277,6 +277,7 @@ margin: auto;
     height: 50%;
     z-index: 99999;
     left: 25px;
+    overflow: hidden;
   }
 
   /*Compromiso QUERY*/
@@ -333,5 +334,43 @@ margin: auto;
     font-size: 8px;
   }
 
+
+  .closeButton {
+    height: 12px;
+  }
+
+
+
+  .containerStaffResponsive {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "responsiveImg"
+      "responsiveText";
+  }
   
+  .responsiveImg { grid-area: responsiveImg; }
+  
+  .responsiveText { grid-area: responsiveText; }
+  
+  .bioPic {
+    position: relative;
+    height: 35%;
+    margin: 20px 50px;
+    right: -40px;
+  }
+
+
+  .bioText {
+    position: absolute;
+    font-size: 8px;
+    top: 157px;
+    width: 86%;
+    left: -20px;  
+  }
+
 }
