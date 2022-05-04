@@ -2147,8 +2147,7 @@ p.FooterText {
     position: fixed;
     top: 180px;
     width: 98%;
-    height: 50%;
-    z-index: 99999;
+    height: 70%;
     left: 5px; }
   /*Compromiso QUERY*/
   #CompromisoEnfoque {
@@ -2182,7 +2181,7 @@ p.FooterText {
   .ExpertosText, .ConfidencialidadText, .FeedbackText {
     font-size: 8px; }
   .closeButton {
-    height: 12px; }
+    height: 18px; }
   .containerStaffResponsive {
     display: grid;
     grid-template-columns: 1fr;
@@ -2197,10 +2196,15 @@ p.FooterText {
   .responsiveText {
     grid-area: responsiveText; }
   .bioPic {
-    display: none; }
+    border-radius: 100px;
+    position: absolute;
+    z-index: 1;
+    top: -30px;
+    height: 180px;
+    left: 40px; }
   .bioText {
     position: absolute;
     font-size: 10px;
-    top: 45px;
+    top: 200px;
     width: 86%;
     left: -20px; } }

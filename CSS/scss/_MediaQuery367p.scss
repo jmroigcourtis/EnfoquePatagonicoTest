@@ -274,8 +274,8 @@ margin: auto;
     position: fixed;
     top: 180px;
     width: 98%;
-    height: 50%;
-    z-index: 99999;
+    height: 70%;
+    // z-index: 99999;
     left: 5px;
   }
 
@@ -335,7 +335,7 @@ margin: auto;
 
 
   .closeButton {
-    height: 12px;
+    height: 18px;
   }
 
 
@@ -356,17 +356,23 @@ margin: auto;
   
   .responsiveText { grid-area: responsiveText; }
   
-  .bioPic {
-    display: none;
-  }
+.bioPic{
+  border-radius: 100px;
+  position: absolute;
+  z-index: 1;
+  top: -30px;
+  height: 180px;
+  left: 40px;
+ }
 
 
   .bioText {
     position: absolute;
     font-size: 10px;
-    top: 45px;
+    top: 200px;
     width: 86%;
     left: -20px;
   }
+
 
 }
