@@ -69,44 +69,50 @@ ul, li {
 /*Misión Query*/
 
 #Mision {
+  position: relative;
+  overflow: hidden;
   margin-top: -566px;
   padding: 150px 100px;
   width: auto;
-  height: fit-content;
 }
 
 #Mision p {
-font-size: 12px;
+font-size: 10px;
 
 }
 
 .misionBarra1 {
-  width: 29%;
-  top: 363px;
+  width: 32%;
+  top: 10px;
   left: 22px;
   height: 28px;        
   border-radius: 5px;
 }
 .misionBarra2 {
-  width: 29%;
-  top: 363px;
+  width: 32%;
+  top: 10px;
   left: 19px;
   height: 26px;
   border-radius: 5px;
 }        
 .misionBarra3 {
-  width: 29%;
-  top: 363px;
+  width: 32%;
+  top: 10px;
   left: 15px;
   height: 23px;
   border-radius: 5px;
 }        
+
+.TituloMision {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
 .TituloMision h2 {
   font-size: 15px;
   height: 29px;
-  width: 70%;            
-  right: 82px;
-  bottom: 100px;
+  width: 32%;    
   border-radius: 5px;
 
   
@@ -115,9 +121,6 @@ font-size: 12px;
 .textBox {
 margin: -38%;
 width: 170%;
-height: 226%;
-overflow: hidden;
-position: sticky;
 }
 
 .textQS {
