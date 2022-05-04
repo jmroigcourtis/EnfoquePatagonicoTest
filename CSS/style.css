@@ -2145,7 +2145,7 @@ p.FooterText {
   #Staff6Bio {
     display: none;
     position: fixed;
-    top: 180px;
+    top: 100px;
     width: 98%;
     height: 70%;
     left: 5px; }
