@@ -1,52 +1,180 @@
-@media only screen and (max-device-width: 375px) {
-
-    .misionBarra1,
-    .misionBarra2,
-    .misionBarra3 {
-        height: 20px;
+@media screen and (min-width: 375px) {
+          
+    * {
+        overflow-x: hidden;
     }
 
-    .TituloMision h2,
-    .TituloAvales h2,
-    .TituloStaff h2,
-    .TituloCompromiso h2,
-    .TituloOferta h2,
-    .TituloServicios h2{
-        font-size: 12px; 
-    }
+   /*Nav Query*/
+  .nav {
+    display: none;
+  }
+ 
+  #navbarToggleExternalContent {
+    background-color: white;
+    opacity: 80%;
+  }
+  .fixed-Top {
+    top: -10px;
+  }
 
-    .TituloAvales h2 {
-        font-size: 14px;
-    }
+  .navbar {
+    background-color: white;
+  }
+  .tituloNav {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #a12078;
+  }
+  .btnNav {
+    margin-top: 10px;
+    height: 30px;}
 
 
-    .TituloMision h2 {
-        height: 20px;
-        width: 125px;
-    }
+  ul, li {
+    list-style: none;
+  }
 
-    .avalesBarra1, .avalesBarra2, .avalesBarra3 {
-        top: 885px;
-    }
+  .textNav {
+    display: flex;
+    color:#a12078;
+    font-size: 14px;
+    font-weight: 500;
+  }
 
-    .avalesBarra1 {
-        left: 34px;
-        width: 34%;
-    }
-    .avalesBarra2{
-        left: 30px;
-        width: 32%;
-    }
-    .avalesBarra3{
-        left: 32px;
-        width: 33%;
-    }
 
-    .TituloAvales h2 {
-        border-radius: 5px;
-        width: 74%;
-        height: 19px;
-        left: -64px;
-        bottom: 97px;
-    }
+
+  /*Carousel Query*/
+
+  #carouselExampleInterval img {
+    height: 25%;
+  }
+
+  #LogoInsideCarrousel .enfoque {
+    margin-top: 162px;
+    margin-right: 20px;
+    border-top-right-radius: 194px;
+    padding-right: 35px;
+    padding-left: 10px;
+    box-shadow: inset -1px 0px 27px -3px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+    height: 38px;
+  }
+
+  .carousel-control-prev-icon, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-next {
+    margin-bottom: 310px;
+    height: 20px;
+  }
+
+/*Misión Query*/
+
+#Mision {
+    margin-top: -566px;
+    padding: 150px 100px;
+    width: auto;
+    height: 440px;
+  }
+
+#Mision p {
+  font-size: 10px;
+
+}
+
+  .misionBarra1 {
+    width: 29%;
+    top: 363px;
+    left: 22px;
+    height: 28px;        
+    border-radius: 5px;
+}
+  .misionBarra2 {
+    width: 29%;
+    top: 363px;
+    left: 19px;
+    height: 26px;
+    border-radius: 5px;
+  }        
+  .misionBarra3 {
+    width: 29%;
+    top: 363px;
+    left: 15px;
+    height: 23px;
+    border-radius: 5px;
+  }        
+.TituloMision h2 {
+    font-size: 15px;
+    height: 29px;
+    width: 70%;            
+    right: 82px;
+    bottom: 100px;
+    border-radius: 5px;
+
+    
+}
+
+.textBox {
+  margin: -38%;
+  width: 170%;
+  height: 226%;
+  overflow: hidden;
+  position: sticky;
+}
+
+.textQS {
+  line-height: 1.5;
+}
+
+/*Avales Query*/
+
+#Avales {
+  height: 310px;
+}
+
+.TituloAvales h2 {
+  border-radius: 4px;
+  font-size: 20px;
+  width: 29%;
+  right: 241px;
+  top: 900px;
+  height: 26px;
+  position: absolute;
+}
+
+.avalesBarra1{
+  border-radius: 4px;
+  height: 27px;
+  left: 23px;
+  top: 896px;
+}
+
+.avalesBarra2 {
+  border-radius: 4px;
+  height: 24px;
+  left: 17px;
+  top: 896px;
+}
+
+.avalesBarra3{
+  border-radius: 4px;
+  left: 20px;
+  height: 27px;
+  top: 895px;
+}
+
+.aacopLogo {
+  height: 41px;
+  margin: 20px;
+  position: absolute;
+  right: 40px;
+  bottom: -420px;
+}
+
+.ficopLogo {
+  height: 63px;
+  margin: 20px auto;
+  position: absolute;
+  right: 110px;
+  bottom: -500px;
+}
+
 }

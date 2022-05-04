@@ -1,0 +1,63 @@
+@media screen and  (max-width: 810px){
+
+  #BarraNavegacion{
+    padding: 0;
+  }
+
+    #carouselExampleInterval img {
+        height: 50%;
+      }
+
+      #LogoInsideCarrousel .enfoque {
+        margin-top: 320px;
+        height: 80px;
+      }    
+
+      .carousel-control-prev-icon, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-next {
+        margin-bottom: 200px;
+      }
+
+      .nav {
+          display: none;
+      }
+
+      #NavMobile {
+          position: fixed-top;
+      }
+
+      #navbarToggleExternalContent {
+        background-color: white;
+        opacity: 80%;
+      }
+      .fixed-Top {
+        top: -10px;
+      }
+
+      .navbar {
+        background-color: white;
+      }
+      .tituloNav {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        color: #a12078;
+      }
+      .btnNav {
+        margin-top: 10px;
+        height: 30px;}
+
+
+      ul, li {
+        list-style: none;
+      }
+
+      .textNav {
+        display: flex;
+        color:#a12078;
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+
+
+}

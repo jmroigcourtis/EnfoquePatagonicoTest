@@ -1,354 +1,354 @@
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
 
 
-    /*Nav QUERY*/
+  /*Nav QUERY*/
 
-    p.h5 {
-        font-family: 'Raleway', sans-serif;
-        color: #6C1572;
-        color: #B64A87;
-        display: inline-block;
-        font-size: 16px;
-        font-weight: 600;
-        position: relative;
-        margin: 0 20px;
-        animation: EndNavAnimation 0.5s;
-      }
-
-      .nav-link {
-        display: block;
-        padding: 0 5px;
-        color: #0d6efd;
-        text-decoration: none;
-        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-      }
-
-      /*Banner QUERY*/
-      #carouselExampleInterval img {
-        height: 60%;
-      }
-
-      .carousel-control-prev-icon, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-next{
-        margin-bottom: 150px;
-        width: 40px;
-
-      }
-
-      #LogoInsideCarrousel .enfoque {
-        background-color: white;
-        margin-top: 395px;
-        margin-right: 20px;
-        border-top-right-radius: 141px;
-        padding-right: 87px;
-        padding-left: 5px;
-        box-shadow: inset -1px 0px 27px -3px rgba(0, 0, 0, 0.25);
-        z-index: 3;
-        height: 85px;}
-
-    /*Misión QUERY*/
-
-    #Mision {
-      height: 700px;
-      margin-top: -200px;
+  p.h5 {
+      font-family: 'Raleway', sans-serif;
+      color: #6C1572;
+      color: #B64A87;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 600;
+      position: relative;
+      margin: 0 20px;
+      animation: EndNavAnimation 0.5s;
     }
 
-    #Mision p {
-        font-size: 17px;
+    .nav-link {
+      display: block;
+      padding: 0 5px;
+      color: #0d6efd;
+      text-decoration: none;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
     }
 
-    .lineasImg {
-      height: 300px;
-      bottom: -690px;
-      left: 190px;
+    /*Banner QUERY*/
+    #carouselExampleInterval img {
+      height: 60%;
     }
 
-    .TituloMision h2 {
-        position: relative;
-        background-color: #411E6F;
-        border-radius: 15px;
-        color: white;
-        font-size: 48px;
-        animation: showUpTitleSection 2s;
-        width: 35%;
-        height: 70px;
-        z-index: 4;
-        padding: 4px;
-        margin-left: 7px;
-      }
+    .carousel-control-prev-icon, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-next{
+      margin-bottom: 150px;
+      width: 40px;
 
-      .textBox {
-        width: 64%;
-        height: 81%;
-        margin-top: 5%;
-        margin-left: 32%;
-      }
-      .textQS {
-        line-height: 1.5;
-        font-size: 18px;
-      }
-          /*Avales QUERY*/
+    }
 
-          #Avales {
-            background-color: #fcfcfc;
-            margin-top: 80px;
-            padding: 100px;
-            width: auto;
-            height: 390px;
-          }
+    #LogoInsideCarrousel .enfoque {
+      background-color: white;
+      margin-top: 395px;
+      margin-right: 20px;
+      border-top-right-radius: 141px;
+      padding-right: 87px;
+      padding-left: 5px;
+      box-shadow: inset -1px 0px 27px -3px rgba(0, 0, 0, 0.25);
+      z-index: 3;
+      height: 85px;}
 
-          .TituloAvales h2 {
-            background-color: #411E6F;
-            width: 50%;
-            height: 50%;
-            color: white;
-            border-radius: 15px;
-            animation: showUpTitleSection 2s;
-            width: 34%;
-            height: auto;
-            margin-top: 9px;
-            position: relative;
-            z-index: 4;
-            justify-content: space-around;
-            font-size: 60px;
-          }
+  /*Misión QUERY*/
 
-          .aacopLogo {
-            height: 100px;
-            margin: 20px auto;
-          }
+  #Mision {
+    height: 700px;
+    margin-top: -200px;
+  }
 
-          .ficopLogo {
-            height: 100px;
-            margin: 20px auto;
-          }
+  #Mision p {
+      font-size: 17px;
+  }
 
-          /*Staff Query*/
+  .lineasImg {
+    height: 300px;
+    bottom: -690px;
+    left: 190px;
+  }
 
-          #Staff {
-            padding: 100px;
-          }
+  .TituloMision h2 {
+      position: relative;
+      background-color: #411E6F;
+      border-radius: 15px;
+      color: white;
+      font-size: 48px;
+      animation: showUpTitleSection 2s;
+      width: 35%;
+      height: 70px;
+      z-index: 4;
+      padding: 4px;
+      margin-left: 7px;
+    }
 
-          .TituloStaff {
-            background-color: #411E6F;
-            width: 50%;
-            height: 50%;
-            color: white;
-            border-radius: 15px;
-            width: 34%;
-            margin-left: 12px;
-            height: auto;
-            position: relative;
-            z-index: 4;
-            justify-content: space-around;
-          }
+    .textBox {
+      width: 64%;
+      height: 81%;
+      margin-top: 5%;
+      margin-left: 32%;
+    }
+    .textQS {
+      line-height: 1.5;
+      font-size: 18px;
+    }
+        /*Avales QUERY*/
 
-          #Staff1, 
-          #Staff2, 
-          #Staff3, 
-          #Staff4, 
-          #Staff5, 
-          #Staff6 {
-            margin: 0 6px;
-          }
+        #Avales {
+          background-color: #fcfcfc;
+          margin-top: 80px;
+          padding: 100px;
+          width: auto;
+          height: 390px;
+        }
 
-          #Staff1 p:last-of-type, 
-          #Staff2 p:last-of-type, 
-          #Staff3 p:last-of-type,
-          #Staff4 p:last-of-type, 
-          #Staff5 p:last-of-type, 
-          #Staff6 p:last-of-type {
-            color: gray;
-            opacity: 80%;
-            font-size: 12px;
-          }
+        .TituloAvales h2 {
+          background-color: #411E6F;
+          width: 50%;
+          height: 50%;
+          color: white;
+          border-radius: 15px;
+          animation: showUpTitleSection 2s;
+          width: 34%;
+          height: auto;
+          margin-top: 9px;
+          position: relative;
+          z-index: 4;
+          justify-content: space-around;
+          font-size: 60px;
+        }
 
-          .Fotos {
-              display: flex;
-              margin-top: 60px;
-          }
-          .Staff {
-            width: 275px;
-            height: 170px;            
-            border-radius: 500px;
-            background-color: white;
-            margin: 3px;
-            animation: StartOpacityPicture 1s forwards;
-          }
+        .aacopLogo {
+          height: 100px;
+          margin: 20px auto;
+        }
 
-          .bioText {
-            font-size: 14px;
-          }
+        .ficopLogo {
+          height: 100px;
+          margin: 20px auto;
+        }
 
-          /*Compromiso Query*/
+        /*Staff Query*/
 
-          #CompromisoEnfoque {
-            padding: 100px;
-          }
+        #Staff {
+          padding: 100px;
+        }
 
-          .TituloCompromiso {
-            background-color: #411E6F;
-            width: 50%;
-            height: 50%;
-            color: white;
-            border-radius: 15px;
-            width: 45%;
-            height: 66px;
-            position: relative;
-            z-index: 4;
-            margin-top: 12px;
-          }
+        .TituloStaff {
+          background-color: #411E6F;
+          width: 50%;
+          height: 50%;
+          color: white;
+          border-radius: 15px;
+          width: 34%;
+          margin-left: 12px;
+          height: auto;
+          position: relative;
+          z-index: 4;
+          justify-content: space-around;
+        }
 
-          .TituloCompromiso h2 {
-            font-size: 47px;
-            margin-left: 5px;
-          }
+        #Staff1, 
+        #Staff2, 
+        #Staff3, 
+        #Staff4, 
+        #Staff5, 
+        #Staff6 {
+          margin: 0 6px;
+        }
 
-          .boxCompromiso1,
-          .boxCompromiso2,
-          .boxCompromiso3 {
-              width: 38%;
-          }
+        #Staff1 p:last-of-type, 
+        #Staff2 p:last-of-type, 
+        #Staff3 p:last-of-type,
+        #Staff4 p:last-of-type, 
+        #Staff5 p:last-of-type, 
+        #Staff6 p:last-of-type {
+          color: gray;
+          opacity: 80%;
+          font-size: 12px;
+        }
 
-          /*Oferta académica Query*/ 
+        .Fotos {
+            display: flex;
+            margin-top: 60px;
+        }
+        .Staff {
+          width: 275px;
+          height: 170px;            
+          border-radius: 500px;
+          background-color: white;
+          margin: 3px;
+          animation: StartOpacityPicture 1s forwards;
+        }
 
-          #OfertaAcadémica {
-            padding: 80px 100px;
-          }
+        .bioText {
+          font-size: 14px;
+        }
 
-          .TituloOferta h2 {
-            background-color: #411E6F;
-            width: 50%;
-            height: 50%;
-            color: white;
-            border-radius: 15px;
-            background-color: #411E6F;
-            border-radius: 15px;
-            color: white;
-            font-size: 47px;
-            width: 39%;
-            height: 69px;
-            margin-left: -2px;
-            margin-top: 11px;
-            position: relative;
-            z-index: 4;
-            justify-content: space-around;
-          }
+        /*Compromiso Query*/
 
-          .order {
-            height: 70px;          
-          }
+        #CompromisoEnfoque {
+          padding: 100px;
+        }
 
-          .order p {
-            margin-top: 15px;
-            font-size: 15px;
-          }
+        .TituloCompromiso {
+          background-color: #411E6F;
+          width: 50%;
+          height: 50%;
+          color: white;
+          border-radius: 15px;
+          width: 45%;
+          height: 66px;
+          position: relative;
+          z-index: 4;
+          margin-top: 12px;
+        }
 
-          /*Servicios QUERY*/
+        .TituloCompromiso h2 {
+          font-size: 47px;
+          margin-left: 5px;
+        }
 
-          .TituloServicios h2 {
-            color: white;
-            border-radius: 15px;
-            width: 34%;
-            color: white;
-            font-size: 47px;
-            margin-top: 11px;
-            margin-left: 78px;
-            height: 69px;
-            position: relative;
-            z-index: 4;
-          }
-
-          .serviceTitle {
-            font-size: 20px;
-            width: 53%;
-          }
-
-          .serviceText p {
-            font-size: 16px;
-          }
-
-          .servicePic img {
-            height: 360px;
-          }
-
-          .serviceTitleEj {
-            font-size: 20px;
+        .boxCompromiso1,
+        .boxCompromiso2,
+        .boxCompromiso3 {
             width: 38%;
-          }
-          .serviceTextEj p {
-            font-size: 16px;
-          }
+        }
 
-          .servicePicEj img {
-            height: 260px;
-          }
+        /*Oferta académica Query*/ 
 
-          .serviceTitleOrg {
-            font-size: 20px;
-            width: 48%;
-          }
+        #OfertaAcadémica {
+          padding: 80px 100px;
+        }
 
-          .serviceTextOrg p {
-            font-size: 16px;
-            margin: 20px;
-          }
+        .TituloOferta h2 {
+          background-color: #411E6F;
+          width: 50%;
+          height: 50%;
+          color: white;
+          border-radius: 15px;
+          background-color: #411E6F;
+          border-radius: 15px;
+          color: white;
+          font-size: 47px;
+          width: 39%;
+          height: 69px;
+          margin-left: -2px;
+          margin-top: 11px;
+          position: relative;
+          z-index: 4;
+          justify-content: space-around;
+        }
 
-          .servicePicOrg img {
-            height: 280px
-          }
+        .order {
+          height: 70px;          
+        }
 
-          .serviceTitleSoft {
-            font-size: 18px;
-            width: 70%;
-            padding: 0 3px;
-          }
-          .serviceTitleSoft p {
-            font-size: 16px;
-          }
+        .order p {
+          margin-top: 15px;
+          font-size: 15px;
+        }
 
-          .servicePicSoft img {
-             height: 320px;
-             margin-left: 110px;
-          }
+        /*Servicios QUERY*/
+
+        .TituloServicios h2 {
+          color: white;
+          border-radius: 15px;
+          width: 34%;
+          color: white;
+          font-size: 47px;
+          margin-top: 11px;
+          margin-left: 78px;
+          height: 69px;
+          position: relative;
+          z-index: 4;
+        }
+
+        .serviceTitle {
+          font-size: 20px;
+          width: 53%;
+        }
+
+        .serviceText p {
+          font-size: 16px;
+        }
+
+        .servicePic img {
+          height: 360px;
+        }
+
+        .serviceTitleEj {
+          font-size: 20px;
+          width: 38%;
+        }
+        .serviceTextEj p {
+          font-size: 16px;
+        }
+
+        .servicePicEj img {
+          height: 260px;
+        }
+
+        .serviceTitleOrg {
+          font-size: 20px;
+          width: 48%;
+        }
+
+        .serviceTextOrg p {
+          font-size: 16px;
+          margin: 20px;
+        }
+
+        .servicePicOrg img {
+          height: 280px
+        }
+
+        .serviceTitleSoft {
+          font-size: 18px;
+          width: 70%;
+          padding: 0 3px;
+        }
+        .serviceTitleSoft p {
+          font-size: 16px;
+        }
+
+        .servicePicSoft img {
+           height: 320px;
+           margin-left: 110px;
+        }
 
 
-          /*Coaching QUERY*/
+        /*Coaching QUERY*/
 
-          #CoachingEq {
-            background-color: #d795b6;
-            height: 73px;
-            border-radius: 5px;
-            width: 16%;
-            margin: 0 20px;
-          }
+        #CoachingEq {
+          background-color: #d795b6;
+          height: 73px;
+          border-radius: 5px;
+          width: 16%;
+          margin: 0 20px;
+        }
 
-          #CoachingOrg {
-            background-color: #b64a87;
-            border-radius: 5px;
-            width: 17%;
-            height: 72px;
-          }
+        #CoachingOrg {
+          background-color: #b64a87;
+          border-radius: 5px;
+          width: 17%;
+          height: 72px;
+        }
 
-          #CoachingEj {
-            background-color: #a12078;
-            border-radius: 5px;
-            width: 15%;
-            height: 72px;
-            margin: 0 20px;
-          }
+        #CoachingEj {
+          background-color: #a12078;
+          border-radius: 5px;
+          width: 15%;
+          height: 72px;
+          margin: 0 20px;
+        }
 
-          #Softskills {
-            background-color: #791559;
-            border-radius: 5px;
-            height: 71px;
-            width: 24%;
-            margin: 0 20px;
-          }
+        #Softskills {
+          background-color: #791559;
+          border-radius: 5px;
+          height: 71px;
+          width: 24%;
+          margin: 0 20px;
+        }
 
-          #CoachingEq h2, #CoachingOrg h2, #CoachingEj h2, #Softskills h2 {
-            margin-left: 10px;
-            font-size: 26px;
-            color: white;
-            width: 103%;
-          }
+        #CoachingEq h2, #CoachingOrg h2, #CoachingEj h2, #Softskills h2 {
+          margin-left: 10px;
+          font-size: 26px;
+          color: white;
+          width: 103%;
+        }
 }

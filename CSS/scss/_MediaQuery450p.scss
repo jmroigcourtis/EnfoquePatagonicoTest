@@ -1,245 +1,245 @@
 @media only screen and (max-device-width : 450px){
 
-            .nav {
-                display: none;
-            }
-             
-              #navbarToggleExternalContent {
-                background-color: white;
-                opacity: 80%;
-              }
-              .fixed-Top {
-                top: -10px;
-              }
+  .nav {
+      display: none;
+  }
+   
+    #navbarToggleExternalContent {
+      background-color: white;
+      opacity: 80%;
+    }
+    .fixed-Top {
+      top: -10px;
+    }
+
+    .navbar {
+      background-color: white;
+    }
+    .tituloNav {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: 600;
+      color: #a12078;
+    }
+    .btnNav {
+      margin-top: 10px;
+      height: 30px;}
+
+
+    ul, li {
+      list-style: none;
+    }
+
+    .textNav {
+      display: flex;
+      color:#a12078;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    /*Carousel Query*/
+    #carouselExampleInterval img {
+      height: 25%;
+    }
     
-              .navbar {
-                background-color: white;
-              }
-              .tituloNav {
-                margin-top: 10px;
-                font-size: 18px;
-                font-weight: 600;
-                color: #a12078;
-              }
-              .btnNav {
-                margin-top: 10px;
-                height: 30px;}
-    
-    
-              ul, li {
-                list-style: none;
-              }
-    
-              .textNav {
-                display: flex;
-                color:#a12078;
-                font-size: 14px;
-                font-weight: 500;
-              }
-    
-              /*Carousel Query*/
-              #carouselExampleInterval img {
-                height: 25%;
-              }
-              
-              #LogoInsideCarrousel .enfoque {
-                margin-top: 162px;
-                margin-right: 20px;
-                border-top-right-radius: 194px;
-                padding-right: 35px;
-                padding-left: 10px;
-                box-shadow: inset -1px 0px 27px -3px rgba(0, 0, 0, 0.25);
-                z-index: 3;
-                height: 38px;
-              }
-    
-              .carousel-control-prev-icon, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-next {
-                margin-bottom: 310px;
-                height: 20px;
-              }
-    
+    #LogoInsideCarrousel .enfoque {
+      margin-top: 162px;
+      margin-right: 20px;
+      border-top-right-radius: 194px;
+      padding-right: 35px;
+      padding-left: 10px;
+      box-shadow: inset -1px 0px 27px -3px rgba(0, 0, 0, 0.25);
+      z-index: 3;
+      height: 38px;
+    }
 
-              /*Misión Query*/
-
-              #Mision {
-                margin-top: -566px;
-                padding: 150px 100px;
-                width: auto;
-                height: 440px;
-              }
-    
-            #Mision p {
-              font-size: 10px;
-    
-            }
-    
-              .misionBarra1 {
-                width: 34%;
-                top: 363px;
-                left: 22px;
-                height: 28px;        
-                border-radius: 5px;
-            }
-              .misionBarra2 {
-                width: 34%;
-                top: 363px;
-                left: 19px;
-                height: 26px;
-                border-radius: 5px;
-              }        
-              .misionBarra3 {
-                width: 34%;
-                top: 363px;
-                left: 15px;
-                height: 23px;
-                border-radius: 5px;
-              }        
-
-            .TituloMision h2 {
-              position: absolute;
-              border-radius: 5px;
-              bottom: 335px;
-              font-size: 17px;
-              height: 29px;
-              width: 65%;
-              right: -5px;
-              top: -100px;
-              left: -81px;                
-            }
-    
-            .textBox {
-              margin: -38%;
-              width: 170%;
-              height: 226%;
-            }
-    
-            .textQS {
-              line-height: 1.5;
-            }
-
-            /*Avales QUERY*/
-            
-
-            #Avales {
-              height: 200px;
-            }
-
-            .avalesBarra1, 
-            .avalesBarra2,
-            .avalesBarra3 {
-              width: 20%;
-              height: 3%;
-              border-radius: 5px;
-              // bottom: -190px;
-            }
-
-            .avalesBarra1{
-              left: 79px;
-              bottom: -187px;
-            }
-
-            .avalesBarra2{
-              bottom: -191px;
-              left: 72px;            
-            }
-
-            .avalesBarra3{
-              left: 75px;
-              bottom: -189px;
-            }
-
-            .TituloAvales h2 {
-              font-size: 20px;
-              border-radius: 5px;
-              left: -18px;
-              width: 38%;
-              bottom: 95px;
-            }
-
-            .boxLogo {
-              display: block;
-              position: absolute;
-              bottom: -450px;
-            }
-
-            .aacopLogo{
-              height: 55px;
-              margin: 10px -80px;
-            }
-            
-            .ficopLogo {
-              height: 55px;
-
-            }
-
-            .boxLogo {
-              margin: auto;
-            }
-
-            #CompromisoEnfoque,
-            #OfertaAcadémica,
-            #NuestrosServicios {
-              display: none;
-            }
-
-            /*Staff Query*/
-
-            .Fotos {
-              display: flex;
-              flex-wrap: wrap;
-              margin-top: 80px;
-              width: 77%;
-            }
-
-            .Staff {
-              flex: 1 0 50%;
-              width: 115px;
-              height: 100px;
-            }
-
-            .staffText {
-              font-size: 10px;
-            }
-
-            #Staff1 p:last-of-type, 
-            #Staff2 p:last-of-type, 
-            #Staff3 p:last-of-type, 
-            #Staff4 p:last-of-type, 
-            #Staff5 p:last-of-type, 
-            #Staff6 p:last-of-type {
-              opacity: 80%;
-              font-size: 8px;
-              margin-left: 5px;
-            }
-
-            .staffBarra1,
-            .staffBarra2,
-            .staffBarra3,
-            .TituloStaff  {
-              border-radius: 5px;
-            }
-
-            .TituloStaff {
-              width: 63%;
-              left: -8px;            
-            }
-
-            .staffBarra1 {
-              width: 29%;
-              height: 15px;
-            }
-
-            .staffBarra2{
-              width: 29%;
-              height: 14px;
-              left: 97px;
-            }
-
-            .staffBarra3{
-              width: 29%;
-              height: 13px;
-              left: 94px;
-            }
+    .carousel-control-prev-icon, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-next {
+      margin-bottom: 310px;
+      height: 20px;
+    }
 
 
-          }
+    /*Misión Query*/
+
+    #Mision {
+      margin-top: -566px;
+      padding: 150px 100px;
+      width: auto;
+      height: 440px;
+    }
+
+  #Mision p {
+    font-size: 10px;
+
+  }
+
+    .misionBarra1 {
+      width: 34%;
+      top: 363px;
+      left: 22px;
+      height: 28px;        
+      border-radius: 5px;
+  }
+    .misionBarra2 {
+      width: 34%;
+      top: 363px;
+      left: 19px;
+      height: 26px;
+      border-radius: 5px;
+    }        
+    .misionBarra3 {
+      width: 34%;
+      top: 363px;
+      left: 15px;
+      height: 23px;
+      border-radius: 5px;
+    }        
+
+  .TituloMision h2 {
+    position: absolute;
+    border-radius: 5px;
+    bottom: 335px;
+    font-size: 17px;
+    height: 29px;
+    width: 65%;
+    right: -5px;
+    top: -100px;
+    left: -81px;                
+  }
+
+  .textBox {
+    margin: -38%;
+    width: 170%;
+    height: 226%;
+  }
+
+  .textQS {
+    line-height: 1.5;
+  }
+
+  /*Avales QUERY*/
+  
+
+  #Avales {
+    height: 200px;
+  }
+
+  .avalesBarra1, 
+  .avalesBarra2,
+  .avalesBarra3 {
+    width: 20%;
+    height: 3%;
+    border-radius: 5px;
+    // bottom: -190px;
+  }
+
+  .avalesBarra1{
+    left: 79px;
+    bottom: -187px;
+  }
+
+  .avalesBarra2{
+    bottom: -191px;
+    left: 72px;            
+  }
+
+  .avalesBarra3{
+    left: 75px;
+    bottom: -189px;
+  }
+
+  .TituloAvales h2 {
+    font-size: 20px;
+    border-radius: 5px;
+    left: -18px;
+    width: 38%;
+    bottom: 95px;
+  }
+
+  .boxLogo {
+    display: block;
+    position: absolute;
+    bottom: -450px;
+  }
+
+  .aacopLogo{
+    height: 55px;
+    margin: 10px -80px;
+  }
+  
+  .ficopLogo {
+    height: 55px;
+
+  }
+
+  .boxLogo {
+    margin: auto;
+  }
+
+  #CompromisoEnfoque,
+  #OfertaAcadémica,
+  #NuestrosServicios {
+    display: none;
+  }
+
+  /*Staff Query*/
+
+  .Fotos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    width: 77%;
+  }
+
+  .Staff {
+    flex: 1 0 50%;
+    width: 115px;
+    height: 100px;
+  }
+
+  .staffText {
+    font-size: 10px;
+  }
+
+  #Staff1 p:last-of-type, 
+  #Staff2 p:last-of-type, 
+  #Staff3 p:last-of-type, 
+  #Staff4 p:last-of-type, 
+  #Staff5 p:last-of-type, 
+  #Staff6 p:last-of-type {
+    opacity: 80%;
+    font-size: 8px;
+    margin-left: 5px;
+  }
+
+  .staffBarra1,
+  .staffBarra2,
+  .staffBarra3,
+  .TituloStaff  {
+    border-radius: 5px;
+  }
+
+  .TituloStaff {
+    width: 63%;
+    left: -8px;            
+  }
+
+  .staffBarra1 {
+    width: 29%;
+    height: 15px;
+  }
+
+  .staffBarra2{
+    width: 29%;
+    height: 14px;
+    left: 97px;
+  }
+
+  .staffBarra3{
+    width: 29%;
+    height: 13px;
+    left: 94px;
+  }
+
+
+}

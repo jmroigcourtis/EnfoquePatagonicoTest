@@ -2,464 +2,464 @@
 
 
 
-        #BarraNavegacion {
-        padding: 5px 0;
-        max-width: 100%;
-      }
-
-      .nav-link {
-        display: block;
-        padding: 0 5px;
-        text-decoration: none;
-        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-      }
-
-      svg {
-          height: 20px;
-      }
-
-      .bi-whatsapp {
-        width: 40px;
-        height: 40px;
-        margin-left: 1260px;
-        border-width: 4px;
-        cursor: pointer;
-      }
-
-    p.h5 {
-        font-family: 'Raleway', sans-serif;
-        display: inline-block;
-        font-size: 15px;
-        font-weight: 600;
-        position: relative;
-        margin: 0 20px;
-        animation: EndNavAnimation 0.5s;
-      }
-
-
-      /*Carousel Query*/
-
-      #carouselExampleInterval img {
-        height: 66%;
-      }
-
-      .carousel-control-prev-icon, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-next{
-        margin-bottom: 100px;
-        width: 40px;
-      }
-
-      #LogoInsideCarrousel .enfoque {
-        margin-top: 428px;
-        margin-right: 20px;
-        border-top-right-radius: 194px;
-        padding-right: 153px;
-        padding-left: 10px;
-        box-shadow: inset -1px 0px 27px -3px rgba(0, 0, 0, 0.25);
-        z-index: 3;
-        height: 100px;
-      }
-
-          /*Misión QUERY*/
-
-    
-    #Mision {
-        margin-top: -120px;
-    }
-
-    #Mision p {
-        font-size: 24px;
-    }
-
-    .TituloMision h2 {
-        position: relative;
-        border-radius: 15px;
-        color: white;
-        font-size: 48px;
-        animation: showUpTitleSection 2s;
-        width: 35%;
-        height: 70px;
-        z-index: 4;
-        padding: 4px;
-        margin-left: 7px;
-      }
-
-      .textBox {
-        color: #565555;
-        width: 76%;
-        margin: 20px 300px;
-        margin-top: 20px;
-        height: 85%;
-        margin-top: 20px;
-        border-radius: 20px;
-        backdrop-filter: blur 50px;
-        word-wrap: break-word;
-        z-index: 3;
-      }
-
-        .textQS {
-          line-height: 1.7;
-          font-size: 22px;
-        }
-
-        .lineasImg{
-          position: absolute;
-          z-index: 4;
-          height: 400px;
-          left: 10em;
-          bottom: -840px;
-      }
-
-      /*Avales QUERY*/
-
-      .TituloAvales h2 {
-        color: white;
-        border-radius: 15px;
-        animation: showUpTitleSection 2s;
-        width: 34%;
-        height: auto;
-        margin-top: 9px;
-        padding: 0 10px;
-        position: relative;
-        z-index: 4;
-        justify-content: space-around;
-        font-size: 60px;
-
-      }
-
-      .aacopLogo {
-        height: 100px;
-        margin: 20px auto;
-      }
-
-      .ficopLogo {
-        height: 100px;
-        margin: 20px auto;
-      }
-
-      /*Staff Query*/
-
-
-      .TituloStaff {
-        width: 50%;
-        height: 50%;
-        color: white;
-        border-radius: 15px;
-        width: 34%;
-        margin-left: 12px;
-        height: auto;
-        position: relative;
-        z-index: 4;
-        justify-content: space-around;
-      }
-
-      .TituloStaff h2 {
-        font-size: 60px;
-        padding: 0 10px;
-      }
-
-      .staffText {
-        font-size: 15px;
-      }
-
-      #Staff1, 
-      #Staff2, 
-      #Staff3, 
-      #Staff4, 
-      #Staff5, 
-      #Staff6 {
-        margin: 0 15px;
-      }
-
-      #Staff1Bio {
-        width: 80%;
-        padding: 0 20px;
-      }
-
-      #Staff2Bio, #Staff5Bio, #Staff6Bio {
-        width: 60%;
-        height: 70%;
-        left: 240px;
-      }
-
-      #Staff3Bio, #Staff4Bio {
-        width: 70%;
-        height: 65%;
-        left: 200px;
-      }
-
-
-
-      #Staff1 p:last-of-type, 
-      #Staff2 p:last-of-type, 
-      #Staff3 p:last-of-type,
-      #Staff4 p:last-of-type, 
-      #Staff5 p:last-of-type, 
-      #Staff6 p:last-of-type {
-        opacity: 80%;
-        font-size: 12px;
-      }
-
-      .Fotos {
-          display: flex;
-          margin-top: 80px;
-      }
-      .Staff {
-        width: 275px;
-        height: 170px;            
-        margin: 3px;
-        animation: StartOpacityPicture 1s forwards;
-      }
-
-      /*Fotos Z-INDEX Staff Query*/
-      .bioPic {
-        height: 55%;
-        margin: 40px 50px;
-      }
-
-      .bioText {
-        margin: 40px 50px;
-        font-size: 15px;
-        line-height: 1.6;
-      }
-
-      .bioPic2 {
-        height: 70%;
-        margin-top: 40px;
-      }
-
-      .bioPic3 {
-        height: 65%;
-      }
-      .bioPic4 {
-        height: 70%;
-      }
-      .bioPic5 {
-        height: 60%;
-      }
-
-      .bioPic6{
-        height: 70%;
-        margin: 40px 90px;
-        border-radius: 20px;
-
-      }
-      /*Compromiso Query*/
-
-       .TituloCompromiso {
-        width: 45%;
-        height: 66px;
-        margin-top: 12px;
-      }
-
-      .TituloCompromiso h2 {
-        font-size: 47px;
-        margin-left: 5px;
-      }
-
-      .boxCompromiso1,
-      .boxCompromiso2,
-      .boxCompromiso3 {
-          width: 38%;
-      }
-
-      .Expertos h2, .Cofidencialidad h2, .Feedback h2 {
-        padding: 5px 10px;
-        font-weight: bold;
-      }
-
-      /*Oferta académica Query*/ 
-
-      #OfertaAcadémica {
-          height: 760px;
-          padding: 100px;
-      }
-
-      .TituloOferta h2 {
-        font-size: 47px;
-        width: 39%;
-        height: 69px;
-        margin-left: -2px;
-        margin-top: 11px;
-        padding: 0 11px;
-      }
-
-      .order {
-        width: 183px;
-        height: 73px;
-        margin: 0 6px;      
-    }
-
-      .order p {
-        margin-top: 15px;
-        font-size: 15px;
-        font-weight: 500;
-        color: white;      
-    }
-
-      /*Servicios QUERY*/
-
-      .TituloServicios h2 {
-        margin-top: 11px;
-        margin-left: 78px;
-        width: 34%;
-        height: 69px;
-        font-size: 47px;
-        padding: 0 10px;
-      }
-
-      /*Services QUERY*/
-
-      #CoachingEq {
-        height: 73px;
-        width: 16%;
-        margin: 0 20px;
-      }
-
-      #CoachingOrg {
-        width: 17%;
-        height: 72px;
-      }
-      #Softskills {
-        height: 70px;
-        width: 22%;
-        margin: 0 20px;      
-    }
-
-    #CoachingEj {
-      width: 15%;
-      height: 72px;
-      margin: 0 20px;
-    }
-      #CoachingOrgBox {
-          height: 65%;
-      }
-
-
-      #CoachingEjBox {
-          height: 62%;
-      }
-
-
-    #CoachingSoftBox {
-        width: 65%;
-    }
-
-      #CoachingEq h2, #CoachingOrg h2, #CoachingEj h2, #Softskills h2 {
-        margin-left: 10px;
-        font-size: 26px;
-        color: white;
-        width: 103%;
-      }
-
-      /*Services-zIndex QUERY*/ 
-
-      .serviceTitle {
-        color: white;
-        font-weight: 600;
-        font-size: 32px;
-        width: 78%;
-        margin-top: 40px;
-        padding: 2px 5px;
-      }
-
-      .servicePic img {
-        height: 380px;
-        margin: 40px;
-      }
-
-      .serviceText p {
-        margin: 60px 20px;
-        font-size: 18px;
-        margin: 35px auto;
-        width: 130%;
-        line-height: 1.8;
-      }
-
-      .servicePicOrg img {
-        height: 280px;
-        margin-top: 60px;
-        margin-left: 40px;
-      }
-
-      .serviceTitleOrg {
-        font-size: 29px;
-        margin-right: 10px;
-        width: 65%;
-      }
-
-      .serviceTextOrg p {
-        margin: 10px;
-        margin-top: 42px;
-        font-size: 16px;
-        line-height: 1.8;
-      }
-
-      .servicePicEj img {
-        height: 280px;
-        margin-top: 60px;
-        margin-left: 40px;
-      }
-
-      .serviceTitleEj {
-        font-size: 27px;
-        width: 47%;
-        margin-top: 60px;
-        margin-left: 10px;
-        padding: 2px 4px;
-      }
-
-      .serviceTextEj p {
-        font-family: 'Raleway', sans-serif;
-        margin: 10px;
-        font-weight: lighter;
-        font-size: 16px;
-        opacity: 60%;
-        line-height: 1.8;
-      }
-
-      .servicePicSoft img {
-        height: 360px;
-        margin-top: 60px;
-        margin-left: 40px;
-      }
-
-      .serviceTitleSoft {
-        font-size: 20px;
-        width: 73%;
-        padding: 4px;
-        
-      }
-
-      .serviceTextSoft p {
-        margin: 20px;
-        font-size: 15px;
-      }
-
-      /*Contacto Query*/
-
-      #Contacto {
-        height: 370px;
-      }
+  #BarraNavegacion {
+  padding: 5px 0;
+  max-width: 100%;
+}
+
+.nav-link {
+  display: block;
+  padding: 0 5px;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+svg {
+    height: 20px;
+}
+
+.bi-whatsapp {
+  width: 40px;
+  height: 40px;
+  margin-left: 1260px;
+  border-width: 4px;
+  cursor: pointer;
+}
+
+p.h5 {
+  font-family: 'Raleway', sans-serif;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+  margin: 0 20px;
+  animation: EndNavAnimation 0.5s;
+}
+
+
+/*Carousel Query*/
+
+#carouselExampleInterval img {
+  height: 66%;
+}
+
+.carousel-control-prev-icon, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-next{
+  margin-bottom: 100px;
+  width: 40px;
+}
+
+#LogoInsideCarrousel .enfoque {
+  margin-top: 428px;
+  margin-right: 20px;
+  border-top-right-radius: 194px;
+  padding-right: 153px;
+  padding-left: 10px;
+  box-shadow: inset -1px 0px 27px -3px rgba(0, 0, 0, 0.25);
+  z-index: 3;
+  height: 100px;
+}
+
+    /*Misión QUERY*/
+
+
+#Mision {
+  margin-top: -120px;
+}
+
+#Mision p {
+  font-size: 24px;
+}
+
+.TituloMision h2 {
+  position: relative;
+  border-radius: 15px;
+  color: white;
+  font-size: 48px;
+  animation: showUpTitleSection 2s;
+  width: 35%;
+  height: 70px;
+  z-index: 4;
+  padding: 4px;
+  margin-left: 7px;
+}
+
+.textBox {
+  color: #565555;
+  width: 76%;
+  margin: 20px 300px;
+  margin-top: 20px;
+  height: 85%;
+  margin-top: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur 50px;
+  word-wrap: break-word;
+  z-index: 3;
+}
+
+  .textQS {
+    line-height: 1.7;
+    font-size: 22px;
+  }
+
+  .lineasImg{
+    position: absolute;
+    z-index: 4;
+    height: 400px;
+    left: 10em;
+    bottom: -840px;
+}
+
+/*Avales QUERY*/
+
+.TituloAvales h2 {
+  color: white;
+  border-radius: 15px;
+  animation: showUpTitleSection 2s;
+  width: 34%;
+  height: auto;
+  margin-top: 9px;
+  padding: 0 10px;
+  position: relative;
+  z-index: 4;
+  justify-content: space-around;
+  font-size: 60px;
+
+}
+
+.aacopLogo {
+  height: 100px;
+  margin: 20px auto;
+}
+
+.ficopLogo {
+  height: 100px;
+  margin: 20px auto;
+}
+
+/*Staff Query*/
+
+
+.TituloStaff {
+  width: 50%;
+  height: 50%;
+  color: white;
+  border-radius: 15px;
+  width: 34%;
+  margin-left: 12px;
+  height: auto;
+  position: relative;
+  z-index: 4;
+  justify-content: space-around;
+}
+
+.TituloStaff h2 {
+  font-size: 60px;
+  padding: 0 10px;
+}
+
+.staffText {
+  font-size: 15px;
+}
+
+#Staff1, 
+#Staff2, 
+#Staff3, 
+#Staff4, 
+#Staff5, 
+#Staff6 {
+  margin: 0 15px;
+}
+
+#Staff1Bio {
+  width: 80%;
+  padding: 0 20px;
+}
+
+#Staff2Bio, #Staff5Bio, #Staff6Bio {
+  width: 60%;
+  height: 70%;
+  left: 240px;
+}
+
+#Staff3Bio, #Staff4Bio {
+  width: 70%;
+  height: 65%;
+  left: 200px;
+}
+
+
+
+#Staff1 p:last-of-type, 
+#Staff2 p:last-of-type, 
+#Staff3 p:last-of-type,
+#Staff4 p:last-of-type, 
+#Staff5 p:last-of-type, 
+#Staff6 p:last-of-type {
+  opacity: 80%;
+  font-size: 12px;
+}
+
+.Fotos {
+    display: flex;
+    margin-top: 80px;
+}
+.Staff {
+  width: 275px;
+  height: 170px;            
+  margin: 3px;
+  animation: StartOpacityPicture 1s forwards;
+}
+
+/*Fotos Z-INDEX Staff Query*/
+.bioPic {
+  height: 55%;
+  margin: 40px 50px;
+}
+
+.bioText {
+  margin: 40px 50px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.bioPic2 {
+  height: 70%;
+  margin-top: 40px;
+}
+
+.bioPic3 {
+  height: 65%;
+}
+.bioPic4 {
+  height: 70%;
+}
+.bioPic5 {
+  height: 60%;
+}
+
+.bioPic6{
+  height: 70%;
+  margin: 40px 90px;
+  border-radius: 20px;
+
+}
+/*Compromiso Query*/
+
+ .TituloCompromiso {
+  width: 45%;
+  height: 66px;
+  margin-top: 12px;
+}
+
+.TituloCompromiso h2 {
+  font-size: 47px;
+  margin-left: 5px;
+}
+
+.boxCompromiso1,
+.boxCompromiso2,
+.boxCompromiso3 {
+    width: 38%;
+}
+
+.Expertos h2, .Cofidencialidad h2, .Feedback h2 {
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+/*Oferta académica Query*/ 
+
+#OfertaAcadémica {
+    height: 760px;
+    padding: 100px;
+}
+
+.TituloOferta h2 {
+  font-size: 47px;
+  width: 39%;
+  height: 69px;
+  margin-left: -2px;
+  margin-top: 11px;
+  padding: 0 11px;
+}
+
+.order {
+  width: 183px;
+  height: 73px;
+  margin: 0 6px;      
+}
+
+.order p {
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;      
+}
+
+/*Servicios QUERY*/
+
+.TituloServicios h2 {
+  margin-top: 11px;
+  margin-left: 78px;
+  width: 34%;
+  height: 69px;
+  font-size: 47px;
+  padding: 0 10px;
+}
+
+/*Services QUERY*/
+
+#CoachingEq {
+  height: 73px;
+  width: 16%;
+  margin: 0 20px;
+}
+
+#CoachingOrg {
+  width: 17%;
+  height: 72px;
+}
+#Softskills {
+  height: 70px;
+  width: 22%;
+  margin: 0 20px;      
+}
+
+#CoachingEj {
+width: 15%;
+height: 72px;
+margin: 0 20px;
+}
+#CoachingOrgBox {
+    height: 65%;
+}
+
+
+#CoachingEjBox {
+    height: 62%;
+}
+
+
+#CoachingSoftBox {
+  width: 65%;
+}
+
+#CoachingEq h2, #CoachingOrg h2, #CoachingEj h2, #Softskills h2 {
+  margin-left: 10px;
+  font-size: 26px;
+  color: white;
+  width: 103%;
+}
+
+/*Services-zIndex QUERY*/ 
+
+.serviceTitle {
+  color: white;
+  font-weight: 600;
+  font-size: 32px;
+  width: 78%;
+  margin-top: 40px;
+  padding: 2px 5px;
+}
+
+.servicePic img {
+  height: 380px;
+  margin: 40px;
+}
+
+.serviceText p {
+  margin: 60px 20px;
+  font-size: 18px;
+  margin: 35px auto;
+  width: 130%;
+  line-height: 1.8;
+}
+
+.servicePicOrg img {
+  height: 280px;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.serviceTitleOrg {
+  font-size: 29px;
+  margin-right: 10px;
+  width: 65%;
+}
+
+.serviceTextOrg p {
+  margin: 10px;
+  margin-top: 42px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.servicePicEj img {
+  height: 280px;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.serviceTitleEj {
+  font-size: 27px;
+  width: 47%;
+  margin-top: 60px;
+  margin-left: 10px;
+  padding: 2px 4px;
+}
+
+.serviceTextEj p {
+  font-family: 'Raleway', sans-serif;
+  margin: 10px;
+  font-weight: lighter;
+  font-size: 16px;
+  opacity: 60%;
+  line-height: 1.8;
+}
+
+.servicePicSoft img {
+  height: 360px;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.serviceTitleSoft {
+  font-size: 20px;
+  width: 73%;
+  padding: 4px;
   
-      .TituloContacto h2 {
-        padding: 0 5px;
-        width: 38.5%;
-      }
+}
 
-      .contactButton {
-        height: 48px;
-      }
-      .contactButton a {
-        color: white;
-        font-weight: 600;
-        font-size: 32px;
-      }
+.serviceTextSoft p {
+  margin: 20px;
+  font-size: 15px;
+}
 
-      /*Footer Query*/ 
+/*Contacto Query*/
 
-      p.FooterText  {
-        padding: 10px 0px;
-        color: #6C1572;
-        font-size: 15px;      
-      }
+#Contacto {
+  height: 370px;
+}
+
+.TituloContacto h2 {
+  padding: 0 5px;
+  width: 38.5%;
+}
+
+.contactButton {
+  height: 48px;
+}
+.contactButton a {
+  color: white;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+/*Footer Query*/ 
+
+p.FooterText  {
+  padding: 10px 0px;
+  color: #6C1572;
+  font-size: 15px;      
+}
 }

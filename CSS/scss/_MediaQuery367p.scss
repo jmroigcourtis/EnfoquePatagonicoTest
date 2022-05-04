@@ -1,180 +1,180 @@
 @media screen and (min-width: 375px) {
           
-            * {
-                overflow-x: hidden;
-            }
+  * {
+      overflow-x: hidden;
+  }
 
-           /*Nav Query*/
-          .nav {
-            display: none;
-          }
-         
-          #navbarToggleExternalContent {
-            background-color: white;
-            opacity: 80%;
-          }
-          .fixed-Top {
-            top: -10px;
-          }
+ /*Nav Query*/
+.nav {
+  display: none;
+}
 
-          .navbar {
-            background-color: white;
-          }
-          .tituloNav {
-            margin-top: 10px;
-            font-size: 18px;
-            font-weight: 600;
-            color: #a12078;
-          }
-          .btnNav {
-            margin-top: 10px;
-            height: 30px;}
+#navbarToggleExternalContent {
+  background-color: white;
+  opacity: 80%;
+}
+.fixed-Top {
+  top: -10px;
+}
+
+.navbar {
+  background-color: white;
+}
+.tituloNav {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #a12078;
+}
+.btnNav {
+  margin-top: 10px;
+  height: 30px;}
 
 
-          ul, li {
-            list-style: none;
-          }
+ul, li {
+  list-style: none;
+}
 
-          .textNav {
-            display: flex;
-            color:#a12078;
-            font-size: 14px;
-            font-weight: 500;
-          }
+.textNav {
+  display: flex;
+  color:#a12078;
+  font-size: 14px;
+  font-weight: 500;
+}
 
+
+
+/*Carousel Query*/
+
+#carouselExampleInterval img {
+  height: 25%;
+}
+
+#LogoInsideCarrousel .enfoque {
+  margin-top: 162px;
+  margin-right: 20px;
+  border-top-right-radius: 194px;
+  padding-right: 35px;
+  padding-left: 10px;
+  box-shadow: inset -1px 0px 27px -3px rgba(0, 0, 0, 0.25);
+  z-index: 3;
+  height: 38px;
+}
+
+.carousel-control-prev-icon, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-next {
+  margin-bottom: 310px;
+  height: 20px;
+}
+
+/*Misión Query*/
+
+#Mision {
+  margin-top: -566px;
+  padding: 150px 100px;
+  width: auto;
+  height: 440px;
+}
+
+#Mision p {
+font-size: 10px;
+
+}
+
+.misionBarra1 {
+  width: 29%;
+  top: 363px;
+  left: 22px;
+  height: 28px;        
+  border-radius: 5px;
+}
+.misionBarra2 {
+  width: 29%;
+  top: 363px;
+  left: 19px;
+  height: 26px;
+  border-radius: 5px;
+}        
+.misionBarra3 {
+  width: 29%;
+  top: 363px;
+  left: 15px;
+  height: 23px;
+  border-radius: 5px;
+}        
+.TituloMision h2 {
+  font-size: 15px;
+  height: 29px;
+  width: 70%;            
+  right: 82px;
+  bottom: 100px;
+  border-radius: 5px;
 
   
-          /*Carousel Query*/
+}
 
-          #carouselExampleInterval img {
-            height: 25%;
-          }
-        
-          #LogoInsideCarrousel .enfoque {
-            margin-top: 162px;
-            margin-right: 20px;
-            border-top-right-radius: 194px;
-            padding-right: 35px;
-            padding-left: 10px;
-            box-shadow: inset -1px 0px 27px -3px rgba(0, 0, 0, 0.25);
-            z-index: 3;
-            height: 38px;
-          }
+.textBox {
+margin: -38%;
+width: 170%;
+height: 226%;
+overflow: hidden;
+position: sticky;
+}
 
-          .carousel-control-prev-icon, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-next {
-            margin-bottom: 310px;
-            height: 20px;
-          }
-    
-        /*Misión Query*/
+.textQS {
+line-height: 1.5;
+}
 
-        #Mision {
-            margin-top: -566px;
-            padding: 150px 100px;
-            width: auto;
-            height: 440px;
-          }
+/*Avales Query*/
 
-        #Mision p {
-          font-size: 10px;
+#Avales {
+height: 310px;
+}
 
-        }
+.TituloAvales h2 {
+border-radius: 4px;
+font-size: 20px;
+width: 29%;
+right: 241px;
+top: 900px;
+height: 26px;
+position: absolute;
+}
 
-          .misionBarra1 {
-            width: 29%;
-            top: 363px;
-            left: 22px;
-            height: 28px;        
-            border-radius: 5px;
-        }
-          .misionBarra2 {
-            width: 29%;
-            top: 363px;
-            left: 19px;
-            height: 26px;
-            border-radius: 5px;
-          }        
-          .misionBarra3 {
-            width: 29%;
-            top: 363px;
-            left: 15px;
-            height: 23px;
-            border-radius: 5px;
-          }        
-        .TituloMision h2 {
-            font-size: 15px;
-            height: 29px;
-            width: 70%;            
-            right: 82px;
-            bottom: 100px;
-            border-radius: 5px;
+.avalesBarra1{
+border-radius: 4px;
+height: 27px;
+left: 23px;
+top: 896px;
+}
 
-            
-        }
+.avalesBarra2 {
+border-radius: 4px;
+height: 24px;
+left: 17px;
+top: 896px;
+}
 
-        .textBox {
-          margin: -38%;
-          width: 170%;
-          height: 226%;
-          overflow: hidden;
-          position: sticky;
-        }
+.avalesBarra3{
+border-radius: 4px;
+left: 20px;
+height: 27px;
+top: 895px;
+}
 
-        .textQS {
-          line-height: 1.5;
-        }
+.aacopLogo {
+height: 41px;
+margin: 20px;
+position: absolute;
+right: 40px;
+bottom: -420px;
+}
 
-        /*Avales Query*/
-      
-        #Avales {
-          height: 310px;
-        }
+.ficopLogo {
+height: 63px;
+margin: 20px auto;
+position: absolute;
+right: 110px;
+bottom: -500px;
+}
 
-        .TituloAvales h2 {
-          border-radius: 4px;
-          font-size: 20px;
-          width: 29%;
-          right: 241px;
-          top: 900px;
-          height: 26px;
-          position: absolute;
-        }
-
-        .avalesBarra1{
-          border-radius: 4px;
-          height: 27px;
-          left: 23px;
-          top: 896px;
-        }
-
-        .avalesBarra2 {
-          border-radius: 4px;
-          height: 24px;
-          left: 17px;
-          top: 896px;
-        }
-
-        .avalesBarra3{
-          border-radius: 4px;
-          left: 20px;
-          height: 27px;
-          top: 895px;
-        }
-
-        .aacopLogo {
-          height: 41px;
-          margin: 20px;
-          position: absolute;
-          right: 40px;
-          bottom: -420px;
-        }
-        
-        .ficopLogo {
-          height: 63px;
-          margin: 20px auto;
-          position: absolute;
-          right: 110px;
-          bottom: -500px;
-        }
-        
 }
