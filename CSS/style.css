@@ -2198,10 +2198,10 @@ p.FooterText {
   .responsiveText {
     grid-area: responsiveText; }
   .bioPic {
-    position: relative;
+    position: absolute;
     height: 35%;
     margin: 20px 50px;
-    right: -40px; }
+    right: 60px; }
   .bioText {
     position: absolute;
     font-size: 8px;
