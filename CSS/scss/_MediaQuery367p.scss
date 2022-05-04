@@ -264,4 +264,74 @@ margin: auto;
     font-weight: bolder;
   }
 
+  #Staff1Bio, 
+  #Staff2Bio, 
+  #Staff3Bio, 
+  #Staff4Bio, 
+  #Staff5Bio, 
+  #Staff6Bio {
+    display: none;
+    position: fixed;
+    top: 180px;
+    width: 90%;
+    height: 50%;
+    z-index: 99999;
+    left: 25px;
+  }
+
+  /*Compromiso QUERY*/
+
+  #CompromisoEnfoque {
+    position: relative;
+    padding: 0;
+  }
+
+  .container {
+    grid-template-rows: 25px;
+  }
+
+  .boxCompromiso1, .boxCompromiso2, .boxCompromiso3, .TituloCompromiso {
+    width: 38%;
+    height: 25px;
+    border-radius: 5px;
+    top: 0;
+  }
+
+  .boxCompromiso1{
+    left: 18px;
+  }
+  .boxCompromiso2{
+    left: 9px;
+  }
+  .boxCompromiso3{
+    left: 13px;
+  }
+
+  .TituloCompromiso {
+    left: 22px;
+  }
+
+  .TituloCompromiso h2 {
+    font-size: 13px;
+  }
+
+  .Expertos, .Cofidencialidad, .Feedback {
+    height: 30px;
+  }
+
+  .Cofidencialidad {
+    width: 100px;
+  }
+
+  .Expertos h2, .Cofidencialidad h2, .Feedback h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .ExpertosText, .ConfidencialidadText , .FeedbackText {
+    font-size: 8px;
+  }
+
+  
 }
