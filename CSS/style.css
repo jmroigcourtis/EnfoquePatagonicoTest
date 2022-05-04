@@ -1,8 +1,4 @@
 @charset "UTF-8";
-@media screen and (min-width: 820px) {
-  #NavMobile {
-    display: none; } }
-
 a {
   text-decoration: none; }
 
@@ -2054,7 +2050,8 @@ p.FooterText {
   /*Avales Query*/
   #Avales {
     position: relative;
-    overflow: hidden; }
+    overflow: hidden;
+    padding: 0; }
   .TituloAvales {
     position: absolute;
     top: 0;
@@ -2097,4 +2094,47 @@ p.FooterText {
     margin: auto;
     height: 60px;
     right: 25%;
-    top: 10%; } }
+    top: 10%; }
+  /*Staff Query*/
+  #QuienesSomos {
+    position: relative;
+    padding: 0px; }
+  .TituloStaff {
+    overflow: hidden;
+    width: 29%;
+    height: 16px;
+    left: 9px;
+    top: 30px; }
+  .staffBarra1,
+  .staffBarra2,
+  .staffBarra3,
+  .TituloStaff {
+    position: absolute; }
+  .staffBarra1 {
+    left: 18px;
+    top: 30px; }
+  .staffBarra2 {
+    left: 15px;
+    top: 29px; }
+  .staffBarra3 {
+    left: 12px;
+    top: 28px; }
+  .TituloStaff h2 {
+    font-size: 15px; }
+  #Staff1,
+  #Staff2,
+  #Staff3,
+  #Staff4,
+  #Staff5,
+  #Staff6 {
+    width: 50%;
+    margin: 0; }
+  .Staff {
+    position: relative;
+    left: 40px;
+    width: 95px; }
+  .Fotos {
+    width: 100%; }
+  .Fotos p:last-of-type {
+    margin-top: auto;
+    font-weight: bolder; } }
