@@ -34,16 +34,16 @@ showAnaBio.addEventListener('click', ShowBio("#Staff4Button", "#Staff4Bio"))
 const hideAnaBio = document.getElementById("Staff4Bio")
 hideAnaBio.addEventListener('click', hideBio('.closeButton', '#Staff4Bio'))
 
-const showMarcelaBio = document.getElementById("Staff5")
-showMarcelaBio.addEventListener('click', ShowBio("#Staff5Button", "#Staff5Bio"))
+// const showMarcelaBio = document.getElementById("Staff5")
+// showMarcelaBio.addEventListener('click', ShowBio("#Staff5Button", "#Staff5Bio"))
 
-const hideMarcelaBio = document.getElementById("Staff5Bio")
-hideMarcelaBio.addEventListener('click', hideBio('.closeButton', '#Staff5Bio'))
+// const hideMarcelaBio = document.getElementById("Staff5Bio")
+// hideMarcelaBio.addEventListener('click', hideBio('.closeButton', '#Staff5Bio'))
 
-const showDanielaBio = document.getElementById("Staff6")
-showDanielaBio.addEventListener('click', ShowBio("#Staff6Button", "#Staff6Bio"))
+const showDanielaBio = document.getElementById("Staff5")
+showDanielaBio.addEventListener('click', ShowBio("#Staff5Button", "#Staff5Bio"))
 
-const hideDanielaBio = document.getElementById("Staff6Bio")
-hideDanielaBio.addEventListener('click', hideBio('.closeButton', '#Staff6Bio'))
+const hideDanielaBio = document.getElementById("Staff5Bio")
+hideDanielaBio.addEventListener('click', hideBio('.closeButton', '#Staff5Bio'))
 
 
