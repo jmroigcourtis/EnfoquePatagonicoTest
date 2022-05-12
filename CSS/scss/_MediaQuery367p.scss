@@ -509,22 +509,41 @@ margin: auto;
     font-size: 13px;
   }  
 
-  .Expertos, .Cofidencialidad, .Feedback {
-    height: 30px;
-  }  
 
-  .Cofidencialidad {
-    width: 100px;
-  }  
+  /*EXPERTOS */
 
-  .Expertos h2, .Cofidencialidad h2, .Feedback h2 {
+  .compromisoBox {
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 50px;
+  }
+
+  .Expertos {
+    height: 15rem;
+    margin: 10px 0;
+  } 
+  
+  .Confidencialidad {
+    height: 15rem;
+    margin: 10px 0;  
+  }
+
+  .Feedback {
+    height: 21rem;
+    margin: 10px 0;
+  }
+
+  .Expertos p, 
+  .Confidencialidad p, 
+  .Feedback p {
+    font-size: 15px;
+  }
+
+  .Expertos h2, 
+  .Confidencialidad h2, 
+  .Feedback h2 {
     text-align: center;
     font-weight: bold;
-    font-size: 10px;
-  }  
-
-  .ExpertosText, .ConfidencialidadText , .FeedbackText {
-    font-size: 8px;
   }  
 
 

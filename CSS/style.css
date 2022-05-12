@@ -673,62 +673,32 @@ strong {
   left: 80px;
   margin-top: 17px; }
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.3fr 1.7fr 1fr;
-  gap: 0px 30px;
-  grid-auto-flow: row;
-  grid-template-areas: "Expertos Cofidencialidad Feedback" "ExpertosText ConfidencialidadText FeedbackText" "ExpertosText ConfidencialidadText FeedbackText"; }
+.compromisoBox {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px; }
 
-.ExpertosText {
-  grid-area: ExpertosText;
-  opacity: 75%;
-  padding: 10px;
-  font-size: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px; }
-
-.ConfidencialidadText {
-  grid-area: ConfidencialidadText;
-  opacity: 75%;
-  padding: 10px;
-  font-size: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px; }
-
-.FeedbackText {
-  grid-area: FeedbackText;
-  opacity: 75%;
-  padding: 10px;
-  font-size: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px; }
-
-.Expertos {
-  grid-area: Expertos;
-  background-color: #d795b6;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px; }
-
-.Cofidencialidad {
-  grid-area: Cofidencialidad;
-  background-color: #b64a87;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px; }
-
-.Feedback {
-  grid-area: Feedback;
-  background-color: #a12078;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px; }
+.Expertos, .Confidencialidad, .Feedback {
+  width: 19rem;
+  border-radius: 5px; }
 
 .Expertos h2,
-.Cofidencialidad h2,
+.Confidencialidad h2,
 .Feedback h2 {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   padding: 5px;
   color: white;
-  font-weight: bold; }
+  background-color: #b64a87;
+  font-weight: bold;
+  width: 19rem; }
+
+.Expertos p,
+.Confidencialidad p,
+.Feedback p {
+  color: #a12078;
+  font-size: 18px;
+  padding: 0 10px; }
 
 #NuestrosServicios {
   background-color: #fcfcfc;
@@ -2376,13 +2346,26 @@ p.FooterText {
     left: 22px; }
   .TituloCompromiso h2 {
     font-size: 13px; }
-  .Expertos, .Cofidencialidad, .Feedback {
-    height: 30px; }
-  .Cofidencialidad {
-    width: 100px; }
-  .Expertos h2, .Cofidencialidad h2, .Feedback h2 {
+  /*EXPERTOS */
+  .compromisoBox {
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 50px; }
+  .Expertos {
+    height: 15rem;
+    margin: 10px 0; }
+  .Confidencialidad {
+    height: 15rem;
+    margin: 10px 0; }
+  .Feedback {
+    height: 21rem;
+    margin: 10px 0; }
+  .Expertos p,
+  .Confidencialidad p,
+  .Feedback p {
+    font-size: 15px; }
+  .Expertos h2,
+  .Confidencialidad h2,
+  .Feedback h2 {
     text-align: center;
-    font-weight: bold;
-    font-size: 10px; }
-  .ExpertosText, .ConfidencialidadText, .FeedbackText {
-    font-size: 8px; } }
+    font-weight: bold; } }
