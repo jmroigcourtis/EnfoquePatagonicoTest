@@ -2235,7 +2235,7 @@ p.FooterText {
     z-index: 1;
     top: -30px;
     height: 180px; }
-  .bioPic3 {
+  .bioPic3, .bioPic4, .bioPic6 {
     border-radius: 100%;
     position: absolute;
     z-index: 1;
@@ -2282,6 +2282,36 @@ p.FooterText {
   .responsiveText3 {
     grid-area: responsiveText3; }
   .responsiveText3 p {
+    top: 240px; }
+  .containerStaffResponsive4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "responsiveImg4" "responsiveText4"; }
+  .responsiveImg4 {
+    grid-area: responsiveImg4; }
+  .responsiveText4 {
+    grid-area: responsiveText4; }
+  .responsiveText4 p {
+    top: 240px; }
+  .containerStaffResponsive5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "responsiveImg5" "responsiveText5"; }
+  .responsiveImg5 {
+    grid-area: responsiveImg5; }
+  .responsiveText5 {
+    grid-area: responsiveText5; }
+  .responsiveText5 p {
     top: 240px; }
   /*Compromiso QUERY*/
   #CompromisoEnfoque {
