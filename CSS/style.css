@@ -2235,6 +2235,11 @@ p.FooterText {
     z-index: 1;
     top: -30px;
     height: 180px; }
+  .bioPic3 {
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+    height: 180px; }
   .containerStaffResponsive {
     display: grid;
     grid-template-columns: 1fr;
@@ -2278,9 +2283,6 @@ p.FooterText {
     grid-area: responsiveText3; }
   .responsiveText3 p {
     top: 240px; }
-  .bioPic3 {
-    border-radius: 100%;
-    height: 45%; }
   /*Compromiso QUERY*/
   #CompromisoEnfoque {
     position: relative;
