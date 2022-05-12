@@ -149,11 +149,23 @@
 
 /*Tutores*/
 
+.tutoresBarra1 {
+    position: absolute;
+    z-index: 0;
+    background-color: #a12078;
+    height: 60px;
+    width: 25rem;
+    border-radius: 5px;
+    bottom: -2359px;
+}
+
 .testTutores {
     margin-top: 100px;
 }
 
 .TituloTutores  h2 {
+    position: relative;
+    z-index: 1;
     color: white;
     background-color: #b34b7f;
     border-radius: 5px;

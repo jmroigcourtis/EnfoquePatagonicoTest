@@ -212,7 +212,7 @@ margin: auto;
   .TituloStaff {
     overflow: hidden;
     width: 29%;
-    height: 16px;
+    height: 26px;
     left: 9px;
     top: 30px;
   }
@@ -222,6 +222,7 @@ margin: auto;
   .staffBarra3,
   .TituloStaff {
     position: absolute;
+    height: 24px;
   }
 
   .staffBarra1 {
@@ -240,7 +241,8 @@ margin: auto;
 
   }
   .TituloStaff h2 {
-    font-size: 15px;
+    font-size: 20px;
+    height: 26px;
   }
 
 
@@ -278,7 +280,6 @@ margin: auto;
     position: fixed;
     top: 100px;
     width: 98%;
-    // height: 70%;
     height: 30rem;
     left: 5px;
     overflow: hidden;
@@ -429,6 +430,15 @@ margin: auto;
   
   .responsiveText5 p {
     top: 240px;
+  }
+
+  /*Tutores*/
+
+  .tutoresBarra1 {
+    height: 26px;
+    width: 9rem;
+    bottom: 577px;
+    left: 5px;  
   }
 
   .testTutores {

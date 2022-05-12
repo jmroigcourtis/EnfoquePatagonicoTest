@@ -396,10 +396,21 @@ strong {
     opacity: 0%; } }
 
 /*Tutores*/
+.tutoresBarra1 {
+  position: absolute;
+  z-index: 0;
+  background-color: #a12078;
+  height: 60px;
+  width: 25rem;
+  border-radius: 5px;
+  bottom: -2359px; }
+
 .testTutores {
   margin-top: 100px; }
 
 .TituloTutores h2 {
+  position: relative;
+  z-index: 1;
   color: white;
   background-color: #b34b7f;
   border-radius: 5px;
@@ -2171,14 +2182,15 @@ p.FooterText {
   .TituloStaff {
     overflow: hidden;
     width: 29%;
-    height: 16px;
+    height: 26px;
     left: 9px;
     top: 30px; }
   .staffBarra1,
   .staffBarra2,
   .staffBarra3,
   .TituloStaff {
-    position: absolute; }
+    position: absolute;
+    height: 24px; }
   .staffBarra1 {
     left: 18px;
     top: 30px; }
@@ -2189,7 +2201,8 @@ p.FooterText {
     left: 12px;
     top: 28px; }
   .TituloStaff h2 {
-    font-size: 15px; }
+    font-size: 20px;
+    height: 26px; }
   #Staff1,
   #Staff2,
   #Staff3,
@@ -2319,6 +2332,12 @@ p.FooterText {
     grid-area: responsiveText5; }
   .responsiveText5 p {
     top: 240px; }
+  /*Tutores*/
+  .tutoresBarra1 {
+    height: 26px;
+    width: 9rem;
+    bottom: 577px;
+    left: 5px; }
   .testTutores {
     height: 35rem; }
   .tutores {
