@@ -399,8 +399,14 @@ strong {
 .testTutores {
   margin-top: 100px; }
 
-.testTutores h2 {
-  margin-left: 10px; }
+.TituloTutores h2 {
+  color: white;
+  background-color: #b34b7f;
+  border-radius: 5px;
+  font-size: 45px;
+  margin-left: 10px;
+  padding: 0 5px;
+  width: 25rem; }
 
 .tutores {
   display: flex;
@@ -2313,6 +2319,23 @@ p.FooterText {
     grid-area: responsiveText5; }
   .responsiveText5 p {
     top: 240px; }
+  .testTutores {
+    height: 35rem; }
+  .tutores {
+    flex-direction: column;
+    margin-left: 65px; }
+  .TituloTutores h2 {
+    font-size: 15px;
+    width: 9rem; }
+  .tutoresLista {
+    width: 15rem; }
+  .tutoresLista:last-of-type {
+    height: 12rem; }
+  .tutoresLista h3 {
+    font-size: 13px;
+    margin: 10px 0; }
+  .tutoresNombre {
+    font-size: 13px; }
   /*Compromiso QUERY*/
   #CompromisoEnfoque {
     position: relative;

@@ -431,6 +431,38 @@ margin: auto;
     top: 240px;
   }
 
+  .testTutores {
+    height: 35rem;
+  }
+
+  .tutores {
+    flex-direction: column;
+    margin-left: 65px;
+  }
+
+  .TituloTutores h2 {
+    font-size: 15px;
+    width: 9rem;
+  }
+
+  .tutoresLista {
+    width: 15rem;
+  }
+
+  .tutoresLista:last-of-type {
+    height: 12rem;
+  }
+
+  .tutoresLista h3 {
+    font-size: 13px;
+    margin: 10px 0;
+  }
+
+  .tutoresNombre {
+    font-size: 13px;
+  }
+
+
   /*Compromiso QUERY*/
 
   #CompromisoEnfoque {
