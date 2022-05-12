@@ -4,6 +4,10 @@
       overflow-x: hidden;
   }
 
+#BarraNavegacion {
+  display: none !important;
+}
+
  /*Nav Query*/
 .nav {
   display: none;
@@ -347,6 +351,34 @@ margin: auto;
   
   .responsiveText2 p {
     top: 240px;
+  }
+
+  .containerStaffResponsive3 
+  {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "responsiveImg3"
+      "responsiveText3";
+  }
+  
+  .responsiveImg3 { 
+    grid-area: responsiveImg3; 
+  }
+  
+  .responsiveText3 { grid-area: responsiveText3; }
+  
+  .responsiveText3 p {
+    top: 240px;
+  }
+
+  .bioPic3{
+    border-radius: 100%;
+    height: 45%;
   }
 
   /*Compromiso QUERY*/

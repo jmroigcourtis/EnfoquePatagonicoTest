@@ -2,6 +2,12 @@
     @include SectionBlock;
 }
 
+.formacionBox {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px;
+}
+
 .TituloOferta {
     height: 80px;
 }
@@ -40,8 +46,7 @@
   
 
 .textBoxWidth {
-    margin: 120;
-    margin-top: 20px;
+    margin: 100px 5px;
     height: 30%;
     border-radius: 20px;
 }
@@ -55,23 +60,27 @@
     margin-top: 50px;
 }
 
-.order{
-    width: 240px;
-    height: 85px;    
-    border-radius: 100px;
-    background: #bf3393;
-    margin: 42px;
+
+.textQsFormacion {
+    color:#a12078;
+    opacity: 70%;
+    width: 55rem;
+    height: 30rem;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    line-break: strict;
+    line-height: 1.8;
+    font-size: 25px;
+    margin-top: -8px;
 }
 
-.order p {
-    margin-top: 15px;
-    font-size: 20px;
-    font-weight: 500;
+.formacionTitulo {
+    background-color: #b64a87;
+    width: 55rem;
     color: white;
-    padding: 0 10px;
-}
-
-.textQS {
-    line-height: 1.5;
-    font-size: 30px;
+    text-align: center;
+    font-size: 35px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    padding: 5px;
 }

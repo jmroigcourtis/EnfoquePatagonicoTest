@@ -36,6 +36,8 @@
   margin-top: 17px;
 }
 
+
+
 .serviciosBox {  
     display: flex;
     justify-content: center;
@@ -43,11 +45,11 @@
     width: 100%;
   }
 
-  .coachingBox{
+  .coachingBox, .order{
     animation: coachingBoxZoomOut 0.5s ease-in-out;
   }
 
-  .coachingBox:hover{
+  .coachingBox:hover, .order:hover{
     animation: coachingBoxZoomIn 0.5s forwards;
   }
 
@@ -68,16 +70,34 @@
       transform: scale(1.0);
     }
   }
-  
-  #CoachingEq { 
-      background-color: #d795b6; 
-      height: 90px;
-      width: 15%;
-      border-radius: 5px;
-      margin: 0 20px;
-      cursor: pointer;
 
-    }
+  
+  #CoachingEq, .order { 
+    background-color: #d795b6; 
+    height: 90px;
+    width: 15%;
+    border-radius: 5px;
+    margin: 0 20px;
+    cursor: pointer;
+    
+  }
+  
+  .order {
+    width: 440px;
+    height: 60px;
+    justify-content: center;
+    background: linear-gradient(95deg, rgba(139,34,123,1) 48%, rgba(127,63,166,1) 99%);
+    margin-top: 11px;
+    cursor: default;
+  }
+
+  .order p {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+
   
     #CoachingOrg { 
       background-color: #b64a87; 
@@ -117,10 +137,10 @@
 #CoachingOrg h2,
 #CoachingEj h2,
 #Softskills h2 {
-  margin-left: 10px;
+    margin-left: 10px;
     font-size: 35px;
     color: white;
-    width: 92%;
+    // width: 92%;
 }
 
 #CoachingEqBox,
