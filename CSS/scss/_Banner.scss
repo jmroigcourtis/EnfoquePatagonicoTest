@@ -1,14 +1,9 @@
 .carousel-item {
     width: 100%;
     height: 800px;
-    animation: StartOpacity 1s forwards;
 }
 
 
-.carousel-item:hover {
-    animation: RestartOpacity 1s forwards;
-
-}
 
 .carousel-control-prev-icon, .carousel-control-prev {
     color: black;
