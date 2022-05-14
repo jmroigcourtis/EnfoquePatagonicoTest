@@ -2113,22 +2113,39 @@ p.FooterText {
     top: 150px;
     height: 25rem;
     width: 20rem; }
-  .containerCoachingEq {
+  #CoachingSoftBox {
+    height: 30rem; }
+  .containerCoachingEq,
+  .containerCoachingOrg,
+  .containerCoachingEj,
+  .containerCoachingSoft {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     gap: 0px; }
-  .servicePic img {
+  .servicePic img,
+  .servicePicOrg img,
+  .servicePicEj img,
+  .servicePicSoft img {
     display: none; }
-  .serviceTitle {
+  .serviceTitle,
+  .serviceTitleOrg,
+  .serviceTitleEj,
+  .serviceTitleSoft {
     font-size: 15px;
     width: 15rem;
     text-align: center;
+    margin: 45px auto; }
+  .serviceTitleSoft {
+    width: 18rem;
     margin: 50px auto; }
-  .serviceText p {
+  .serviceText p,
+  .serviceTextOrg p,
+  .serviceTextEj p,
+  .serviceTextSoft p {
     font-size: 13px;
-    margin: 0;
-    width: 100%;
+    margin: 0 auto;
+    width: 15rem;
     line-height: 1.5; } }
 
 @media screen and (max-width: 375px) {
