@@ -1254,6 +1254,39 @@ a:hover {
   font-weight: 600;
   font-size: 40px; }
 
+.contactoBarra1 {
+  background: #66186c;
+  width: 33%;
+  height: 70px;
+  position: absolute;
+  z-index: 3;
+  border-radius: 15px;
+  animation: showUpTitleSection 1.5s;
+  margin-top: 14px;
+  left: 90px; }
+
+.contactoBarra2 {
+  background: #a12078;
+  width: 33%;
+  height: 70px;
+  position: absolute;
+  z-index: 0;
+  border-radius: 15px;
+  animation: showUpTitleSection 1.5s;
+  left: 70px;
+  margin-top: 20px; }
+
+.contactoBarra3 {
+  background: #b64a87;
+  width: 33%;
+  height: 70px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 15px;
+  animation: showUpTitleSection 1.5s;
+  left: 80px;
+  margin-top: 17px; }
+
 @keyframes zoomIn {
   from {
     transform: scale(1); }
@@ -2160,9 +2193,9 @@ p.FooterText {
     font-size: 25px;
     border-radius: 5px;
     top: 3rem; }
-  .serviciosBarra1,
-  .serviciosBarra2,
-  .serviciosBarra3 {
+  .contactoBarra1,
+  .contactoBarra2,
+  .contactoBarra3 {
     top: 3rem; }
   .contactButton {
     display: flex;
