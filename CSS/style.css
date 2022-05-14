@@ -2020,7 +2020,7 @@ p.FooterText {
   /*Oferta académica*/
   #OfertaAcadémica {
     overflow-y: hidden;
-    height: 110rem;
+    height: 102rem;
     padding: 1rem; }
   .TituloOferta {
     position: absolute;
@@ -2048,14 +2048,13 @@ p.FooterText {
     flex-direction: column;
     justify-content: flex-start;
     height: 100rem;
-    position: absolute;
-    top: 226rem; }
+    margin-top: 80px; }
   .formacionTitulo {
     width: 21rem;
     font-size: 15px;
     padding: 1.2rem;
     font-weight: bold;
-    text-align: start; }
+    text-align: center; }
   .textBoxWidth {
     height: 60rem;
     width: 23rem;
@@ -2069,7 +2068,7 @@ p.FooterText {
     width: 21rem;
     height: 25rem; }
   .postitulo {
-    height: 55rem !important; } }
+    height: 50rem; } }
 
 @media screen and (max-width: 375px) {
   * {
@@ -2392,8 +2391,8 @@ p.FooterText {
   .container {
     grid-template-rows: 25px; }
   .boxCompromiso1, .boxCompromiso2, .boxCompromiso3, .TituloCompromiso {
-    width: 38%;
-    height: 25px;
+    width: 17rem;
+    height: 2.4rem;
     border-radius: 5px;
     top: 0; }
   .boxCompromiso1 {
@@ -2405,27 +2404,28 @@ p.FooterText {
   .TituloCompromiso {
     left: 22px; }
   .TituloCompromiso h2 {
-    font-size: 13px; }
+    font-size: 25px; }
   /*EXPERTOS */
   .compromisoBox {
     flex-direction: column;
     margin-left: 25px;
     margin-top: 50px; }
   .Expertos {
-    height: 15rem;
+    height: 12rem;
     margin: 10px 0; }
   .Confidencialidad {
-    height: 15rem;
+    height: 10rem;
     margin: 10px 0; }
   .Feedback {
-    height: 21rem;
+    height: 15rem;
     margin: 10px 0; }
   .Expertos p,
   .Confidencialidad p,
   .Feedback p {
-    font-size: 15px; }
+    font-size: 14px; }
   .Expertos h2,
   .Confidencialidad h2,
   .Feedback h2 {
+    font-size: 15px;
     text-align: center;
     font-weight: bold; } }

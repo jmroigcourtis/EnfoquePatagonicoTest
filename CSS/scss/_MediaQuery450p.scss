@@ -242,7 +242,7 @@
 
 #OfertaAcadémica {
   overflow-y: hidden;
-  height: 110rem;
+  height: 102rem;
   padding: 1rem;
 }
 
@@ -283,8 +283,7 @@
   flex-direction: column;
   justify-content: flex-start;
   height: 100rem;
-  position: absolute;
-  top: 226rem;
+  margin-top: 80px;
 }
 
 .formacionTitulo {
@@ -292,7 +291,7 @@
   font-size: 15px;
   padding: 1.2rem;
   font-weight: bold;
-  text-align: start;
+  text-align: center;
 }
 
 .textBoxWidth {
@@ -314,7 +313,7 @@
 
 
 .postitulo {
-  height: 55rem !important;
+  height: 50rem ;
 }
 
 }
