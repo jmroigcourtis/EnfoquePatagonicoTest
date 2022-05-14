@@ -1,11 +1,12 @@
 #OfertaAcadémica {
     @include SectionBlock;
+    height: 80rem;
 }
 
 .formacionBox {
     display: flex;
     flex-direction: row;
-    margin: 0 10px;
+    justify-content: space-around;
 }
 
 .TituloOferta {
@@ -47,8 +48,12 @@
 
 .textBoxWidth {
     margin: 100px 5px;
-    height: 30%;
+    height: 20rem;
     border-radius: 20px;
+}
+
+.textBoxWidth:last-of-type{
+    height: 30rem;
 }
 
 
@@ -64,22 +69,32 @@
 .textQsFormacion {
     color:#a12078;
     opacity: 70%;
-    width: 55rem;
-    height: 30rem;
+    width: 45rem;
+    height: 25rem;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     line-break: strict;
     line-height: 1.8;
-    font-size: 25px;
+    font-size: 18px;
     margin-top: -8px;
+}
+
+
+.postitulo {
+    height: 50rem;
+}
+
+.postituloList {
+    color: #a12078;
+    font-weight: 600;
 }
 
 .formacionTitulo {
     background-color: #b64a87;
-    width: 55rem;
+    width: 45rem;
     color: white;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px ;
     padding: 5px;

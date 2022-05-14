@@ -518,12 +518,13 @@ strong {
   margin-top: 80px;
   padding: 150px 100px;
   width: auto;
-  height: 950px; }
+  height: 950px;
+  height: 80rem; }
 
 .formacionBox {
   display: flex;
   flex-direction: row;
-  margin: 0 10px; }
+  justify-content: space-around; }
 
 .TituloOferta {
   height: 80px; }
@@ -581,8 +582,11 @@ strong {
 
 .textBoxWidth {
   margin: 100px 5px;
-  height: 30%;
+  height: 20rem;
   border-radius: 20px; }
+
+.textBoxWidth:last-of-type {
+  height: 30rem; }
 
 .carreras {
   display: flex;
@@ -593,21 +597,28 @@ strong {
 .textQsFormacion {
   color: #a12078;
   opacity: 70%;
-  width: 55rem;
-  height: 30rem;
+  width: 45rem;
+  height: 25rem;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   line-break: strict;
   line-height: 1.8;
-  font-size: 25px;
+  font-size: 18px;
   margin-top: -8px; }
+
+.postitulo {
+  height: 50rem; }
+
+.postituloList {
+  color: #a12078;
+  font-weight: 600; }
 
 .formacionTitulo {
   background-color: #b64a87;
-  width: 55rem;
+  width: 45rem;
   color: white;
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 5px; }
@@ -681,6 +692,7 @@ strong {
 .Expertos h2,
 .Confidencialidad h2,
 .Feedback h2 {
+  text-align: center;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   padding: 5px;
@@ -1963,7 +1975,6 @@ p.FooterText {
     height: 55px; }
   .boxLogo {
     margin: auto; }
-  #OfertaAcadémica,
   #NuestrosServicios {
     display: none; }
   /*Staff Query*/
@@ -2005,7 +2016,60 @@ p.FooterText {
   .staffBarra3 {
     width: 29%;
     height: 13px;
-    left: 94px; } }
+    left: 94px; }
+  /*Oferta académica*/
+  #OfertaAcadémica {
+    overflow-y: hidden;
+    height: 110rem;
+    padding: 1rem; }
+  .TituloOferta {
+    position: absolute;
+    left: 19px;
+    width: 15rem; }
+  .TituloOferta h2 {
+    font-size: 25px;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 5px; }
+  .ofertaBarra1,
+  .ofertaBarra2,
+  .ofertaBarra3 {
+    position: absolute;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 5px; }
+  .ofertaBarra1 {
+    left: 16px; }
+  .ofertaBarra2 {
+    left: 12px; }
+  .ofertaBarra3 {
+    left: 14px; }
+  .formacionBox {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100rem;
+    position: absolute;
+    top: 226rem; }
+  .formacionTitulo {
+    width: 21rem;
+    font-size: 15px;
+    padding: 1.2rem;
+    font-weight: bold;
+    text-align: start; }
+  .textBoxWidth {
+    height: 60rem;
+    width: 23rem;
+    margin: 0; }
+  .textBoxWidth:nth-child(2) {
+    height: 90rem;
+    width: 23rem; }
+  .textQsFormacion {
+    font-size: 14px;
+    line-height: 1.4;
+    width: 21rem;
+    height: 25rem; }
+  .postitulo {
+    height: 55rem !important; } }
 
 @media screen and (max-width: 375px) {
   * {
