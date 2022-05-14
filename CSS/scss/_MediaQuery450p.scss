@@ -374,4 +374,35 @@
     margin: 0 10px;
   }
 
+
+  #CoachingEqBox, #CoachingOrgBox, #CoachingEjBox, #CoachingSoftBox {
+    top: 150px;
+    height: 25rem;
+    width: 20rem;
+  }
+
+  .containerCoachingEq {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 0px;
+  }
+
+  .servicePic img {
+    display: none;
+  }
+
+  .serviceTitle {
+    font-size: 15px;
+    width: 15rem;
+    text-align: center;
+    margin: 50px auto;
+  }
+
+  .serviceText p {
+    font-size: 13px;
+    margin: 0;
+    width: 100%;
+    line-height: 1.5;
+  }
 }
