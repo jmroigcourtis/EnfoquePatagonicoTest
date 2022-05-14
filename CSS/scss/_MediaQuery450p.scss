@@ -174,10 +174,6 @@
     margin: auto;
   }
 
-  #NuestrosServicios {
-    display: none;
-  }
-
   /*Staff Query*/
 
   .Fotos {
@@ -286,34 +282,96 @@
   margin-top: 80px;
 }
 
-.formacionTitulo {
-  width: 21rem;
-  font-size: 15px;
-  padding: 1.2rem;
-  font-weight: bold;
-  text-align: center;
-}
+  .formacionTitulo {
+    width: 21rem;
+    font-size: 15px;
+    padding: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
 
-.textBoxWidth {
-  height: 60rem;
-  width: 23rem;
-  margin: 0;
-}
-.textBoxWidth:nth-child(2) {
-  height: 90rem;
-  width: 23rem;
-}
+  .textBoxWidth {
+    height: 60rem;
+    width: 23rem;
+    margin: 0;
+  }
+  .textBoxWidth:nth-child(2) {
+    height: 90rem;
+    width: 23rem;
+  }
 
-.textQsFormacion {
-  font-size: 14px;
-  line-height: 1.4;
-  width: 21rem;
-  height: 25rem;
-}
+  .textQsFormacion {
+    font-size: 14px;
+    line-height: 1.4;
+    width: 21rem;
+    height: 25rem;
+  }
 
 
-.postitulo {
-  height: 50rem ;
-}
+  .postitulo {
+    height: 50rem ;
+  }
+
+  /*Nuestros Servicios*/ 
+
+  .serviciosBarra1 {
+    left: 18px;
+  }
+  .serviciosBarra2 {
+    left: 14px;
+  }
+  .serviciosBarra3 {
+    left: 16px;
+  }
+  
+  .TituloServicios h2 {
+    left: -77px;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 5px;
+    font-size: 25px;
+  
+  }
+
+  .serviciosBarra1,
+  .serviciosBarra2,
+  .serviciosBarra3 {
+    border-radius: 5px;
+    width: 15rem;
+    height: 2rem;
+  }
+  
+  .serviciosBox {
+    flex-direction: column;
+    width: 80rem;
+    gap: 10px;
+  }
+
+  #CoachingEq, 
+  #CoachingOrg, 
+  #CoachingEj, 
+  #Softskills  {
+    margin: 0 6px;
+    height: 1.8rem;
+    width: 20rem;
+  }
+  #CoachingEq h2, 
+  #CoachingOrg h2, 
+  #CoachingEj h2, 
+  #Softskills h2  {
+    font-size: 15px;
+  }
+
+  .order {
+    width: 20rem;
+    height: 2rem;
+  }
+
+  .order p {
+    
+    text-align:left;
+    font-size: 15px;
+    margin: 0 10px;
+  }
 
 }
