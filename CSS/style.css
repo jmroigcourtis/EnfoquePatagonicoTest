@@ -2114,7 +2114,8 @@ p.FooterText {
     height: 25rem;
     width: 20rem; }
   #CoachingSoftBox {
-    height: 30rem; }
+    height: 30rem;
+    top: 130px; }
   .containerCoachingEq,
   .containerCoachingOrg,
   .containerCoachingEj,
@@ -2146,7 +2147,33 @@ p.FooterText {
     font-size: 13px;
     margin: 0 auto;
     width: 15rem;
-    line-height: 1.5; } }
+    line-height: 1.5; }
+  /*Contacto*/
+  #Contacto {
+    overflow-y: hidden;
+    position: relative; }
+  .TituloContacto h2 {
+    position: absolute;
+    width: 15rem;
+    height: 2rem;
+    left: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+    top: 3rem; }
+  .serviciosBarra1,
+  .serviciosBarra2,
+  .serviciosBarra3 {
+    top: 3rem; }
+  .contactButton {
+    display: flex;
+    width: 17rem;
+    height: 4rem;
+    border-radius: 5px;
+    margin-left: -50px;
+    margin-top: 50px; }
+  .contactButton a {
+    font-size: 18px;
+    margin-top: 19px; } }
 
 @media screen and (max-width: 375px) {
   * {
