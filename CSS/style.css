@@ -1370,9 +1370,10 @@ p.FooterText {
     height: 100px; }
   /*Misión QUERY*/
   #Mision {
-    margin-top: -120px; }
+    margin-top: -120px;
+    height: 45rem; }
   #Mision p {
-    font-size: 24px; }
+    font-size: 20px; }
   .TituloMision h2 {
     border-radius: 15px;
     color: white;
@@ -1388,7 +1389,7 @@ p.FooterText {
     width: 76%;
     margin: 20px 300px;
     margin-top: 20px;
-    height: 85%;
+    height: 25rem;
     margin-top: 20px;
     border-radius: 20px;
     backdrop-filter: blur 50px;
@@ -1470,9 +1471,13 @@ p.FooterText {
     margin-top: 80px; }
   .Staff {
     width: 275px;
-    height: 170px;
+    height: 200px;
     margin: 3px;
     animation: StartOpacityPicture 1s forwards; }
+  .testTutores {
+    position: relative; }
+  .tutoresBarra1 {
+    top: 2px; }
   /*Fotos Z-INDEX Staff Query*/
   .bioPic {
     height: 55%;
@@ -1506,12 +1511,15 @@ p.FooterText {
   .boxCompromiso2,
   .boxCompromiso3 {
     width: 38%; }
-  .Expertos h2, .Cofidencialidad h2, .Feedback h2 {
-    padding: 5px 10px;
-    font-weight: bold; }
+  .Expertos p, .Confidencialidad p, .Feedback p {
+    font-size: 15px; }
+  .Expertos h2, .Confidencialidad h2, .Feedback h2 {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 10px; }
   /*Oferta académica Query*/
   #OfertaAcadémica {
-    height: 760px;
+    height: 72rem;
     padding: 100px; }
   .TituloOferta h2 {
     font-size: 47px;
@@ -1529,6 +1537,14 @@ p.FooterText {
     font-size: 15px;
     font-weight: 500;
     color: white; }
+  .formacionBox {
+    justify-content: space-between; }
+  .formacionTitulo {
+    width: 30rem;
+    font-size: 20px; }
+  .textQsFormacion {
+    width: 30rem;
+    font-size: 15px; }
   /*Servicios QUERY*/
   .TituloServicios h2 {
     margin-top: 11px;
@@ -1622,6 +1638,12 @@ p.FooterText {
   .serviceTextSoft p {
     margin: 20px;
     font-size: 15px; }
+  .serviciosBox {
+    justify-content: center;
+    gap: 12px; }
+  .order {
+    height: 4rem;
+    width: 228px; }
   /*Contacto Query*/
   #Contacto {
     height: 370px; }
@@ -1638,7 +1660,10 @@ p.FooterText {
   p.FooterText {
     padding: 10px 0px;
     color: #6C1572;
-    font-size: 15px; } }
+    font-size: 15px; }
+  /*Contacto*/
+  #Contacto {
+    height: 30rem; } }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   /*Nav QUERY*/
