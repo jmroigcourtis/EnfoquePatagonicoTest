@@ -1665,6 +1665,317 @@ p.FooterText {
   #Contacto {
     height: 30rem; } }
 
+@media screen and (max-width: 811px) {
+  #BarraNavegacion {
+    display: none !important; }
+  /*Nav Query*/
+  .nav {
+    display: none; }
+  #navbarToggleExternalContent {
+    background-color: white;
+    opacity: 95%; }
+  .fixed-Top {
+    top: -10px; }
+  .navbar {
+    background-color: white; }
+  .tituloNav {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #a12078; }
+  .btnNav {
+    margin-top: 10px;
+    height: 30px; }
+  ul, li {
+    list-style: none; }
+  .textNav {
+    display: flex;
+    color: #a12078;
+    font-size: 17px;
+    font-weight: 500; }
+  /*Carousel*/
+  #LogoInsideCarrousel .enfoque {
+    padding-right: 60px !important;
+    height: 66px !important;
+    top: -94px !important; }
+  #carouselExampleInterval img {
+    height: 20rem !important; }
+  .carousel-control-prev-icon,
+  .carousel-control-prev,
+  .carousel-control-next-icon,
+  .carousel-control-next {
+    margin-bottom: 220px !important; }
+  /*Mision*/
+  #Mision {
+    position: relative;
+    overflow: hidden;
+    margin-top: -400px;
+    padding: 150px 100px;
+    width: auto;
+    height: 35rem; }
+  #Mision p {
+    font-size: 15px; }
+  .misionBarra1 {
+    width: 32%;
+    top: 10px;
+    left: 22px;
+    height: 36px;
+    border-radius: 5px; }
+  .misionBarra2 {
+    width: 32%;
+    top: 10px;
+    left: 19px;
+    height: 34px;
+    border-radius: 5px; }
+  .misionBarra3 {
+    width: 32%;
+    top: 10px;
+    left: 15px;
+    height: 32px;
+    border-radius: 5px; }
+  .TituloMision {
+    position: absolute;
+    top: 10px;
+    left: 20px; }
+  .TituloMision h2 {
+    font-size: 25px;
+    height: 36px;
+    width: 32%;
+    border-radius: 5px; }
+  .textBox {
+    margin: -60px auto;
+    width: 40rem;
+    height: 23rem; }
+  .textQS {
+    line-height: 1.5; }
+  /*Avales Query*/
+  #Avales {
+    position: relative;
+    overflow: hidden;
+    padding: 0; }
+  .TituloAvales {
+    position: absolute;
+    top: 20px;
+    left: 27px;
+    width: 28%; }
+  .TituloAvales h2 {
+    border-radius: 4px;
+    font-size: 25px;
+    width: 90%;
+    top: 2px;
+    left: 0px;
+    height: 36px; }
+  .avalesBarra1 {
+    border-radius: 4px;
+    height: 36px;
+    width: 25%;
+    left: 23px;
+    top: 20px; }
+  .avalesBarra2 {
+    border-radius: 4px;
+    width: 25%;
+    height: 33px;
+    left: 17px;
+    top: 22px; }
+  .avalesBarra3 {
+    border-radius: 4px;
+    width: 25%;
+    left: 20px;
+    height: 35px;
+    top: 20px; }
+  .boxLogo {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 116px; }
+  .aacopLogo {
+    height: 100px;
+    margin: auto; }
+  .ficopLogo {
+    position: absolute;
+    margin: auto;
+    height: 100px;
+    right: 25%;
+    top: 10%; }
+  /*Staff Query*/
+  #QuienesSomos {
+    position: relative;
+    padding: 0px; }
+  .TituloStaff {
+    overflow: hidden;
+    width: 29%;
+    height: 26px;
+    left: 9px;
+    top: 30px; }
+  .staffBarra1,
+  .staffBarra2,
+  .staffBarra3,
+  .TituloStaff {
+    position: absolute;
+    border-radius: 5px;
+    height: 32px; }
+  .staffBarra1 {
+    left: 18px;
+    top: 30px; }
+  .staffBarra2 {
+    left: 15px;
+    top: 29px; }
+  .staffBarra3 {
+    left: 12px;
+    top: 28px; }
+  .TituloStaff h2 {
+    font-size: 25px;
+    height: 26px; }
+  .Staff {
+    height: 130px; }
+  .Fotos {
+    position: relative;
+    top: 100px; }
+  .Fotos p:last-of-type {
+    margin-top: auto;
+    font-weight: bolder; }
+  #Staff1Bio,
+  #Staff2Bio,
+  #Staff3Bio,
+  #Staff4Bio,
+  #Staff5Bio,
+  #Staff6Bio {
+    display: none;
+    position: fixed;
+    top: 100px;
+    width: 35rem;
+    height: 35rem;
+    left: 150px;
+    overflow: hidden; }
+  #Staff2Bio {
+    height: 35rem; }
+  #Staff3Bio, #Staff4Bio {
+    height: 27rem; }
+  #Staff5Bio {
+    height: 30rem; }
+  .closeButton {
+    height: 18px; }
+  .bioPic {
+    border-radius: 100px;
+    position: absolute;
+    z-index: 1;
+    top: -30px;
+    height: 180px;
+    left: 140px; }
+  .bioText {
+    position: absolute;
+    font-size: 13px;
+    top: 200px;
+    width: 86%;
+    left: -20px; }
+  .bioPic2 {
+    border-radius: 100px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 100px;
+    height: 180px; }
+  .bioPic3, .bioPic4, .bioPic6 {
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+    height: 180px;
+    left: 100px; }
+  .containerStaffResponsive {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "responsiveImg" "responsiveText"; }
+  .responsiveImg {
+    grid-area: responsiveImg; }
+  .responsiveText {
+    grid-area: responsiveText; }
+  .containerStaffResponsive2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "responsiveImg2" "responsiveText2"; }
+  .responsiveImg2 {
+    grid-area: responsiveImg2; }
+  .responsiveText2 {
+    grid-area: responsiveText2; }
+  .responsiveText2 p {
+    top: 240px; }
+  .containerStaffResponsive3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "responsiveImg3" "responsiveText3"; }
+  .responsiveImg3 {
+    grid-area: responsiveImg3; }
+  .responsiveText3 {
+    grid-area: responsiveText3; }
+  .responsiveText3 p {
+    top: 240px; }
+  .containerStaffResponsive4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "responsiveImg4" "responsiveText4"; }
+  .responsiveImg4 {
+    grid-area: responsiveImg4; }
+  .responsiveText4 {
+    grid-area: responsiveText4; }
+  .responsiveText4 p {
+    top: 240px; }
+  .containerStaffResponsive5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "responsiveImg5" "responsiveText5"; }
+  .responsiveImg5 {
+    grid-area: responsiveImg5; }
+  .responsiveText5 {
+    grid-area: responsiveText5; }
+  .responsiveText5 p {
+    top: 240px; }
+  /*Tutores*/
+  /*Tutores*/
+  .tutoresBarra1 {
+    height: 36px;
+    width: 9rem;
+    bottom: 577px;
+    left: 5px; }
+  .testTutores {
+    height: 35rem; }
+  .tutores {
+    flex-direction: column;
+    margin-left: 65px;
+    width: 40rem;
+    gap: 10px; }
+  .TituloTutores h2 {
+    font-size: 25px;
+    width: 9rem; }
+  .tutoresLista h3 {
+    font-size: 20px; }
+  .tutoresNombre {
+    font-size: 18px; } }
+
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   /*Nav QUERY*/
   p.h5 {
