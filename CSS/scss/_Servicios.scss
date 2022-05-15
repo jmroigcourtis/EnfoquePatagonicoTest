@@ -22,7 +22,8 @@
 .serviciosBarra1 {
   @include createBoxZIndex(#66186c, 33%, 70px, absolute, 3, 15px);
   margin-top: 14px;
-  left: 90px;}
+  left: 90px;
+}
 .serviciosBarra2 {
   @include createBoxZIndex(#a12078, 33%, 70px, absolute, 0, 15px); 
   left: 70px;

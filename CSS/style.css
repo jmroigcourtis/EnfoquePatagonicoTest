@@ -2208,7 +2208,7 @@ p.FooterText {
     font-size: 18px;
     margin-top: 19px; } }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   * {
     overflow-x: hidden; }
   #BarraNavegacion {
