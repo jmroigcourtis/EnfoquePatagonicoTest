@@ -1695,11 +1695,11 @@ p.FooterText {
     font-weight: 500; }
   /*Carousel*/
   #LogoInsideCarrousel .enfoque {
-    padding-right: 60px !important;
-    height: 66px !important;
-    top: -94px !important; }
+    padding-right: 60px;
+    height: 66px;
+    top: -94px; }
   #carouselExampleInterval img {
-    height: 20rem !important; }
+    height: 20rem; }
   .carousel-control-prev-icon,
   .carousel-control-prev,
   .carousel-control-next-icon,
@@ -2228,7 +2228,7 @@ p.FooterText {
     color: white;
     width: 103%; } }
 
-@media only screen and (max-device-width: 450px) {
+@media (max-width: 450px) {
   .nav {
     display: none; }
   #navbarToggleExternalContent {
@@ -2255,9 +2255,9 @@ p.FooterText {
     font-weight: 500; }
   /*Carousel Query*/
   #carouselExampleInterval img {
-    height: 25%; }
+    height: 13rem; }
   #LogoInsideCarrousel .enfoque {
-    margin-top: 162px;
+    margin-top: 344px;
     margin-right: 20px;
     border-top-right-radius: 194px;
     padding-right: 35px;
@@ -2544,7 +2544,7 @@ p.FooterText {
     font-size: 18px;
     margin-top: 19px; } }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 375px) {
   * {
     overflow-x: hidden; }
   #BarraNavegacion {
@@ -2578,7 +2578,7 @@ p.FooterText {
   #carouselExampleInterval img {
     height: 25%; }
   #LogoInsideCarrousel .enfoque {
-    margin-top: 162px;
+    margin-top: 336px;
     margin-right: 20px;
     border-top-right-radius: 194px;
     padding-right: 35px;

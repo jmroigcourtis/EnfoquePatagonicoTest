@@ -1,4 +1,4 @@
-@media only screen and (max-device-width : 450px){
+@media (max-width : 450px){
 
   .nav {
       display: none;
@@ -39,11 +39,11 @@
 
     /*Carousel Query*/
     #carouselExampleInterval img {
-      height: 25%;
+      height: 13rem ;
     }
     
     #LogoInsideCarrousel .enfoque {
-      margin-top: 162px;
+      margin-top: 344px ;
       margin-right: 20px;
       border-top-right-radius: 194px;
       padding-right: 35px;
