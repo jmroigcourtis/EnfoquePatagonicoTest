@@ -2544,7 +2544,7 @@ p.FooterText {
     font-size: 18px;
     margin-top: 19px; } }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   * {
     overflow-x: hidden; }
   #BarraNavegacion {
@@ -2666,8 +2666,9 @@ p.FooterText {
     height: 27px;
     top: 0; }
   .boxLogo {
+    display: flex;
     position: absolute;
-    top: 30%;
+    top: -350px;
     left: 23%; }
   .aacopLogo {
     height: 40px;

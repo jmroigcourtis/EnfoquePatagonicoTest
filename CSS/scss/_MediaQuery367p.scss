@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
           
   * {
       overflow-x: hidden;
@@ -182,8 +182,9 @@ top: 0;
 }
 
 .boxLogo {
+  display: flex;
   position: absolute;
-  top: 30%;
+  top: -350px;
   left: 23%;
 }
 
