@@ -2720,6 +2720,7 @@ p.FooterText {
     left: 40px;
     width: 95px; }
   .Fotos {
+    margin-top: 10px;
     width: 100%; }
   .Fotos p:last-of-type {
     margin-top: auto;
