@@ -2733,7 +2733,7 @@ p.FooterText {
     display: none;
     position: fixed;
     top: 100px;
-    width: 98%;
+    width: 22rem;
     height: 30rem;
     left: 5px;
     overflow: hidden; }
@@ -2757,12 +2757,14 @@ p.FooterText {
     position: absolute;
     z-index: 1;
     top: -30px;
-    height: 180px; }
+    height: 180px;
+    left: 0px; }
   .bioPic3, .bioPic4, .bioPic6 {
     border-radius: 100%;
     position: absolute;
     z-index: 1;
-    height: 180px; }
+    height: 180px;
+    left: 0px; }
   .containerStaffResponsive {
     display: grid;
     grid-template-columns: 1fr;
