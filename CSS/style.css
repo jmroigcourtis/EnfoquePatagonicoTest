@@ -3037,17 +3037,18 @@ p.FooterText {
     display: flex;
     flex-direction: column; }
   #proBox {
-    top: 5px;
+    top: 50px;
     left: -3px;
     width: 22rem;
     height: 34rem; }
   #postituloBox {
     width: 22rem;
     height: 38rem;
+    top: 50px;
     left: 0; }
   #innovacionBox {
     width: 97%;
-    top: 0;
+    top: 50px;
     left: 1px; }
   .formacionTituloBox {
     font-size: 14px; }
