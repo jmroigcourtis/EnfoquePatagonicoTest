@@ -2739,7 +2739,8 @@ p.FooterText {
     margin: -38%;
     width: 170%; }
   .textBoxWidth {
-    height: 2rem; }
+    height: 2rem;
+    padding: 10px; }
   .textQS {
     line-height: 1.5; }
   /*Avales Query*/
@@ -3026,7 +3027,7 @@ p.FooterText {
   .formacionBox {
     overflow-y: hidden;
     height: 20rem;
-    margin: 70px 45px; }
+    margin: 70px -20px; }
   .formacionTitulo {
     font-size: 15px;
     font-weight: 500;

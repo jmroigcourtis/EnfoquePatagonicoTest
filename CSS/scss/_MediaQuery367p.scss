@@ -129,6 +129,7 @@ width: 170%;
 
 .textBoxWidth {
   height: 2rem;
+  padding: 10px;
 }
 
 .textQS {
@@ -567,7 +568,7 @@ margin: auto;
   .formacionBox {
     overflow-y: hidden;
     height: 20rem;
-    margin: 70px 45px;
+    margin: 70px -20px;  
   }
 
   .formacionTitulo {
