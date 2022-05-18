@@ -2738,6 +2738,8 @@ p.FooterText {
   .textBox {
     margin: -38%;
     width: 170%; }
+  .textBoxWidth {
+    height: 2rem; }
   .textQS {
     line-height: 1.5; }
   /*Avales Query*/
@@ -3020,18 +3022,20 @@ p.FooterText {
     font-weight: bold; }
   /*Formación query*/
   #OfertaAcadémica {
-    height: 26rem; }
+    height: 13rem; }
   .formacionBox {
     overflow-y: hidden;
     height: 20rem;
     margin: 70px 45px; }
   .formacionTitulo {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
-    text-align: center;
-    height: 4.5rem;
-    width: 15rem;
-    margin-top: 20px; }
+    text-align: left;
+    width: 21rem;
+    margin-top: -6px;
+    left: 20px;
+    position: absolute;
+    padding: 5px; }
   .containerFormacion,
   .containerPostitulo,
   .containerInnovacion {
@@ -3057,7 +3061,8 @@ p.FooterText {
     left: 8px;
     height: 27rem; }
   .formacionTituloBox {
-    font-size: 14px; }
+    font-size: 13px;
+    font-weight: bold; }
   .formacionPic img,
   .postituloPic img,
   .innovacionPic img {
