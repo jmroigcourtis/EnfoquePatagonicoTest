@@ -2960,7 +2960,8 @@ p.FooterText {
     bottom: 577px;
     left: 5px; }
   .testTutores {
-    height: 35rem; }
+    height: 35rem;
+    margin-top: 140px; }
   .tutores {
     flex-direction: column;
     margin-left: 65px; }
@@ -3071,4 +3072,7 @@ p.FooterText {
   .formacionText,
   .postituloText,
   .innovacionText {
-    font-size: 11px; } }
+    font-size: 11px; }
+  /*Servicios*/
+  #NuestrosServicios {
+    padding: 20px; } }
