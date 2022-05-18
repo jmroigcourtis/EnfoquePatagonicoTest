@@ -556,12 +556,12 @@ margin: auto;
   /*Formación query*/
 
   #OfertaAcadémica {
-    height: 52rem;
+    height: 26rem;
   }
   
   .formacionBox {
     overflow-y: hidden;
-    height: 50rem;
+    height: 20rem;
     margin: 70px 45px;
   }
 
@@ -582,22 +582,27 @@ margin: auto;
   }
 
   #proBox {
-    top: 50px;
+    position: fixed;
+    z-index: 5;
+    top: 110px;
     left: -3px;
     width: 22rem;
     height: 34rem;
   }
 
   #postituloBox {
+    position: fixed;
+
     width: 22rem;
     height: 38rem;
-    top: 50px;
+    top: 110px;
     left: 0;
   }
 
   #innovacionBox {
+    position: fixed;
     width: 97%;
-    top: 50px;
+    top: 99px;
     left: 1px;
   }
 
