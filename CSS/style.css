@@ -3040,7 +3040,7 @@ p.FooterText {
   #proBox {
     position: fixed;
     z-index: 5;
-    top: 110px;
+    top: 80px;
     left: -3px;
     width: 22rem;
     height: 29rem; }
@@ -3048,8 +3048,8 @@ p.FooterText {
     position: fixed;
     width: 22rem;
     height: 34rem;
-    top: 110px;
-    left: 0; }
+    top: 80px;
+    left: 10px; }
   #innovacionBox {
     position: fixed;
     width: 97%;
