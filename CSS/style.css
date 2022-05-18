@@ -1801,7 +1801,7 @@ p.FooterText {
   #Contacto {
     height: 30rem; } }
 
-@media screen and (max-width: 811px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   #BarraNavegacion {
     display: none !important; }
   /*Nav Query*/
@@ -2091,7 +2091,6 @@ p.FooterText {
   .responsiveText5 p {
     top: 240px; }
   /*Tutores*/
-  /*Tutores*/
   .tutoresBarra1 {
     height: 36px;
     width: 9rem;
@@ -2110,7 +2109,180 @@ p.FooterText {
   .tutoresLista h3 {
     font-size: 20px; }
   .tutoresNombre {
-    font-size: 18px; } }
+    font-size: 18px; }
+  /*Compromiso*/
+  .TituloCompromiso {
+    height: 36px;
+    border-radius: 5px; }
+  .TituloCompromiso h2 {
+    font-size: 25px; }
+  .boxCompromiso1, .boxCompromiso2, .boxCompromiso3 {
+    width: 277px;
+    height: 40px;
+    border-radius: 5px; }
+  .compromisoBox {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 50px; }
+  .Expertos h2,
+  .Confidencialidad h2,
+  .Feedback h2 {
+    width: 36rem; }
+  .Expertos p,
+  .Confidencialidad p,
+  .Feedback p {
+    font-size: 17px; }
+  .Expertos, .Confidencialidad, .Feedback {
+    width: 36rem;
+    height: 10rem;
+    border-radius: 5px;
+    font-size: 20px; }
+  /*Oferta*/
+  #OfertaAcadémica {
+    height: 34rem; }
+  .ofertaBarra1, .ofertaBarra2, .ofertaBarra3 {
+    width: 15rem;
+    height: 2rem;
+    border-radius: 5px; }
+  .ofertaBarra1 {
+    left: 76px; }
+  .ofertaBarra2 {
+    left: 72px; }
+  .ofertaBarra3 {
+    left: 74px; }
+  .TituloOferta h2 {
+    font-size: 25px;
+    height: 32px;
+    width: 15rem;
+    border-radius: 5px;
+    left: 82px; }
+  .formacionBox {
+    flex-direction: column; }
+  .formacionTitulo {
+    height: 4rem; }
+  .textBoxWidth {
+    margin: 50px 140px; }
+  .containerFormacion,
+  .containerPostitulo,
+  .containerInnovacion {
+    display: flex; }
+  #proBox,
+  #postituloBox {
+    width: 45rem; }
+  .formacionPic img,
+  .postituloPic img,
+  .innovacionPic img {
+    display: none; }
+  .serviciosBarra1 {
+    left: 18px; }
+  .serviciosBarra2 {
+    left: 14px; }
+  .serviciosBarra3 {
+    left: 16px; }
+  .TituloServicios h2 {
+    left: -77px;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 5px;
+    font-size: 25px; }
+  .serviciosBarra1,
+  .serviciosBarra2,
+  .serviciosBarra3 {
+    border-radius: 5px;
+    width: 15rem;
+    height: 2rem; }
+  .serviciosBox {
+    flex-direction: column;
+    width: 80rem;
+    gap: 10px; }
+  #CoachingEq,
+  #CoachingOrg,
+  #CoachingEj,
+  #Softskills {
+    margin: 0 200px;
+    height: 1.8rem;
+    width: 25rem; }
+  #CoachingEq h2,
+  #CoachingOrg h2,
+  #CoachingEj h2,
+  #Softskills h2 {
+    font-size: 19px; }
+  .order {
+    margin: 0 200px;
+    width: 25rem;
+    height: 2rem; }
+  .order p {
+    text-align: left;
+    font-size: 19px;
+    margin: 0 10px; }
+  #CoachingEqBox, #CoachingOrgBox, #CoachingEjBox, #CoachingSoftBox {
+    top: 450px;
+    left: 217px;
+    height: 25rem;
+    width: 28rem; }
+  #CoachingSoftBox {
+    height: 30rem;
+    top: 450px; }
+  .containerCoachingEq,
+  .containerCoachingOrg,
+  .containerCoachingEj,
+  .containerCoachingSoft {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 0px; }
+  .servicePic img,
+  .servicePicOrg img,
+  .servicePicEj img,
+  .servicePicSoft img {
+    display: none; }
+  .serviceTitle,
+  .serviceTitleOrg,
+  .serviceTitleEj,
+  .serviceTitleSoft {
+    font-size: 20px;
+    width: 23rem;
+    text-align: center;
+    margin: 45px auto; }
+  .serviceTitleSoft {
+    width: 18rem;
+    margin: 50px auto; }
+  .serviceText p,
+  .serviceTextOrg p,
+  .serviceTextEj p,
+  .serviceTextSoft p {
+    font-size: 15px;
+    margin: 0 auto;
+    width: 22rem;
+    line-height: 1.5; }
+  /*Contacto*/
+  #Contacto {
+    overflow-y: hidden;
+    position: relative;
+    height: 15rem; }
+  .TituloContacto h2 {
+    position: absolute;
+    top: 3rem;
+    left: 22px;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 5px;
+    font-size: 25px; }
+  .contactoBarra1,
+  .contactoBarra2,
+  .contactoBarra3 {
+    top: 3rem; }
+  .contactButton {
+    display: flex;
+    width: 17rem;
+    height: 4rem;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-top: 2px; }
+  .contactButton a {
+    font-size: 18px;
+    margin-top: 19px; } }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   /*Nav QUERY*/
@@ -2726,7 +2898,7 @@ p.FooterText {
   #carouselExampleInterval img {
     height: 25%; }
   #LogoInsideCarrousel .enfoque {
-    margin-top: 336px;
+    margin-top: 162px;
     margin-right: 20px;
     border-top-right-radius: 194px;
     padding-right: 35px;
@@ -2829,11 +3001,12 @@ p.FooterText {
     margin: auto;
     height: 60px;
     right: 25%;
-    top: 10%; }
+    top: 26rem; }
   /*Staff Query*/
   #QuienesSomos {
     position: relative;
-    padding: 0px; }
+    padding: 0px;
+    height: 83rem; }
   .TituloStaff {
     overflow: hidden;
     width: 29%;
@@ -2871,7 +3044,7 @@ p.FooterText {
     left: 40px;
     width: 95px; }
   .Fotos {
-    margin-top: 10px;
+    margin-top: 100px;
     width: 100%; }
   .Fotos p:last-of-type {
     margin-top: auto;
