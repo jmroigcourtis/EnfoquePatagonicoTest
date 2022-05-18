@@ -2849,7 +2849,8 @@ p.FooterText {
     left: 5px;
     overflow: hidden; }
   .closeButton {
-    height: 18px; }
+    height: 18px;
+    right: 0px; }
   .bioPic {
     border-radius: 100px;
     position: absolute;
@@ -3064,4 +3065,4 @@ p.FooterText {
   .formacionText,
   .postituloText,
   .innovacionText {
-    font-size: 11px; } }
+    font-size: 12px; } }
