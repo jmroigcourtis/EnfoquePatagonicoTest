@@ -3,9 +3,8 @@
 
 }
 
-
 #logoWhatsapp {
-    width: 10%;
+    position: relative;
 }
 
 #logoWhatsapp a {
@@ -22,9 +21,11 @@
 }
 
 .bi-whatsapp {
+    position: absolute;
+    top: -20px;
+    left: 1800px;
     width: 55px;
     height: 55px;
-    margin-left: 1800px;
     cursor: pointer;
     animation: in 0.5s;
     border-width: 10px;
