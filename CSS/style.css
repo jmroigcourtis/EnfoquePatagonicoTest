@@ -615,6 +615,7 @@ strong {
   font-weight: 600; }
 
 .formacionTitulo {
+  justify-content: space-evenly;
   cursor: pointer;
   background-color: #b64a87;
   width: 25rem;
@@ -631,7 +632,7 @@ strong {
   top: 100px;
   left: 300px;
   width: 80rem;
-  height: 52rem;
+  height: 53rem;
   margin-left: 7px;
   background-color: white;
   border-radius: 10px; }
@@ -1657,12 +1658,13 @@ p.FooterText {
   .formacionPic img {
     position: absolute;
     height: 30rem;
-    left: 182px; }
+    left: 182px;
+    top: 3rem; }
   .textQsFormacion {
     width: 30rem;
     font-size: 15px; }
   #proBox {
-    height: 35rem;
+    height: 40rem;
     left: 40px; }
   #postituloBox {
     border-width: 0.2px;
@@ -1677,7 +1679,8 @@ p.FooterText {
   .innovacionPic img {
     height: 26rem;
     top: 110px; }
-  .formacionText,
+  .formacionTitulo
+.formacionText,
   .postituloText,
   .innovacionText {
     font-size: 14px; }
@@ -2441,6 +2444,8 @@ p.FooterText {
   /*Oferta académica Query*/
   #OfertaAcadémica {
     padding: 80px 100px; }
+  .formacionTitulo {
+    height: 4rem; }
   .TituloOferta h2 {
     background-color: #411E6F;
     width: 50%;
@@ -3260,7 +3265,7 @@ p.FooterText {
     top: 100px;
     left: -3px;
     width: 22rem;
-    height: 29rem; }
+    height: 31rem; }
   #postituloBox {
     position: fixed;
     width: 22rem;

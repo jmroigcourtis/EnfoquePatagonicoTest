@@ -89,6 +89,7 @@
 }
 
 .formacionTitulo {
+    justify-content: space-evenly;
     cursor: pointer;
     background-color: #b64a87;
     width: 25rem;
@@ -107,7 +108,7 @@
     top: 100px;
     left: 300px;
     width: 80rem;
-    height: 52rem;
+    height: 53rem;
     margin-left: 7px;
     background-color: white;
     border-radius: 10px;
