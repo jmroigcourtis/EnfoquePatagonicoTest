@@ -2591,8 +2591,9 @@ p.FooterText {
     z-index: 3;
     height: 38px; }
   .carousel-control-prev-icon, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-next {
-    margin-bottom: 310px;
-    height: 20px; }
+    margin-bottom: -24px;
+    height: 179px;
+    width: 19px; }
   /*Misión Query*/
   #Mision {
     margin-top: -566px;
@@ -2912,8 +2913,9 @@ p.FooterText {
     z-index: 3;
     height: 38px; }
   .carousel-control-prev-icon, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-next {
-    margin-bottom: 310px;
-    height: 20px; }
+    margin-bottom: -24px;
+    height: 179px;
+    width: 19px; }
   /*Misión Query*/
   #Mision {
     position: relative;
