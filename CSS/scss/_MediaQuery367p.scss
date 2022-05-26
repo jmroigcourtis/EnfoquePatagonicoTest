@@ -640,4 +640,71 @@ margin: auto;
   #NuestrosServicios {
     padding: 20px;
   }
+
+  /*Innovación*/
+
+#EnfoqueInnovación {
+  padding: 0;
+  height: 80rem;
+  overflow-y: hidden;
+}
+
+.InnovaciónMainText {
+  height: 70rem;
+}
+
+.TituloInnovación {
+  height: 2.8rem;
+  width: 15rem;
+  padding: 2px;
+  margin: 20px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.TituloInnovación h2 {
+  font-size: 25px;
+}
+
+.InnovaciónTitle {
+  width: 22rem;
+  border-radius: 10px;
+}
+
+.InnovaciónTitle h2 {
+  font-size: 20px
+}
+
+.InnovacionCol1,
+.InnovacionCol2{
+  flex-direction: column;
+  height: 28rem;
+}
+
+.InnovacionCol2 img {
+  display: none;
+  height: 100rem;
+  width: 274px;
+  margin: 20px auto;
+}
+
+.LogoInn {
+  height: 137px;
+  width: 288px;
+}
+
+.InnovaciónText p, .InnovaciónText ul li {
+  font-size: 15px;
+  width: 16rem;
+  margin: 0;
+}
+
+.InnovaciónText strong:first-of-type {
+  font-size: 18px;
+}
+
+.InnovaciónText2{
+  font-size: 15px;
+}
+
 }
