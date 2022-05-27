@@ -3037,31 +3037,31 @@ p.FooterText {
   #Mision p {
     font-size: 10px; }
   .misionBarra1 {
-    width: 32%;
+    width: 191px;
     top: 10px;
     left: 22px;
-    height: 28px;
+    height: 36px;
     border-radius: 5px; }
   .misionBarra2 {
-    width: 32%;
+    width: 191px;
     top: 10px;
     left: 19px;
-    height: 26px;
+    height: 35px;
     border-radius: 5px; }
   .misionBarra3 {
-    width: 32%;
+    width: 190px;
     top: 10px;
     left: 15px;
-    height: 23px;
+    height: 33px;
     border-radius: 5px; }
   .TituloMision {
     position: absolute;
     top: 10px;
     left: 20px; }
   .TituloMision h2 {
-    font-size: 15px;
-    height: 29px;
-    width: 32%;
+    font-size: 25px;
+    height: 38px;
+    width: 190px;
     border-radius: 5px; }
   .textBox {
     margin: -38%;
@@ -3083,11 +3083,11 @@ p.FooterText {
     width: 28%; }
   .TituloAvales h2 {
     border-radius: 4px;
-    font-size: 20px;
+    font-size: 25px;
     width: 90%;
     top: 2px;
     left: 0px;
-    height: 26px; }
+    height: 30px; }
   .avalesBarra1 {
     border-radius: 4px;
     height: 27px;
@@ -3099,13 +3099,15 @@ p.FooterText {
     width: 25%;
     height: 24px;
     left: 17px;
-    top: 2px; }
+    top: 0px; }
   .avalesBarra3 {
     border-radius: 4px;
     width: 25%;
     left: 20px;
     height: 27px;
     top: 0; }
+  .avalesBarra1, .avalesBarra2, .avalesBarra3 {
+    height: 30px; }
   .boxLogo {
     display: flex;
     position: absolute;
@@ -3136,7 +3138,7 @@ p.FooterText {
   .staffBarra3,
   .TituloStaff {
     position: absolute;
-    height: 24px; }
+    height: 30px; }
   .staffBarra1 {
     left: 18px;
     top: 30px; }
@@ -3147,8 +3149,8 @@ p.FooterText {
     left: 12px;
     top: 28px; }
   .TituloStaff h2 {
-    font-size: 20px;
-    height: 26px; }
+    font-size: 25px;
+    height: 33px; }
   #Staff1,
   #Staff2,
   #Staff3,
@@ -3457,4 +3459,6 @@ p.FooterText {
   .InnovaciónText strong:first-of-type {
     font-size: 18px; }
   .InnovaciónText2 {
-    font-size: 15px; } }
+    font-size: 15px; }
+  #Contacto {
+    height: 16rem; } }
