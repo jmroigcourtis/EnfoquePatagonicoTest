@@ -1746,9 +1746,10 @@ p.FooterText {
     font-weight: 500;
     color: white; }
   .formacionBox {
-    justify-content: space-between; }
+    justify-content: space-around; }
   .formacionTitulo {
     width: 20rem;
+    height: 3.5rem;
     font-size: 20px; }
   .formacionPic img {
     position: absolute;
@@ -3435,11 +3436,16 @@ p.FooterText {
     width: 274px;
     margin: 20px auto; }
   .LogoInn {
+    margin: auto;
     height: 137px;
     width: 288px; }
+  .InnovaciónText {
+    width: 19rem;
+    height: 10rem;
+    padding: 10px; }
   .InnovaciónText p, .InnovaciónText ul li {
     font-size: 15px;
-    width: 16rem;
+    width: 18rem;
     margin: 0; }
   .InnovaciónText strong:first-of-type {
     font-size: 18px; }
