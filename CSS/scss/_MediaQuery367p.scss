@@ -645,12 +645,18 @@ margin: auto;
 
 #EnfoqueInnovación {
   padding: 0;
-  height: 80rem;
+  height: 105rem;
+  overflow-y: hidden;
+}
+
+.InnovaciónMain {
+  height: 103rem;
   overflow-y: hidden;
 }
 
 .InnovaciónMainText {
-  height: 70rem;
+  height: 92rem;
+  overflow-y: hidden;
 }
 
 .TituloInnovación {
@@ -667,6 +673,7 @@ margin: auto;
 }
 
 .InnovaciónTitle {
+  height: 3rem;
   width: 22rem;
   border-radius: 10px;
 }
@@ -679,6 +686,10 @@ margin: auto;
 .InnovacionCol2{
   flex-direction: column;
   height: 28rem;
+}
+
+.InnovacionCol2 {
+  height: 78rem;
 }
 
 .InnovacionCol2 img {
