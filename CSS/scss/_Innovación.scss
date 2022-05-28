@@ -5,7 +5,25 @@
 }
 
 
+.InnovaciónBarra1 {
+    @include createBoxZIndex(#66186c, 38rem, 4.5rem, absolute, 3, 10px);
+    top: 157px;
+    left: 93px;
 
+}
+
+.InnovaciónBarra2 {
+    @include createBoxZIndex(#a12078, 38rem, 4.5rem, absolute, 2, 10px);
+    top: 160px;
+    left: 90px;
+}
+
+.InnovaciónBarra3 {
+    @include createBoxZIndex(#b64a87, 38rem, 4.5rem, absolute, 1, 10px);
+    top: 162px;
+    left: 87px;
+
+}
 
 .TituloInnovación {
     background: rgb(161,32,120);
@@ -14,6 +32,8 @@
     height: 4.5rem;
     width: 38rem;
     padding: 5px;
+    z-index: 4;
+    position: absolute;
 
 }
 

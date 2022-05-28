@@ -1,28 +1,20 @@
+
+
 #whatsapp {
-    display: none;
-
-}
-
-#logoWhatsapp {
-    position: relative;
-}
-
-#logoWhatsapp a {
-    display: inline-block;
-    width: 0px;
+    position: fixed;
+    top: 848px;
+    right: 118rem;
+    z-index: 999999;
 }
 
 .colorWhatsapp {
     fill: white;
 }
 
-.fixed-bottom {
-    margin: 50px 25px;
-}
 
 .bi-whatsapp {
     position: absolute;
-    top: -20px;
+    top: 0px;
     left: 1800px;
     width: 55px;
     height: 55px;

@@ -8,6 +8,13 @@
   display: none !important;
 }
 
+/*Whatsapp*/
+
+#whatsapp {
+  top: 486px;
+  right: 199rem !important;
+}
+
  /*Nav Query*/
 .nav {
   display: none;
@@ -653,6 +660,28 @@ margin: auto;
   overflow-y: hidden;
 }
 
+
+.InnovaciónBarra1 {
+  @include createBoxZIndex(#66186c, 15rem, 2.3rem, absolute, 3, 5px);
+  top: 24px;
+  left: 16px;
+
+}
+
+.InnovaciónBarra2 {
+  @include createBoxZIndex(#a12078, 15rem, 2.3rem, absolute, 2, 5px);
+  top: 26px;
+  left: 13px;
+}
+
+.InnovaciónBarra3 {
+  @include createBoxZIndex(#b64a87, 15rem, 2.3rem, absolute, 1, 5px);
+  top: 28px;
+  left: 10px;
+
+}
+
+
 .InnovaciónMain {
   height: 103rem;
   overflow-y: hidden;
@@ -664,12 +693,15 @@ margin: auto;
 }
 
 .TituloInnovación {
-  height: 2.8rem;
+  height: 2.3rem;
   width: 15rem;
   padding: 2px;
   margin: 20px;
   border-radius: 5px;
   position: absolute;
+  overflow: hidden;
+  left: -2px;
+  top: 2px;
 }
 
 .TituloInnovación h2 {

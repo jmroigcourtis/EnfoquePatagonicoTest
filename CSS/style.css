@@ -122,24 +122,17 @@ p.h5:hover {
     opacity: 80%; } }
 
 #whatsapp {
-  display: none; }
-
-#logoWhatsapp {
-  position: relative; }
-
-#logoWhatsapp a {
-  display: inline-block;
-  width: 0px; }
+  position: fixed;
+  top: 848px;
+  right: 118rem;
+  z-index: 999999; }
 
 .colorWhatsapp {
   fill: white; }
 
-.fixed-bottom {
-  margin: 50px 25px; }
-
 .bi-whatsapp {
   position: absolute;
-  top: -20px;
+  top: 0px;
   left: 1800px;
   width: 55px;
   height: 55px;
@@ -745,13 +738,48 @@ strong {
   height: 95rem;
   position: relative; }
 
+.InnovaciónBarra1 {
+  background: #66186c;
+  width: 38rem;
+  height: 4.5rem;
+  position: absolute;
+  z-index: 3;
+  border-radius: 10px;
+  animation: showUpTitleSection 1.5s;
+  top: 157px;
+  left: 93px; }
+
+.InnovaciónBarra2 {
+  background: #a12078;
+  width: 38rem;
+  height: 4.5rem;
+  position: absolute;
+  z-index: 2;
+  border-radius: 10px;
+  animation: showUpTitleSection 1.5s;
+  top: 160px;
+  left: 90px; }
+
+.InnovaciónBarra3 {
+  background: #b64a87;
+  width: 38rem;
+  height: 4.5rem;
+  position: absolute;
+  z-index: 1;
+  border-radius: 10px;
+  animation: showUpTitleSection 1.5s;
+  top: 162px;
+  left: 87px; }
+
 .TituloInnovación {
   background: #a12078;
   background: linear-gradient(95deg, #a12078 75%, #ee4999 99%);
   border-radius: 10px;
   height: 4.5rem;
   width: 38rem;
-  padding: 5px; }
+  padding: 5px;
+  z-index: 4;
+  position: absolute; }
 
 .TituloInnovación h2 {
   font-size: 60px;
@@ -1561,6 +1589,12 @@ p.FooterText {
     position: relative;
     margin: 0 20px;
     animation: EndNavAnimation 0.5s; }
+  /*Whatsapp*/
+  #whatsapp {
+    position: fixed;
+    top: 533px;
+    right: 195rem;
+    z-index: 999999; }
   /*Carousel Query*/
   #carouselExampleInterval img {
     height: 66%; }
@@ -2987,6 +3021,10 @@ p.FooterText {
     overflow-x: hidden; }
   #BarraNavegacion {
     display: none !important; }
+  /*Whatsapp*/
+  #whatsapp {
+    top: 486px;
+    right: 199rem !important; }
   /*Nav Query*/
   .nav {
     display: none; }
@@ -3412,6 +3450,36 @@ p.FooterText {
     padding: 0;
     height: 105rem;
     overflow-y: hidden; }
+  .InnovaciónBarra1 {
+    background: #66186c;
+    width: 15rem;
+    height: 2.3rem;
+    position: absolute;
+    z-index: 3;
+    border-radius: 5px;
+    animation: showUpTitleSection 1.5s;
+    top: 24px;
+    left: 16px; }
+  .InnovaciónBarra2 {
+    background: #a12078;
+    width: 15rem;
+    height: 2.3rem;
+    position: absolute;
+    z-index: 2;
+    border-radius: 5px;
+    animation: showUpTitleSection 1.5s;
+    top: 26px;
+    left: 13px; }
+  .InnovaciónBarra3 {
+    background: #b64a87;
+    width: 15rem;
+    height: 2.3rem;
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px;
+    animation: showUpTitleSection 1.5s;
+    top: 28px;
+    left: 10px; }
   .InnovaciónMain {
     height: 103rem;
     overflow-y: hidden; }
@@ -3419,12 +3487,15 @@ p.FooterText {
     height: 92rem;
     overflow-y: hidden; }
   .TituloInnovación {
-    height: 2.8rem;
+    height: 2.3rem;
     width: 15rem;
     padding: 2px;
     margin: 20px;
     border-radius: 5px;
-    position: absolute; }
+    position: absolute;
+    overflow: hidden;
+    left: -2px;
+    top: 2px; }
   .TituloInnovación h2 {
     font-size: 25px; }
   .InnovaciónTitle {
