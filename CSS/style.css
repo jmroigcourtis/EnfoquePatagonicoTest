@@ -1812,7 +1812,8 @@ p.FooterText {
   .formacionTitulo
 .formacionText,
   .postituloText,
-  .innovacionText {
+  .innovacionText,
+  .InnovaciónText2 {
     font-size: 14px; }
   /*Servicios QUERY*/
   .TituloServicios h2 {
@@ -1922,8 +1923,6 @@ p.FooterText {
     width: 35rem; }
   .InnovacionCol1 {
     height: 16rem; }
-  .InnovaciónText2 {
-    font-size: 16px; }
   .InnovacionCol2 {
     height: 46rem; }
   .InnovacionCol2 img {
@@ -2441,7 +2440,7 @@ p.FooterText {
     color: #6C1572;
     color: #B64A87;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     position: relative;
     margin: 0 20px;
@@ -2623,7 +2622,8 @@ p.FooterText {
     width: 450px; }
   .postituloText,
   .formacionText,
-  .innovacionText {
+  .innovacionText,
+  .innovacionText2 {
     font-size: 12px; }
   .innovacionPic img {
     height: 24rem; }
