@@ -2440,7 +2440,7 @@ p.FooterText {
     color: #6C1572;
     color: #B64A87;
     display: inline-block;
-    font-size: 14px;
+    font-size: 11px;
     font-weight: 600;
     position: relative;
     margin: 0 20px;
@@ -2481,7 +2481,7 @@ p.FooterText {
     background-color: #411E6F;
     border-radius: 15px;
     color: white;
-    font-size: 48px;
+    font-size: 42px;
     animation: showUpTitleSection 2s;
     width: 35%;
     height: 70px;
@@ -2581,7 +2581,7 @@ p.FooterText {
     z-index: 4;
     margin-top: 12px; }
   .TituloCompromiso h2 {
-    font-size: 47px;
+    font-size: 41px;
     margin-left: 5px; }
   .boxCompromiso1,
   .boxCompromiso2,
@@ -2601,7 +2601,7 @@ p.FooterText {
     background-color: #411E6F;
     border-radius: 15px;
     color: white;
-    font-size: 47px;
+    font-size: 41px;
     width: 39%;
     height: 69px;
     margin-left: -2px;
@@ -2622,8 +2622,9 @@ p.FooterText {
     width: 450px; }
   .postituloText,
   .formacionText,
-  .innovacionText,
-  .innovacionText2 {
+  .innovacionText {
+    font-size: 12px; }
+  .innovaciónText2 p {
     font-size: 12px; }
   .innovacionPic img {
     height: 24rem; }
@@ -2633,7 +2634,7 @@ p.FooterText {
     border-radius: 15px;
     width: 34%;
     color: white;
-    font-size: 47px;
+    font-size: 41px;
     margin-top: 11px;
     margin-left: 78px;
     height: 69px;
@@ -2698,7 +2699,9 @@ p.FooterText {
     margin-left: 10px;
     font-size: 26px;
     color: white;
-    width: 103%; } }
+    width: 103%; }
+  .contactButton a p {
+    font-size: 26px; } }
 
 @media (max-width: 450px) {
   .nav {
