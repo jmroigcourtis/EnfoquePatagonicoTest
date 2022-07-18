@@ -1920,7 +1920,7 @@ p.FooterText {
     margin: auto 10px; }
   .InnovaciónText p, .InnovaciónText ul li {
     font-size: 16px;
-    width: 35rem; }
+    width: 30rem; }
   .InnovacionCol1 {
     height: 16rem; }
   .InnovacionCol2 {
@@ -2624,6 +2624,8 @@ p.FooterText {
   .formacionText,
   .innovacionText {
     font-size: 12px; }
+  .InnovaciónText p {
+    width: 30rem; }
   .innovaciónText2 p {
     font-size: 12px; }
   .innovacionPic img {
